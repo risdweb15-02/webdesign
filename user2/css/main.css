@@ -1,0 +1,49 @@
+body {
+	margin:0;
+	padding:0;
+	background-color:#E8E5E2;
+	font-size:100%;
+}
+
+h1 {
+	position:absolute;
+	top:-100px;
+	left:0;
+	font-family: 'Monoton', helvetica, arial, sans-serif;
+	font-size: 14em;
+	font-weight: 400;
+	color: #00FFDC;
+	z-index: -1;
+	margin:0;
+	padding:0;
+}
+
+a.sectionlink {
+	text-decoration: none;
+	float:left;
+}
+
+
+p {
+	width:120px;
+	height:25px;
+	background-color:white;
+	border:6px solid rgba(80,80,80,.2);
+	padding:10px;
+	font-family: 'Gentium Book Basic', Georgia, serif;
+	font-size:1.3em;
+	font-weight: 400;
+	color: black;
+	text-align: center;
+	margin-left:100px;
+	opacity: .9;
+}
+
+p:hover{
+
+	color:orange;
+}
+
+.content {
+	margin-top:115px;
+}
