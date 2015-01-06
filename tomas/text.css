@@ -1,0 +1,21 @@
+body{
+	
+	color: #403333; 
+	font-family: helvetica;
+	text-align: justify;
+	background-color: #EDEEEE; 
+	
+}
+
+li{
+
+	opacity: .75;
+	font-style: italic;
+
+}
+
+img:hover{
+
+	opacity: 0.9;
+
+}
