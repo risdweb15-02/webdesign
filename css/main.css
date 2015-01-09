@@ -12,7 +12,7 @@ h1, h2 {
 }
 
 header {
-    margin: 20px; 
+    margin: 20px;
 }
 
 header h1 {
@@ -58,13 +58,13 @@ li {
     width: 200px;
     height: 40px;
     margin: 20px 0;
-    
+
 }
 
 a {
   color: white;
     text-decoration: none;
-    
+
 }
 
 a:hover {
@@ -74,7 +74,7 @@ a:hover {
 
 @media (max-width: 500px) {
     header {
-        background-color: #1c4587;
+        background-color: #092451;
         text-align: center;
         margin: 0 0 20px 0;
         padding: 15px;
