@@ -1,0 +1,220 @@
+@font-face{
+    font-family: DinReg;
+    src: url(../fonts/DINPro-Regular.otf);
+}
+
+@font-face{
+    font-family: DinMed;
+    src: url(../fonts/DINPro-Medium.otf);
+    font-weight:medium;
+}
+
+@font-face{
+    font-family: MinionPro;
+    src: url(../fonts/MinionPro-Regular.otf);
+}
+
+@font-face{
+    font-family: MinionProItalic;
+    src: url(../fonts/MinionPro-It.otf);
+    font-weight: italic;
+}
+
+#sketch {
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+body {
+    margin: 200px 500px 100px 560px;
+    padding: 0px;
+    text-align: left;
+}
+
+h1 {
+    font-family: DinReg, Arial, sans-serif;
+    font-size: 35px;
+    line-height: 50px;
+}
+
+.hara {
+    font-family: MinionPro, Times, serif;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.db {
+    font-family: DinReg, Arial, sans-serif;
+    font-size: 16px;
+}
+
+.speaker {
+    font-family: DinReg, Arial, sans-serif;
+    font-size: 12px;
+}
+
+#kenya1 {
+    position: absolute;
+    left: 450px;
+    top: 886px;
+}
+
+#designb {
+    position: absolute;
+    left: 410px;
+    top: 1318px;
+}
+
+#kenya2 {
+    position: absolute;
+    left: 450px;
+    top: 1413px;
+}
+
+#designb2 {
+    position: absolute;
+    left: 410px;
+    top: 2303px;
+}
+
+#kenya3 {
+    position: absolute;
+    left: 20px;
+    top: 2505px;
+}
+
+#designb3 {
+    position: absolute;
+    left: 410px;
+    top: 4200px;
+}
+
+#kenya4 {
+    position: absolute;
+    left: 450px;
+    top: 4353px;
+}
+
+#designb4 {
+    position: absolute;
+    left: 410px;
+    top: 7664px;
+}
+
+#designb5 {
+    position: absolute;
+    left: 410px;
+    top: 7664px;
+}
+
+#kenya5 {
+    position: absolute;
+    left: 450px;
+    top: 11210px;
+}
+
+#designb6 {
+    position: absolute;
+    left: 410px;
+    top: 11390px;
+}
+
+#kenya6 {
+    position: absolute;
+    left: 450px;
+    top: 11480px;
+}
+
+#designb7 {
+    position: absolute;
+    left: 410px;
+    top: 11610px;
+}
+
+#kenya7 {
+    position: absolute;
+    left: 450px;
+    top: 11700px;
+}
+
+#might {
+    font-size: 35px;
+    position: absolute;
+    right: 0px;
+}
+
+#cir {
+    height: 200px;
+    float: left;
+    position: absolute;
+    left: 550px;
+    top: 1810px;
+}
+
+#awakenings {
+    position: absolute;
+    right: 500px;
+}
+
+#discover {
+    position: absolute;
+    left: 140px;
+}
+
+ul {
+    position: absolute;
+    left: 100px;
+    list-style-type: none;
+}
+
+#muji {
+    height: 200px;
+    position: absolute;
+    right: 1000px;
+    left: 550px;
+}
+
+#author {
+    position: absolute;
+    left: 552px;
+    font-size: 35px;
+    line-height: 25px;
+}
+
+#muji {
+    position: absolute;
+     left: 550px;
+    font-size: 35px;
+    line-height: 25px;   
+}
+
+#die {
+    position: absolute;
+    left: 250px;
+    font-size: 75px;
+    line-height: 25px;
+}
+
+#if {
+    position: absolute;
+    left: 530px;
+}
+
+#simple {
+    font-size: 200px;
+    position: absolute;
+    right: 0px;
+}
+
+a:visited, a:active, a:unvisited {
+    color: black;
+}
+
+a:hover {
+    color: #C9C9C9;
+}
+
+a {
+    color: black;
+}
+
