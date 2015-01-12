@@ -1,0 +1,58 @@
+body{
+	
+	color: 555454; 
+	background-color:red;
+	opacity: 0.5;
+	font-family: helvetica, verdana, arial;
+	text-align: justify;
+	font-size: 2em;
+	font-weight: bold;
+	font-style: oblique;
+	line-height: 40px;
+	text-transform: uppercase;
+
+}
+
+/* instead of specifying an element category, you can connect a css setting to a specific
+set of elements by organizing them into a class, e.g. <p class="classname"></p>. To further
+differentiate elements, you can also add a second categorization of id, e.g. <p class="classname" 
+id="specification"></p>. Things can belong to multiple classes, e.g. e.g. <p 
+class="classname second class"></p> */
+
+.classname{
+
+	opacity: 1;
+
+}
+
+
+.secondclass{
+
+	font-color: green;
+
+}
+
+
+#specification{
+
+	color: black;
+
+}
+
+/* The universal selector is the *, and it applies to everything */
+
+*{
+
+	color: 555454; 
+	font-family: helvetica;
+	text-align: justify
+
+}
+
+/* the :hover allows for css attributes to be activated upon moving the mouse over a specific element;
+
+li:hover {
+
+	font-size: 1.5em;
+
+}

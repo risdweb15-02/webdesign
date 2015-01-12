@@ -1,0 +1,63 @@
+#a {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  border: 1px solid red
+}
+
+#b {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  border: 1px solid red;
+  margin-left: 100px;
+}
+
+#c {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  border: 1px solid red
+}
+
+#d {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  border: 1px solid red;
+  margin-left: 100px;
+}
+
+#e {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  border: 1px solid red
+}
+
+#f {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  border: 1px solid red;
+  margin-left: 100px;
+}
+
+#g {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  border: 1px solid red
+}
+
+#h {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  border: 1px solid red;
+  margin-left: 100px;
+}
+
+.column {
+  float: left
+}
