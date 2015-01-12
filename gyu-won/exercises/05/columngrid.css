@@ -1,0 +1,27 @@
+div {
+	width: 740px;
+}
+
+div1 {
+	background-color: red;
+	width: 714px;
+	height: 100px;
+	float: left;
+	border: 6px solid white;
+}
+
+div2 {
+	background-color: red;
+	width: 714px;
+	height: 24px;
+	float: left;
+	border: 6px solid white;
+}
+
+div3 {
+	background-color: red;
+	width: 230px;
+	height: 560px;
+	float: left;
+	border: 6px solid white;
+}

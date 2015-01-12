@@ -1,0 +1,42 @@
+div {
+	width: 620px;
+	height: 308px;
+}
+
+div1 {
+	background-color: red;
+	width: 100px;
+	height: 304px;
+	float: left;
+	border: 2px solid white;
+}
+
+div2 {
+	background-color: red;
+	width: 404px;
+	height: 100px;
+	float: left;
+	border: 2px solid white;
+}
+
+div3 {
+	background-color: red;
+	width: 200px;
+	height: 200px;
+	float: left;
+	border: 2px solid white;
+	z-index: -1;
+}
+
+div4 {
+	background-color: red;
+	width: 100px;
+	height: 304px;
+	position: absolute;
+	border: 2px solid white;
+	top: 10;	
+}
+
+
+
+
