@@ -167,7 +167,7 @@ img {
 
 }
 .image1 {
-    content:url(/images/XV-Metahaven_5.jpg);
+    content:url(/images/image4.jpg);
     position:relative;
    top: 20px;
     padding-left: 50px;
@@ -350,11 +350,11 @@ img {
 }
 
 .image2 {
-     content:url(/images/image4.jpg);
+     content:url(/images/image1.jpg);
     position:absolute;
     padding-left: 50px;
     height: 350px;
-    bottom:-95em;
+   
  
    
     
@@ -517,7 +517,7 @@ img {
 }
 
 .image3 {
-        content:url(/images/image1.jpg);
+        content:url(/images/image2.jpg);
     position:absolute;
     padding-left: 50px;
     height: 350px;
@@ -535,7 +535,7 @@ img {
 }
 
 .image4 {
-     content:url(/images/image2.jpg);
+     content:url(/images/image6.jpg);
     position:absolute;
     padding-left: 50px;
     height: 350px;

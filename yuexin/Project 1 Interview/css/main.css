@@ -255,7 +255,7 @@ hgroup2 div {
 }
 
 #QQ {
-	font-family: Kunstler Script, Calibri;
+	font-family: Kunstler Script, Calibri, Ariel;
 	font-size:200px;
 	color:white;
 	margin-top:30px;
@@ -270,7 +270,7 @@ hgroup2 div {
 }
 
 .question_one {
-	font-family:Papyrus, Calibri;
+	font-family:Papyrus, Cursive, Calibri,Ariel;
 	font-size:100px;
 	color:rgb(208,110,22);
 }
@@ -295,7 +295,7 @@ hgroup2 div {
 }
 
 #AA {
-	font-family: Kunstler Script, Calibri;
+	font-family: Kunstler Script, Calibri, Ariel;
 	font-size:200px;
 	color:white;
 	margin-top:30px;
@@ -310,7 +310,7 @@ hgroup2 div {
 }
 
 .answer_one {
-	font-family: Calibri;
+	font-family: Calibri,Ariel;
 	font-size:25px;
 	color:rgb(121,60,6);
 	line-height:230%;
@@ -354,7 +354,7 @@ hgroup2 div {
 }
 
 #QQQ {
-	font-family: Kunstler Script, Calibri;
+	font-family: Kunstler Script, Calibri,Ariel;
 	font-size:200px;
 	color:white;
 	margin-top:30px;
@@ -369,7 +369,7 @@ hgroup2 div {
 }
 
 .question_two {
-	font-family:Papyrus, Calibri;
+	font-family:Papyrus, Cursive, Calibri Calibri;
 	font-size:100px;
 	color:rgb(208,110,22);
 }
@@ -394,7 +394,7 @@ hgroup2 div {
 }
 
 #AAA {
-	font-family: Kunstler Script, Calibri;
+	font-family: Kunstler Script, Calibri,Ariel;
 	font-size:200px;
 	color:white;
 	margin-top:30px;
@@ -409,7 +409,7 @@ hgroup2 div {
 }
 
 .answer_two {
-	font-family: Calibri;
+	font-family: Calibri,Ariel;
 	font-size:25px;
 	color:rgb(121,60,6);
 	line-height:230%;
@@ -431,7 +431,7 @@ hgroup2 div {
 }
 
 .navigation {
-	font-family: Calibri;
+	font-family: Calibri,Ariel;
 	color:white;
 	margin-top:33px;
 	text-align:center;
@@ -440,7 +440,7 @@ hgroup2 div {
 }
 
 .navigation_big {
-	font-family: Calibri;
+	font-family: Calibri,Ariel;
 	color:white;
 	margin-top:10px;
 	text-align:center;
@@ -504,7 +504,7 @@ a:hover {
 }
 
 #QQQQ {
-	font-family: Kunstler Script, Calibri;
+	font-family: Kunstler Script, Calibri,Ariel;
 	font-size:200px;
 	color:white;
 	margin-top:30px;
@@ -560,14 +560,14 @@ a:hover {
 }
 
 #QQQQQ {
-	font-family: Kunstler Script, Calibri;
+	font-family: Kunstler Script, Calibri,Ariel;
 	font-size:200px;
 	color:white;
 	margin-top:30px;
 }
 
 #AAAAA {
-	font-family: Kunstler Script, Calibri;
+	font-family: Kunstler Script, Calibri,Ariel;
 	font-size:200px;
 	color:white;
 	margin-top:30px;
@@ -623,7 +623,7 @@ a:hover {
 }
 
 #AAAAAA {
-	font-family: Kunstler Script, Calibri;
+	font-family: Kunstler Script, Calibri,Ariel;
 	font-size:200px;
 	color:white;
 	margin-top:30px;
@@ -672,14 +672,14 @@ a:hover {
 }
 
 #QQQQQQQ {
-	font-family: Kunstler Script, Calibri;
+	font-family: Kunstler Script, Calibri,Ariel;
 	font-size:200px;
 	color:white;
 	margin-top:30px;
 }
 
 #AAAAAAA {
-	font-family: Kunstler Script, Calibri;
+	font-family: Kunstler Script, Calibri,Ariel;
 	font-size:200px;
 	color:white;
 	margin-top:30px;
@@ -754,7 +754,7 @@ a:hover {
 
 #headerwords {
 	color:white;
-	font-family:Calibri;
+	font-family:Calibri,Ariel;
 	padding-bottom:0;
 	padding-top:10px;
 	padding-left:360px;

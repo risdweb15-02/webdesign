@@ -1,0 +1,56 @@
+h1 {
+	font-size: 60px;
+	font-family: Calibre, sans-serif;
+	font-weight: bold;
+}
+
+h2 {
+	font-family: Calibre, sans-serif;
+	background-color: #FFC686;
+	font-size: 26px;
+	font-weight: lighter;
+	text-align: center;
+}
+
+h3 {
+	background-color: #FFB2A3;
+	font-family: Calibre, sans-serif;
+	font-size: 20px;
+	font-weight: lighter;
+}
+
+h4 {
+	color: #6A2FFF;
+	font-size: 18px;
+	font-family: Arial, sans-serif;
+}
+
+p {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	line-height: 1.5em;
+}
+
+ul {
+	color: #FF530D;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	line-height: 2em;
+}
+
+span {
+	color: #33A8FF;
+}
+
+body {
+	width: 70%;
+}
+
+div {
+	width: 200px;
+	height: 200px;
+	border: 10px solid black;
+	padding: 10px 5px 5px 10px;
+	margin: 100px;
+	background-color: gray;
+}
