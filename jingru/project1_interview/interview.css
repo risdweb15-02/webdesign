@@ -1,0 +1,193 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+
+.background{
+	background-image: url("img/bg2.jpg");
+	background-size:110% auto;
+	background-attachment:fixed;
+}
+.wrapper{
+	width: 1028px;
+	height:auto;
+	margin:auto;
+
+}
+
+
+
+.titlebox{
+	width:1028px;
+	height:77px;
+	background-color: white;
+	background-color:rgba(255,255,255,0.8);
+}
+
+.header-top{
+	
+	
+}
+
+.logo{
+	text-align: center;
+}
+
+.nav{
+	width:1028px;
+	height:35px;
+	border:1px black;
+	border-style: dotted none none none;
+}
+
+.nav-bar{
+	
+}
+
+.search-bar{
+	
+	float:top;
+	float:right;
+	
+}
+
+.nav-bar-list{
+	list-style: none;
+}
+
+.nav-bar-font{
+	font-family: 'Pathway Gothic One', sans-serif;
+	text-decoration: none;
+	color:black;
+	text-transform: uppercase;
+	font-size: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	float:top;
+}
+
+.nav-bar-font:visited{
+	text-decoration: none;
+}
+
+.nav-bar-font:hover{
+	color:white;
+}
+
+.nav-block{
+	display: list-item;
+	float: left;
+	text-align: center;
+	
+}
+.nav-block:hover{
+	background-color: black;
+
+
+}
+
+.nav-block2{
+	display: list-item;
+	float: right;
+	
+	margin-top: 0px;
+	
+
+}
+.nav-block2:hover{
+	background-color: black;
+
+
+}
+
+
+
+.emptyspace{
+	width:1028px;
+	height:427px;
+	float:top;
+	
+	
+}
+
+.main{
+	
+	
+	width:1028px;
+	height:auto;
+	background-color:rgba(255,255,255,0.8);
+	
+	margin:0px;
+
+
+}
+
+span{
+	font-weight:bold;
+}
+
+.text-title-bar{
+	width:1000px;
+	height:40px;
+	margin: auto;
+	float:top;
+	background-color: rgba(0,0,0,0.8);
+	padding-bottom: 20px;
+	z-index: 10px;
+
+}
+
+h1{
+	color:rgba(255,255,255,0.97);
+	font-family:'Oswald', sans-serif;
+	float:left;
+	margin-left: 20px;
+	margin-top: 10px;
+	}
+
+.content{
+	width: 650px;
+	height: auto;
+	margin:auto;
+
+	
+}
+
+div.content p{
+	
+	color:black;
+}
+
+.intro{
+	padding-top: 80px;
+
+}
+
+.firstletter{
+	font-size: 250%;
+	float: left;
+	
+	
+}
+
+.footer-frame{
+	width: 1028px;
+	height: 40px;
+	background-color: rgba(0,0,0,0.9);
+
+}
+
+.footernote{
+
+	text-decoration: none;
+	color:rgba(255,255,255,0.8);
+	text-align: center;
+	padding-left: 500px;
+	padding-top: 30px;
+
+}
+
+.footernote:visited{
+	text-decoration: none;
