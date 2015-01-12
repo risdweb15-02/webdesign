@@ -1,6 +1,7 @@
 body {
-  background-image: url("http://i62.tinypic.com/vorapt.jpg");
+  background-image: url("ahttp://i62.tinypic.com/vorapt.jpg");
   margin: auto;
+  background-repeat: repeat-y;
 }
 
 hr {
@@ -64,7 +65,7 @@ hr {
   height: 1500px;
   width: 572px;
   border: 2px solid
-    white;
+    black;
   margin: auto;
   position: relative;
   left: 171px;
