@@ -83,7 +83,7 @@ img {
 }
 
 #interviewtitle {
-    padding-top: 50px;
+    padding-top: 20px;
     color: #FF6666;
 
     font-size: 30px;
@@ -94,8 +94,8 @@ img {
 
     padding-bottom: 10px;
     float: left;
-    margin-left: 40%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 60%;
     border-bottom: 10px solid #00B8E6;
 
     display: table;
