@@ -1,0 +1,28 @@
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 100px;
+}
+
+h4 {
+    font-family: 'Karla', sans-serif;
+    color: #330CE8;
+}
+
+#author {
+    opacity: 0.4;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: #330CE8;
+}
+
+li:hover {
+    opacity: 0.4;
+}
