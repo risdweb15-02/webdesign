@@ -1,0 +1,45 @@
+body {
+	font size:16px;
+}
+
+
+p {
+	color: rgb(200,200,200);
+	background-color: #FF11FF;
+	opacity: 0,5;
+
+	font-size: 1em;
+	font-weight:bold;
+	font style: italic;
+	line-height: 40px;
+	text-transform: uppercase;
+
+	font-family: "helvetica";
+}
+
+.lorem {
+	font-size: 20px
+	color:red
+	line-height: 80px;
+}
+
+#second {
+	background-color:yellow;
+}
+li {
+	font-size:100px;
+}
+
+#potatoes {
+	font-size: 50px;
+}
+
+li > ul li {
+	color:red;
+}
+
+li:hover {
+	font-size: 50px;
+	}
+
+	a:a;
