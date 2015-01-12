@@ -1,0 +1,555 @@
+
+html {
+
+    font-family: 'Raleway', sans-serif;
+
+}
+
+body { 
+
+} #slide0 {
+
+    position: relative;
+
+    height: 90vh;
+
+    background-image: url("/images/red.jpg");
+
+    background-size: cover;
+
+    background-attachment: fixed;
+
+    background-position: center;
+
+    left: -5px;
+
+}
+
+#title {
+
+    font-size: 100px;
+
+    position: relative;
+
+    text-align: center;
+
+    top: 24vh;
+
+    color: #FF6666;
+
+    border: 10px solid #00B8E6;
+
+    width: 40%;
+
+    margin: 0 auto;
+
+}
+
+img {
+
+    background-image: image("images/strawberry.jpg");
+
+}
+
+#discript {
+
+  color: black;
+
+    font-size: 20px;
+
+    position: absolute;
+
+    text-align: center;
+    
+    top: 470px;
+    width: 20%;
+    margin: 0 auto;
+    background: white;
+    opacity: 0.8;
+    left: 40%;
+   
+    
+
+}
+
+#interview {
+
+    background-image: url();
+
+    z-index: 1000;
+
+    line-height: 170%;
+
+}
+
+#interviewtitle {
+    padding-top: 50px;
+    color: #FF6666;
+
+    font-size: 30px;
+
+    text-align: left;
+
+    margin-bottom: 10px;
+
+    padding-bottom: 10px;
+    float: left;
+    margin-left: 40%;
+    margin-right: 15%;
+    border-bottom: 10px solid #00B8E6;
+
+    display: table;
+
+}
+
+#highlights1 {
+    
+    padding-top: 50px;
+
+    position: relative;
+    top: -780px;
+
+}
+
+#slide1 {
+
+    position: relative;
+
+    width: 50vw;
+
+    height: auto;
+
+    left: 40em;
+
+    margin-right: 40px;
+
+}
+
+#highlightstitle {
+
+    font-style: italic;
+
+    align-items:
+
+}
+
+#metahaven2 {
+
+    position: relative;
+
+    width: 50vw;
+
+    height: auto;
+
+    left: 40em;
+    top: -780px;
+}
+
+#slide0a {
+
+    position: relative;
+    
+}
+
+#slide2 {} #metahaven {
+
+    font-size: 14px;
+
+    color: #FF6666;
+
+}
+
+#highlightsstyle {
+
+    font-size: 14px;
+
+    color: #00B8E6;
+
+}
+.image1 {
+    content:url(/images/XV-Metahaven_5.jpg);
+    position:relative;
+   top: 20px;
+    padding-left: 50px;
+    height: 600px;
+    padding-top: 50px;
+    
+    
+    
+}
+
+
+}
+
+#highlights3 {
+    
+    position: relative;
+
+    width: 50vw;
+
+    height: auto;
+
+    left: 40em;
+    top: -780px;}
+
+    width: 50vw;
+
+    height: auto;
+
+    left: 40em;
+    top: -780px;
+
+#slide4 {
+  
+}
+
+#slide5 {
+     position: relative;
+
+    width: 50vw;
+
+    height: auto;
+
+    left: 40em;
+    top: -1230px;
+}
+
+#slide6 {
+      position: relative;
+
+    width: 50vw;
+
+    height: auto;
+
+    left: 40em;
+    top: -1240px;
+}
+
+#slide7 {
+      position: relative;
+
+    width: 50vw;
+
+    height: auto;
+
+    left: 40em;
+    top: -780px;
+}
+
+#slide8 {
+      position: relative;
+
+    width: 50vw;
+
+    height: auto;
+
+    left: 40em;
+   top: -780px;
+}
+
+#slide9 {
+      position: relative;
+
+    width: 50vw;
+
+    height: auto;
+
+    left: 40em;
+    top: -780px;
+}
+
+#slide10 {
+      position: relative;
+
+    width: 50vw;
+
+    height: auto;
+
+    left: 40em;
+    top: -780px;
+}
+
+#slide11 {
+      position: relative;
+
+    width: 50vw;
+
+    height: auto;
+
+    left: 40em;
+    top: -780px;
+}
+
+#slide12 {
+      position: relative;
+
+    width: 50vw;
+
+    height: auto;
+
+    left: 40em;
+    top: -780px;
+}
+
+#slide13 {
+      position: relative;
+
+    width: 50vw;
+
+    height: auto;
+
+    left: 40em;
+    top: -780px;
+}
+
+#slide14 {
+      position: relative;
+
+    width: 50vw;
+
+    height: auto;
+
+    left: 40em;
+    top: -780px;
+}
+
+#slide15 {
+      position: relative;
+
+    width: 50vw;
+
+    height: auto;
+
+    left: 40em;
+    top: -780px;
+}
+
+#slide16 {
+      position: relative;
+
+    width: 50vw;
+
+    height: auto;
+
+    left: 40em;
+    top: -780px;
+}
+
+
+
+
+
+#imagecaption1 {
+    position:relative;
+    font-size: 12px;
+    width: 20%;
+    padding-left:50px;
+    padding-top: 20px;
+    line-height: 160%;
+    
+}
+
+.image2 {
+     content:url(/images/XV-Metahaven_2.jpg);
+    position:absolute;
+    padding-left: 50px;
+    height: 350px;
+    bottom:-95em;
+ 
+   
+    
+}
+
+#metahaven4 {
+       position: relative;
+
+    width: 50vw;
+
+    height: auto;
+
+    left: 40em;
+    top: -780px;
+}
+
+#slide3 {
+       position: relative;
+
+    width: 50vw;
+
+    height: auto;
+
+    left: 40em;
+    top: -780px;
+}
+
+#imagecaption2 {
+    top:213em;
+     position:absolute;
+    font-size: 12px;
+    width: 20%;
+    padding-left:50px;
+    padding-top: 20px;
+    line-height: 160%;
+    
+    
+}
+
+#highlights5 {
+        position: relative;
+
+    width: 50vw;
+
+    height: auto;
+
+    left: 40em;
+    top: -780px;
+}
+
+#metahaven6 {
+        position: relative;
+
+    width: 50vw;
+
+    height: auto;
+
+    left: 40em;
+    top: -780px;
+}
+
+#highlights7 {
+        position: relative;
+
+    width: 50vw;
+
+    height: auto;
+
+    left: 40em;
+    top: -780px;
+}
+
+#metahaven8 {
+        position: relative;
+
+    width: 50vw;
+
+    height: auto;
+
+    left: 40em;
+    top: -780px;
+}
+
+#highlights9 {
+        position: relative;
+
+    width: 50vw;
+
+    height: auto;
+
+    left: 40em;
+    top: -780px;
+}
+
+#metahaven10 {
+        position: relative;
+
+    width: 50vw;
+
+    height: auto;
+
+    left: 40em;
+    top: -780px;
+}
+
+#highlights11 {
+        position: relative;
+
+    width: 50vw;
+
+    height: auto;
+
+    left: 40em;
+    top: -780px;
+}
+
+#metahaven12 {
+        position: relative;
+
+    width: 50vw;
+
+    height: auto;
+
+    left: 40em;
+    top: -780px;
+}
+
+#metahaven14 {   
+    position: relative;
+
+    width: 50vw;
+
+    height: auto;
+
+    left: 40em;
+    top: -780px;
+    
+}
+
+#highlights15 {
+        position: relative;
+
+    width: 50vw;
+
+    height: auto;
+
+    left: 40em;
+    top: -780px;
+}
+
+#metahaven16 {
+        position: relative;
+
+    width: 50vw;
+
+    height: auto;
+
+    left: 40em;
+    top: -780px;
+}
+
+.image3 {
+        content:url(/images/XV-Metahaven_2a.jpg);
+    position:absolute;
+    padding-left: 50px;
+    height: 350px;
+    bottom:-140em;
+}
+
+#imagecaption3 {
+     top:273em;
+     position:absolute;
+    font-size: 12px;
+    width: 20%;
+    padding-left:50px;
+    padding-top: 20px;
+    line-height: 160%;
+}
+
+.image4 {
+     content:url(/images/XV-Metahaven_16.jpg);
+    position:absolute;
+    padding-left: 50px;
+    height: 350px;
+    bottom:-205em;
+    height: 740px;
+ 
+}
+
+#imagecaption4 {
+     top:273em;
+     position:absolute;
+    font-size: 12px;
+    width: 20%;
+    padding-left:50px;
+    padding-top: 20px;
+    line-height: 160%;
+}
