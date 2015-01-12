@@ -1,0 +1,131 @@
+div {
+	border: 1000px;
+	width: 1000px;
+	padding: auto;
+	display: inline-block;	
+}
+
+#header{ 
+	border: 30px;
+	width: 950px;
+	height: 20px;
+	color: #330099;
+	font-size: 10px;
+	font-family: Georgia;
+	background-color: none;
+	text-align: right
+}
+
+.first_p{
+	background-color: none;
+	width: 600px;
+	height: 50px;
+	margin: 10px;
+	padding: 10px;
+	border: 20px;
+
+}
+
+#intro {
+	float: right;
+	width: 200px;
+	height: 200px;
+	text-align: Left;
+	background-color: none;
+	margin: 80px;
+	border: 40px;
+	padding: 10px;
+	font-size: 30px;
+
+}
+
+#BigG {
+	float: left;
+	font-size: 30px;
+	color: black;
+}
+
+ 
+.match {
+	font-family: Georgia;
+	color: black;
+}
+#right1 {
+	float: right;
+	width: 500px;
+	height: 500px;
+	background-color: red;
+}
+
+#right2 {
+	float: right;
+	width: 200px;
+	height: 200px;
+	text-align: left;
+	background-color: none;
+	margin: 70px;
+	padding: 10px;
+
+}
+#right3 {
+	float: right;
+	width: 200px;
+	height: 200px;
+	text-align: left;
+	background-color: none;
+	margin: 70px;
+	padding: 10px;
+}
+
+#question1 {
+	float: left;
+	width: 300px;
+	height: 340px;
+	text-align: left;
+	background-color: none;
+	margin: 0px;
+	padding: 10px;
+	
+
+}
+
+#question2 {
+	float: left;
+	width: 300px;
+	height: 340px;
+	text-align: left;
+	background-color: none;
+	margin: 0px;
+	padding: 10px;
+
+}
+
+#question3 {
+	float: left;
+	width: 300px;
+	height: 340px;
+	text-align: left;
+	background-color: none;
+	margin: 0px;
+	padding: 10px;
+
+}
+
+#image1 {
+	float: left;
+	width: 460px;
+	height: 287px;
+	background-color: none;
+	margin: 0px;
+	padding: 10px;
+}
+
+#image2 {
+	float: left;
+	width: 460px;
+	height: 287px;
+	background-color: none;
+	margin: 0px;
+	padding: 10px;
+}
+	
