@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>3 Column Grid</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <!-- <link rel="stylesheet" href="css/main.css"> -->
+    </head>
+    
+
+    <body>
+        <style>
+          #grid {
+                width: 810px;
+          }
+
+          .header {
+            width: 800px;
+            height: 100px;
+            background: navy;
+          }
+
+          .divider {
+            width: 800px;
+            height: 30px;
+            margin-top: 10px;
+            background: navy;
+          }
+
+          .column {
+            width: 260px;
+            height: 400px;
+            margin-top: 10px;
+            margin-right: 10px;
+            background: navy;
+            float: left;
+            margin-bottom: 10px;
+          }
+
+          .footer {
+            width: 800px;
+            height: 100px;
+            background: navy;
+            clear: both;
+          }
+
+
+        </style>
+
+        
+        <div id="grid">
+            <div class="header"></div>
+            <div class="divider"></div>
+            <div class="column"></div>
+            <div class="column"></div>
+            <div class="column"></div> <br />
+            <div class="footer"></div>
+        </div>
+
+        <br /><br />
+
+
+        <table border="0px solid black" cellspacing="5px" style="background: transparent;">
+            <th colspan="3" style="background: green; height: 50px; width: 320px;">Header</th>
+
+            <tr>
+                <td colspan="3" style="background: green; text-align: center;">Divider</td>
+            </tr>
+
+            <tr>
+                <td style="background: green; text-align: center; width: 33%;">one</td>
+                <td style="background: green; text-align: center; width: 33%">two</td>
+                <td style="background: green; text-align: center; width: 33%">three</td>
+            </tr>
+
+            <tr>
+                <td colspan="3" style="background: green; text-align: center;">footer</td>
+            </tr>
+
+        </table>
+
+
+
+    </body>
+    
+</html>
