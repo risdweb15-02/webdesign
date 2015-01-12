@@ -1,0 +1,65 @@
+div {
+	width: 1600px;
+	top: 40px;
+	left: 40px;
+	position: absolute;
+}
+
+a {
+	text-decoration: none;
+	color: gray;
+}
+
+div1 {
+	font-family: Proxima Nova, sans-serif;
+	font-size: 20pt;
+	line-height: 1.6em;
+}
+
+div2 {
+	background-color: black;
+	width: 1600px;
+	height: 2px;
+	position: absolute;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+div3 {
+	width: 600px;
+	padding-right: 40px;
+	margin-top: 80px;
+	position: absolute;
+	font-family: Proxima Nova, sans-serif;
+	font-size: 15pt;
+	line-height: 1.4em;
+}
+
+blockquote {
+	font-size: 32px;
+	line-height: 1.4em;
+	font-weight: 600;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+div4 {
+	left: 640px;
+	width: 920px;
+	padding-left: 40px;
+	margin-top: 106px;
+	position: absolute;
+	font-family: Proxima Nova, sans-serif
+}
+
+figure {
+	margin: 0;
+}
+
+figcaption {
+	font-size: 11pt;
+	line-height: 1.4em;
+	color: gray;
+}
+
+
