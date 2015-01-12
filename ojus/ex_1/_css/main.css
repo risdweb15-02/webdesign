@@ -1,0 +1,264 @@
+@font-face {
+    font-family: 'klinic_slabbold';
+    src: url('type/klinicslabbold-webfont.eot');
+    src: url('type/klinicslabbold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('type/klinicslabbold-webfont.woff') format('woff'),
+         url('type/klinicslabbold-webfont.ttf') format('truetype'),
+         url('type/klinicslabbold-webfont.svg#klinic_slabbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'klinic_slabbold_italic';
+    src: url('type/klinicslabboldit-webfont.eot');
+    src: url('type/klinicslabboldit-webfont.eot?#iefix') format('embedded-opentype'),
+         url('type/klinicslabboldit-webfont.woff') format('woff'),
+         url('type/klinicslabboldit-webfont.ttf') format('truetype'),
+         url('type/klinicslabboldit-webfont.svg#klinic_slabbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'klinic_slabbook';
+    src: url('type/klinicslabbook-webfont.eot');
+    src: url('type/klinicslabbook-webfont.eot?#iefix') format('embedded-opentype'),
+         url('type/klinicslabbook-webfont.woff') format('woff'),
+         url('type/klinicslabbook-webfont.ttf') format('truetype'),
+         url('type/klinicslabbook-webfont.svg#klinic_slabbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'klinic_slabbook_italic';
+    src: url('type/klinicslabbookit-webfont.eot');
+    src: url('type/klinicslabbookit-webfont.eot?#iefix') format('embedded-opentype'),
+         url('type/klinicslabbookit-webfont.woff') format('woff'),
+         url('type/klinicslabbookit-webfont.ttf') format('truetype'),
+         url('type/klinicslabbookit-webfont.svg#klinic_slabbook_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'klinic_slablight';
+    src: url('type/klinicslablight-webfont.eot');
+    src: url('type/klinicslablight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('type/klinicslablight-webfont.woff') format('woff'),
+         url('type/klinicslablight-webfont.ttf') format('truetype'),
+         url('type/klinicslablight-webfont.svg#klinic_slablight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'klinic_slablight_italic';
+    src: url('type/klinicslablightit-webfont.eot');
+    src: url('type/klinicslablightit-webfont.eot?#iefix') format('embedded-opentype'),
+         url('type/klinicslablightit-webfont.woff') format('woff'),
+         url('type/klinicslablightit-webfont.ttf') format('truetype'),
+         url('type/klinicslablightit-webfont.svg#klinic_slablight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	font-family: "klinic_slabbook", "Helvetica Neue", Helvetica, arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.3em;
+	background-color: #F0F0F0;
+	margin:0;
+}
+
+article {
+	width: 960px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 3.4em;
+	color: #1BBD66;
+}
+
+#h1-title {
+	border-bottom: solid 20px gray;
+	height: 1em;
+	
+}
+
+section {
+	border-bottom:solid 1px gray;
+	padding-bottom:20px;
+}
+
+section h1 {
+	font-size: 2em;
+	font-weight: 300;
+}
+
+
+.left {
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+#dair {
+	width: 200px;
+	float: left;
+}
+
+
+/*
+img {
+	height: 100px;
+
+}
+*/
+a {
+	color: #1BBD66;
+
+	text-decoration:none;
+}
+
+a:hover {
+	color: #C92700;
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 300ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+
+
+p {
+	font-family: "klinic_slabbook", serif;
+	font-size: 1em;
+	line-height: 1.35em;
+}
+
+
+#byline {
+	float: left;
+	width: 720px;
+	margin: 0 0 0 40px;
+	font-family: "klinic_slablight_italic", helvetica, sans-serif;
+	font-style: italic;
+	font-size: 1.5em;
+	font-weight: 200;
+	color: grey;
+}
+
+
+.italic {
+	font-style: italic;
+}
+
+#intro p {
+	margin-right: 0px;
+}
+
+#intro {
+	-webkit-columns: 2 2em;
+	-webkit-column-gap: 40px;
+	
+}
+
+.firstpara {
+	margin-top:0px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	overflow:hidden;
+
+}
+
+li {
+	height:98px;
+	width:98px;
+	border:1px solid gray;
+	float:left;
+	margin-right:20px;
+	background-color:gray;
+}
+
+#explanation {
+	clear:left;
+}
+
+.col-text {
+	-webkit-columns: 2 2em;
+	-webkit-column-gap: 40px;
+	
+}
+
+.col-text p:first-child {
+	margin-bottom: 10px;
+}
+
+.col-text p:nth-child(2) {
+	margin-top: 0;
+}
+
+.dropcap {
+	float: left;
+	height: 80px;
+	width: 80px;
+	background-color: grey;
+	margin: 0 15px 0 0;
+}
+
+.dropcap p {
+	position: relative;
+	top: -5px;
+	left: 20px;
+	margin: 0px;
+	color: white;
+	font-family: "klinic_slabbold", times, serif;
+	font-size: 60px;
+}
+
+.author {
+	margin: 200px 0 20px 0;
+}
+
+#Seven {
+	border:none;
+}
+
+.type-illus {
+	margin, padding:0;
+	color: white;
+	float:left;
+}
+
+ul li a {
+	clear:left;
+	text-align:center;
+	position: relative;
+	top:68px;
+}
+
