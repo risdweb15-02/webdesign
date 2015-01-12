@@ -1,5 +1,5 @@
 body {
-  background-image: url("ahttp://i62.tinypic.com/vorapt.jpg");
+  background-image: url("http://i62.tinypic.com/vorapt.jpg");
   margin: auto;
 }
 
@@ -13,7 +13,7 @@ hr {
 #header2 {
   height: 200px;
   width: 545px;
-  border: 2px solid white;
+  border: 0px solid white;
   margin: auto;
   margin-top: 20px;
   position: relative;
