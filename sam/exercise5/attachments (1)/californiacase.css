@@ -1,0 +1,14 @@
+div {
+	width: 600px;
+	height: 1000px;
+	background-color:red;
+	
+}
+
+div div {
+    width: 75px;
+    height: 150px;
+    outline: 1px solid;
+    float: left;
+}
+

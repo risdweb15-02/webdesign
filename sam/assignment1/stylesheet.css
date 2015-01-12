@@ -1,0 +1,349 @@
+
+
+#box{
+    width: auto; 	
+    border: 10px solid black;
+		border-width: 30px;
+		border-color: 3px solid black;
+		 margin-left:auto;
+  margin-right:auto;
+}
+.heading {width: -webkit-fit-content;
+		padding-left: 20px;
+        margin: 10px auto;
+		font-family: "Avenir";
+			
+		font-weight: bold;
+		font-size: 50px;
+
+	}
+#container{
+
+		margin-left: auto;
+		margin-right: auto;
+		text-align: left;
+
+}
+.body { 
+		width: 900px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top:70px;
+		margin-bottom:100px;
+
+		
+		font-family:"Avenir";
+		font-size: 20px;
+		font-weight: lighter;}
+
+.DM {font-family: "Avenir";
+	 font-weight: bolder;
+	 color: green;}
+.MV {font-family: "Avenir";
+	 font-weight: bolder;
+	 color: red;}	
+
+.questionDM {
+			position: absolute;
+
+			font-family: "Avenir";
+			font-weight: bolder;
+			color: black;
+			margin-left: 200px;
+			margin-bottom:100px;
+			
+			width:500px;
+			padding-top: 50px;
+			padding-bottom: 200px;
+			z-index:auto;
+					}
+.questionDM2 {
+			position: absolute;
+
+
+			font-family: "Avenir";
+			font-weight: bolder;
+			color: black;
+			margin-left: 200px;
+			margin-bottom:100px;
+			
+			width:500px;
+			padding-top: 350px;
+			padding-bottom: 200px;
+			z-index:auto;
+					}
+
+.questionDM3 {
+			position: absolute;
+
+
+			font-family: "Avenir";
+			font-weight: bolder;
+			color: black;
+			margin-left: 200px;
+			margin-bottom:100px;
+			
+			width:500px;
+			padding-top: 750px;
+			padding-bottom: 200px;
+			z-index:auto;
+					}
+
+.questionDM4 {
+			position: absolute;
+
+
+			font-family: "Avenir";
+			font-weight: bolder;
+			color: black;
+			margin-left: 200px;
+			margin-bottom:100px;
+			
+			width:500px;
+			padding-top: 950px;
+			padding-bottom: 200px;
+			z-index:auto;
+					}
+.questionDM5 {
+			position: absolute;
+
+
+			font-family: "Avenir";
+			font-weight: bolder;
+			color: black;
+			margin-left: 200px;
+			margin-bottom:100px;
+			
+			width:500px;
+			padding-top: 1150px;
+			padding-bottom: 200px;
+			z-index:auto;
+					}
+.questionDM6 {
+			position: absolute;
+
+
+			font-family: "Avenir";
+			font-weight: bolder;
+			color: black;
+			margin-left: 200px;
+			margin-bottom:100px;
+			
+			width:500px;
+			padding-top: 1450px;
+			padding-bottom: 200px;
+			z-index:auto;
+					}
+.questionDM7 {
+			position: absolute;
+
+
+			font-family: "Avenir";
+			font-weight: bolder;
+			color: black;
+			margin-left: 200px;
+			margin-bottom:100px;
+			
+			width:500px;
+			padding-top: 1950px;
+			padding-bottom: 200px;
+			z-index:auto;
+					}
+
+.questionDM8 {
+			position: absolute;
+
+
+			font-family: "Avenir";
+			font-weight: bolder;
+			color: black;
+			margin-left: 200px;
+			margin-bottom:100px;
+			
+			width:500px;
+			padding-top: 2200px;
+			padding-bottom: 200px;
+			z-index:auto;
+					}		
+
+.questionDM9 {
+			position: absolute;
+
+
+			font-family: "Avenir";
+			font-weight: bolder;
+			color: black;
+			margin-left: 200px;
+			margin-bottom:100px;
+			
+			width:500px;
+			padding-top: 2350px;
+			padding-bottom: 200px;
+			z-index:auto;
+					}					
+
+.questionDM10 {
+			position: absolute;
+
+
+			font-family: "Avenir";
+			font-weight: bolder;
+			color: black;
+			margin-left: 200px;
+			margin-bottom:100px;
+			
+			width:500px;
+			padding-top: 2550px;
+			padding-bottom: 200px;
+			z-index:auto;
+					}	
+
+.questionDM11 {
+			position: absolute;
+
+
+			font-family: "Avenir";
+			font-weight: bolder;
+			color: black;
+			margin-left: 200px;
+			margin-bottom:100px;
+			
+			width:500px;
+			padding-top: 3050px;
+			padding-bottom: 200px;
+			z-index:auto;
+					}						
+
+
+
+
+.questionMV {font-family: "Avenir";
+			font-weight: bolder;
+			color: black;
+			margin-right: 200px;
+			float: right;
+			width: 400px;
+		padding-top: 60px;
+			padding-bottom: 50px
+			;z-index: auto;}
+
+.questionMV2 {font-family: "Avenir";
+			font-weight: bolder;
+			color: black;
+			margin-top:100px;
+			margin-right: -400px;
+			float: right;
+			width: 400px;
+			padding-top: 280px;
+			padding-bottom: 50px
+			;z-index: auto;}
+
+.questionMV3 {font-family: "Avenir";
+			font-weight: bolder;
+			color: black;
+			margin-top:100px;
+			margin-right: -400px;
+			float: right;
+			width: 400px;
+			padding-top: 680px;
+			padding-bottom: 50px
+			;z-index: auto;}
+
+
+.questionMV4 {font-family: "Avenir";
+			font-weight: bolder;
+			color: black;
+			margin-top:100px;
+			margin-right: -400px;
+			float: right;
+			width: 400px;
+			padding-top: 900px;
+			padding-bottom: 50px
+			;z-index: auto;}
+
+
+
+.questionMV5 {font-family: "Avenir";
+			font-weight: bolder;
+			color: black;
+			margin-top:100px;
+			margin-right: -400px;
+			float: right;
+			width: 400px;
+			padding-top: 1080px;
+			padding-bottom: 50px
+			;z-index: auto;}
+
+
+.questionMV6 {font-family: "Avenir";
+			font-weight: bolder;
+			color: black;
+			margin-top:100px;
+			margin-right: -400px;
+			float: right;
+			width: 400px;
+			padding-top: 1420px;
+			padding-bottom: 50px
+			;z-index: auto;}
+
+.questionMV7 {font-family: "Avenir";
+			font-weight: bolder;
+			color: black;
+			margin-top:100px;
+			margin-right: -400px;
+			float: right;
+			width: 400px;
+			padding-top: 1900px;
+			padding-bottom: 50px
+			;z-index: auto;}
+
+.questionMV8 {font-family: "Avenir";
+			font-weight: bolder;
+			color: black;
+			margin-top:100px;
+			margin-right: -400px;
+			float: right;
+			width: 400px;
+			padding-top: 2130px;
+			padding-bottom: 50px
+			;z-index: auto;}
+
+
+.questionMV9 {font-family: "Avenir";
+			font-weight: bolder;
+			color: black;
+			margin-top:100px;
+			margin-right: -400px;
+			float: right;
+			width: 400px;
+			padding-top: 2280px;
+			padding-bottom: 50px
+			;z-index: auto;}
+
+.questionMV10 {font-family: "Avenir";
+			font-weight: bolder;
+			color: black;
+			margin-top:100px;
+			margin-right: -400px;
+			float: right;
+			width: 400px;
+			padding-top: 2480px;
+			padding-bottom: 50px
+			;z-index: auto;}
+
+.questionMV11 {font-family: "Avenir";
+			font-weight: bolder;
+			color: black;
+			margin-top:100px;
+			margin-right: -400px;
+			float: right;
+			width: 400px;
+			padding-top: 3000px;
+			padding-bottom: 50px
+			;z-index: auto;}
+
+
+
+
+
+
