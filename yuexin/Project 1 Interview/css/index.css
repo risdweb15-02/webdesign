@@ -1,0 +1,20 @@
+a:hover {
+	text-decoration:none;
+	color:gray;
+}
+
+a:link {
+	text-decoration:none;
+	color:gray;
+}
+a:visited {
+	color:orange
+}
+
+p {
+	margin-top:300px;
+}
+
+#exercise {
+	margin-top:50px;
+}
