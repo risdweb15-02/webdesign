@@ -13,7 +13,7 @@ body {
 
     height: 90vh;
 
-    background-image: url("/images/red.jpg");
+    background-image: url("/images/strawberryedit.gif");
 
     background-size: cover;
 
@@ -350,7 +350,7 @@ img {
 }
 
 .image2 {
-     content:url(/images/XV-Metahaven_2.jpg);
+     content:url(/images/image4.jpg);
     position:absolute;
     padding-left: 50px;
     height: 350px;
@@ -517,7 +517,7 @@ img {
 }
 
 .image3 {
-        content:url(/images/XV-Metahaven_2a.jpg);
+        content:url(/images/image1.jpg);
     position:absolute;
     padding-left: 50px;
     height: 350px;
@@ -535,7 +535,7 @@ img {
 }
 
 .image4 {
-     content:url(/images/XV-Metahaven_16.jpg);
+     content:url(/images/image2.jpg);
     position:absolute;
     padding-left: 50px;
     height: 350px;
