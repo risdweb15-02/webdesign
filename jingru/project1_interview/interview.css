@@ -41,18 +41,23 @@ body{
 }
 
 .nav-bar{
-	
+	width: 75%;
+	height: auto;
 }
 
 .search-bar{
 	
-	float:top;
-	float:right;
+	text-align: center;
+	float: right;
+	padding-right: 70px;
 	
 }
 
 .nav-bar-list{
 	list-style: none;
+	display: inline;
+	text-align: center;
+	float: left;
 }
 
 .nav-bar-font{
@@ -136,11 +141,12 @@ span{
 	background-color: rgba(0,0,0,0.8);
 	padding-bottom: 20px;
 	z-index: 10px;
+	
 
 }
 
 h1{
-	color:rgba(255,255,255,0.97);
+	color:rgba(255,255,255,1);
 	font-family:'Oswald', sans-serif;
 	float:left;
 	margin-left: 20px;
@@ -176,6 +182,7 @@ div.content p{
 	width: 1028px;
 	height: 40px;
 	background-color: rgba(0,0,0,0.9);
+	padding-top: 15px;
 
 }
 
