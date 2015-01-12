@@ -24,6 +24,61 @@
 		text-align: left;
 
 }
+
+#image1 {display: block;
+	margin-top:100px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 740px;}
+
+
+#image2 {position: absolute;
+	margin-top:100px;
+	width: 540px;
+top: 3550px;
+left: 400px;
+z-index:-1;
+opacity:.1;
+}
+
+
+#image2:hover {opacity:1;}
+
+
+#image3 {position: absolute;
+	margin-top:100px;
+	width: 640px;
+top: 1700px;
+left: 0px;
+z-index:-1;
+opacity:.2;
+}
+
+#image3:hover{opacity:1;}
+
+#image4 {position: absolute;
+	margin-top:100px;
+	width: 1040px;
+top: 4550px;
+left: 400px;
+z-index:-1;
+opacity:.1;
+}
+
+
+#image5 {position: absolute;
+	margin-top:100px;
+	width: 540px;
+top: 2550px;
+left: 400px;
+z-index:-1;
+opacity:.1;
+}
+
+#image4:hover{opacity:1;}
+#image5:hover{opacity:1;}
+
+
 .body { 
 		width: 900px;
 		margin-left: auto;
