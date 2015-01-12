@@ -1,0 +1,521 @@
+
+
+
+  #oneruler {
+	height:60px;
+  	width:1400px;
+	background-color: black;
+
+  }
+
+#title {
+	font-family:Helvetica;
+	font-style:italic;
+	font-size: 40px;
+  	color:black;
+  	line-height: .03;
+  	margin-left:25px;
+  }
+
+ #subtitle {
+	font-family:Helvetica;
+	color:red;
+	font-size: 80px;
+	font-weight: bold;
+	line-height: .03;
+	margin-left:25px;
+
+  }
+
+ #years {
+	font-family:Helvetica;
+	font-style:italic;
+	font-size: 40px;
+  	color:black;
+  	line-height: .03;
+  	margin-left:25px;
+  	
+  	margin-bottom: 65px;
+  }
+
+  #author {
+	font-family:Helvetica;
+	font-style:italic;
+	color:black;
+	font-size: 14px;
+	line-height: .03;
+	margin-left:25px;
+	margin-bottom: 30px
+
+
+  }
+
+.map {
+	
+	margin:25px 10px 25px 25px;
+	width:40%;
+	
+}
+
+#imagetext {
+ 	font-family:Helvetica;
+	color:gray;
+	font-size: 14px;
+	margin-left:25px;
+	margin-top: -38px;
+	line-height:1.5;
+	width:40%;
+ }
+
+  #tworuler {
+	height:7px;
+  	width:1400px;
+	background-color: black;
+
+ }
+
+
+  #firstquestion {
+  	font-family:Helvetica;
+	color:red;
+	font-style:italic;
+	font-size: 14px;
+
+	font-weight: bold;
+	line-height: 1.1;
+	width:550px;
+	position:absolute;
+	margin-left:25px;
+	margin-top: 8px
+
+  }
+
+
+
+
+ #firstanswer {
+ 	font-family:Helvetica;
+	color:black;
+	font-size: 14px;
+	width:600px;
+	line-height: 2;
+	position:relative;
+	margin-left:700px;
+ }
+
+#threeruler {
+	height:8px;
+  	width:1400px;
+	background-color: black;
+}
+
+	#secondquestion {
+  		font-family:Helvetica;
+		color:red;
+		font-style:italic;
+		font-size: 14px;
+		font-weight: bold;
+		line-height: 2;
+		width:400px;
+		position:absolute;
+		margin-left:25px;
+
+  }
+
+	#secondanswer {
+ 	font-family:Helvetica;
+	color:black;
+	font-size: 14px;
+	width:600px;
+	line-height: 2;
+	position:relative;
+	margin-left:700px;
+ }
+
+ #fourthruler {
+ 	height:8px;
+  	width:1400px;
+	background-color: black;
+}
+
+#quotation {
+  		font-family:Helvetica;
+		color:white;
+		background-color:black;
+		font-size: 40px;
+		line-height: 1.3;
+		height:200px;
+		width:1379px;
+		margin-left:60px;
+		
+		
+		
+		
+		
+	}
+
+
+ #fifthruler {
+ 	height:8px;
+  	width:1400px;
+	background-color: black;
+}
+
+	#thirdquestion {
+  		font-family:Helvetica;
+		color:red;
+		font-style:italic;
+		font-size: 14px;
+		font-weight: bold;
+		line-height: 2;
+		width:400px;
+		position:absolute;
+		margin-left:25px;
+
+  }
+
+	#thirdanswer {
+ 	font-family:Helvetica;
+	color:black;
+	font-size: 14px;
+	width:600px;
+	line-height: 2;
+	position:relative;
+	margin-left:700px;
+ }
+
+  #sixthruler {
+ 	height:8px;
+  	width:1400px;
+	background-color: black;
+}
+
+  
+
+.american {
+
+	margin:1px 10px 25px 85px;
+	width:70%;
+
+
+
+}
+
+#imagetextamerican {
+ 	font-family:Helvetica;
+	color:gray;
+	font-size: 14px;
+	margin-left:25px;
+	margin-top: -38px;
+	line-height:1.5;
+	width:1400px;
+ }
+
+.national {
+	position:relative;
+	width:85%;
+	margin:25px 10px 25px 25px;
+}
+
+#imagetextpark{
+ 	font-family:Helvetica;
+	color:gray;
+	font-size: 14px;
+	margin-left:25px;
+	margin-top: -38px;
+	line-height:1.5;
+	width:1399px;
+ }
+
+ #sixthruler {
+ 	height:8px;
+  	width:1400px;
+	background-color: black;
+}
+
+
+	#fourthquestion {
+  		font-family:Helvetica;
+		color:red;
+		font-style:italic;
+		font-size: 14px;
+		font-weight: bold;
+		line-height: 2;
+		width:400px;
+		position:absolute;
+		margin-left:25px;
+
+  }
+
+	#fourthanswer {
+ 	font-family:Helvetica;
+	color:black;
+	font-size: 14px;
+	width:600px;
+	line-height: 2;
+	position:relative;
+	margin-left:700px;
+}
+
+  #seventhruler {
+ 	height:8px;
+  	width:1400px;
+	background-color: black;
+}
+
+	#fifthquestion {
+  		font-family:Helvetica;
+		color:red;
+		font-style:italic;
+		font-size: 14px;
+		font-weight: bold;
+		line-height: 2;
+		width:400px;
+		position:absolute;
+		margin-left:25px;
+
+  }
+
+	#fifthanswer {
+ 	font-family:Helvetica;
+	color:black;
+	font-size: 14px;
+	width:600px;
+	line-height: 2;
+	position:relative;
+	margin-left:700px;
+}
+
+	 #eighthruler {
+ 	height:8px;
+  	width:1400px;
+	background-color: black;
+}
+
+ 
+
+	.bloomingdale {
+	
+	margin:1px 1px 1px 1px;
+	width:85%;
+
+}
+#imagetextbloom {
+ 	font-family:Helvetica;
+	color:gray;
+	font-size: 14px;
+	margin-left:25px;
+	margin-top: -38px;
+	line-height:1.5;
+	width:1400px;
+ }
+
+
+
+
+
+	 #eighthruler {
+ 	height:8px;
+  	width:1400px;
+	background-color: black;
+}
+
+	#sixthquestion {
+  		font-family:Helvetica;
+		color:red;
+		font-style:italic;
+		font-size: 14px;
+		font-weight: bold;
+		line-height: 2;
+		width:400px;
+		position:absolute;
+		margin-left:25px;
+
+  }
+
+	#sixthanswer {
+ 	font-family:Helvetica;
+	color:black;
+	font-size: 14px;
+	width:600px;
+	line-height: 2;
+	position:relative;
+	margin-left:700px;
+}
+
+
+		 #ninthruler {
+ 	height:8px;
+  	width:1400px;
+	background-color: black;
+}
+
+	#seventhquestion {
+  		font-family:Helvetica;
+		color:red;
+		font-style:italic;
+		font-size: 14px;
+		font-weight: bold;
+		line-height: 2;
+		width:400px;
+		position:absolute;
+		margin-left:25px;
+
+  }
+
+	#seventhanswer {
+ 	font-family:Helvetica;
+	color:black;
+	font-size: 14px;
+	width:600px;
+	line-height: 2;
+	position:relative;
+	margin-left:700px;
+}
+
+ #ninthruler {
+ 	height:8px;
+  	width:1400px;
+	background-color: black;
+}
+
+	#eightquestion {
+  		font-family:Helvetica;
+		color:red;
+		font-style:italic;
+		font-size: 14px;
+		font-weight: bold;
+		line-height: 2;
+		width:400px;
+		position:absolute;
+		margin-left:25px;
+
+  }
+
+	#eightanswer {
+ 	font-family:Helvetica;
+	color:black;
+	font-size: 14px;
+	width:600px;
+	line-height: 2;
+	position:relative;
+	margin-left:700px;
+}
+
+ #ninthruler {
+ 	height:8px;
+  	width:1400px;
+	background-color: black;
+}
+
+#quotation {
+  		font-family:Helvetica;
+		color:white;
+		background-color:black;
+		font-size: 40px;
+		line-height: 1.3;
+		height:200px;
+		width:1379px;
+		padding:10px;
+		margin:10px 20px 10px 2px;
+	}
+
+ #ninthruler {
+ 	height:8px;
+  	width:1400px;
+	background-color: black;
+}
+
+	#ninthquestion {
+  		font-family:Helvetica;
+		color:red;
+		font-style:italic;
+		font-size: 14px;
+		font-weight: bold;
+		line-height: 2;
+		width:400px;
+		position:absolute;
+		margin-left:25px;
+
+  }
+
+	#ninthanswer {
+ 	font-family:Helvetica;
+	color:black;
+	font-size: 14px;
+	width:600px;
+	line-height: 2;
+	position:relative;
+	margin-left:700px;
+}
+
+
+
+ #ninthruler {
+ 	height:8px;
+  	width:1400px;
+	background-color: black;
+}
+
+.massimo {
+	
+	margin:25px 10px 25px 4px;
+	width:42%;
+
+}
+
+	#oneruler {
+	height:60px;
+  	width:1400px;
+	background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
