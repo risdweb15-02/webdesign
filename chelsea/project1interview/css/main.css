@@ -31,92 +31,135 @@ body {
     text-align: left;
 }
 
+#remember {
+    position: absolute;
+    width: 550px;
+}
+
 h1 {
     font-family: DinReg, Arial, sans-serif;
     font-size: 35px;
     line-height: 50px;
 }
 
+#liked {
+    position:absolute;
+    width: 500px;
+    top: 700px;
+}
+
 .hara {
     font-family: MinionPro, Times, serif;
-    font-size: 18px;
+    font-size: 21px;
     line-height: 27px;
+    width: 700px;
 }
 
 .db {
-    font-family: DinReg, Arial, sans-serif;
-    font-size: 16px;
+    font-family: DinMed, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 28px;
 }
 
 .speaker {
     font-family: DinReg, Arial, sans-serif;
-    font-size: 12px;
+    font-size: 15px;
+}
+
+#how {
+    position:absolute;
+    width: 500px;
+    top: 870px;
 }
 
 #kenya1 {
     position: absolute;
     left: 450px;
-    top: 886px;
+    top: 700px;
 }
 
 #designb {
     position: absolute;
     left: 410px;
-    top: 1318px;
+    top: 874px;
 }
 
 #kenya2 {
     position: absolute;
-    left: 450px;
-    top: 1413px;
+    left: -100px;
+    top: 803x;
 }
 
 #designb2 {
     position: absolute;
     left: 410px;
-    top: 2303px;
+    top: 1385px;
+}
+
+#firstlist {
+    position: absolute;
+    width: 550px;
 }
 
 #kenya3 {
     position: absolute;
-    left: 20px;
-    top: 2505px;
+    left: 450px;
+    top: 1465px;
+}
+
+#kenya3 {
+    position: absolute;
+    left: 450px;
+    top: 1465px;
+}
+
+#circumstance {
+    position: absolute;
+    left: 555px;
+    top: 1780px;
+    width: 550px;
 }
 
 #designb3 {
     position: absolute;
     left: 410px;
-    top: 4200px;
+    top: 2555px;
+}
+
+#embrace {
+    position: absolute;
+    top: 2640px;
+    width: 550px;
 }
 
 #kenya4 {
     position: absolute;
     left: 450px;
-    top: 4353px;
+    top: 2640px;
 }
 
 #designb4 {
     position: absolute;
     left: 410px;
-    top: 7664px;
+    top: 5600px;
 }
 
 #designb5 {
     position: absolute;
     left: 410px;
-    top: 7664px;
+    top: 8005px;
 }
 
 #kenya5 {
     position: absolute;
     left: 450px;
-    top: 11210px;
+    top: 8109px;
 }
 
 #designb6 {
     position: absolute;
     left: 410px;
-    top: 11390px;
+    top: 8275px;
 }
 
 #kenya6 {
@@ -128,13 +171,19 @@ h1 {
 #designb7 {
     position: absolute;
     left: 410px;
-    top: 11610px;
+    top: 8475px;
 }
 
 #kenya7 {
     position: absolute;
     left: 450px;
-    top: 11700px;
+    top: 8360px;
+}
+
+#kenya8 {
+    position: absolute;
+    left: 450px;
+    top: 8552px;
 }
 
 #might {
@@ -147,38 +196,73 @@ h1 {
     height: 200px;
     float: left;
     position: absolute;
-    left: 550px;
-    top: 1810px;
+    left: 560px;
+    top: 1060px;
 }
 
 #awakenings {
     position: absolute;
-    right: 500px;
+    left: 1000px;
+    top: 1215px;
+    width: 200px;
+}
+
+#strong {
+    position: absolute;
+    top: 1380px;
+    width: 550px;
 }
 
 #discover {
     position: absolute;
-    left: 140px;
+    top: 1465px;
+    width: 550px;
 }
 
 ul {
     position: absolute;
-    left: 100px;
+    left: 520px;
     list-style-type: none;
+    top: 1500px;
+    width: 550px;
 }
 
 #muji {
     height: 200px;
     position: absolute;
-    right: 1000px;
+    top: 4750px;
+}
+
+#person {
+    height: 200px;
+    position: absolute;
+    width: 550px;
+    top: 5600px;
     left: 550px;
 }
 
 #author {
     position: absolute;
-    left: 552px;
+    left: 555px;
     font-size: 35px;
     line-height: 25px;
+    width: 600px;
+    top: 2100px;
+}
+
+#author2 {
+    position: absolute;
+    left: 555px;
+    font-size: 35px;
+    line-height: 45px;
+    width: 600px;
+    top: 5720px;
+}
+
+#crit {
+    position: absolute;
+    width: 550px;
+    top: 2550px;
 }
 
 #muji {
@@ -193,17 +277,78 @@ ul {
     left: 250px;
     font-size: 75px;
     line-height: 25px;
+    top: 3400px;
+    width: 1200px;
 }
 
 #if {
     position: absolute;
-    left: 530px;
+    left: 500px;
+    width: 700px;
+    top: 4100px;
 }
 
 #simple {
     font-size: 200px;
     position: absolute;
-    right: 0px;
+    top: 6300px;
+    left: 1140px;
+    width: 550px;
+}
+
+#question {
+    position: absolute;
+    top: 6500px;
+    width: 600px;
+    left: 200px;
+}
+
+#haptic {
+    height: 200px;
+    position: absolute;
+    top: 7200px;
+}
+
+#fascinate {
+    height: 200px;
+    position: absolute;
+    width: 500px;
+    top: 8000px;
+}
+
+#math {
+    height: 200px;
+    position: absolute;
+    width: 500px;
+    top: 8110px;
+}
+
+#wish {
+    height: 200px;
+    position: absolute;
+    width: 500px;
+    top: 8270px;
+}
+
+#license {
+    height: 200px;
+    position: absolute;
+    width: 500px;
+    top: 8360px;
+}
+
+#motto {
+    height: 200px;
+    position: absolute;
+    width: 500px;
+    top: 8470px;
+}
+
+#hand {
+    height: 200px;
+    position: absolute;
+    width: 500px;
+    top: 8550px;
 }
 
 a:visited, a:active, a:unvisited {
