@@ -1,0 +1,19 @@
+a[target] {
+   background-color: blue;
+}
+
+/*li:nth-of-type(odd) {
+   background-color: green;
+}*/
+
+li:nth-child(5) {
+   background-color: red;
+}
+
+blockquote {
+   font-size: 3em;
+}
+
+blockquote::after {
+   content: url(http://blog.seattlepi.com/thebigblog/files/2011/04/aflac_duc.jpg);
+}
