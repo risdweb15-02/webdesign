@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Artist Bio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/main.css"> 
+        
+        <style>
+            body {
+                background: #ffd6d6; /* Old browsers */
+background: -moz-linear-gradient(left, #ffd6d6 0%, #c0dbcf 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ffd6d6), color-stop(100%,#c0dbcf)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left, #ffd6d6 0%,#c0dbcf 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left, #ffd6d6 0%,#c0dbcf 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left, #ffd6d6 0%,#c0dbcf 100%); /* IE10+ */
+background: linear-gradient(to right, #ffd6d6 0%,#c0dbcf 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd6d6', endColorstr='#c0dbcf',GradientType=1 ); /* IE6-9 */
+            }
+            
+            img {
+                -webkit-box-shadow:inset 2px 2px 2px 2px #7D7D7D;
+box-shadow:inset 2px 2px 2px 2px #7D7D7D;
+                -webkit-border-radius: 5px 5px 5px 100px;
+border-radius: 5px 5px 5px 100px;
+            }
+            #rotate {
+                  transform: rotate(-10deg);
+                  transform-origin: top right;
+            }
+            
+            #translate {
+                  transform: translateY(40px);
+            }
+            
+            #scale {
+                  transform: scale(1.7);
+            }
+
+            #skew {
+                  transform: skewX(-10deg);
+                  transform: skewY(-5deg);
+            }
+            a[target="_blank"] {
+                color: red;
+            }
+            #scale::before {
+                content='&#34;';
+            }
+            #scale::after {
+                content='&#34;';
+            }
+            
+        </style>
+        
+    </head>
+    
+    <body>
+        <h1 id="skew">M/M Paris</h1>
+        <img src="http://purple.fr/filestorage/cache/blog/9/12412/MM%20givenchy/MM%20givenchy_1026_770_resize_90.jpg" width="300px" id="rotate">
+        <p id="translate">
+            Through their work as graphic designers and creative directors in the fields of art, fashion and music, Michael Amzalag and Mathias Augustyniak have established M/M as a powerful force in contemporary French culture.
+            <br><br>
+After meeting at art school in Paris, Michael Amzalag and Mathias Augustyniak founded <a href="http://www.mmparis.com/list.html">M/M</a> in 1992. They have sinced worked together as graphic designers and art directors on fashion and art projects mostly for longstanding clients and collaborators – such as the fashion designers Yohji Yamamoto and Martine Sitbon, and the photographers Craig McDean, Inez van Lamsweerde and Vinoodh Matadin.
+            <br><br>
+After starting out with music projects, M/M became involved with Yamamoto and Sitbon in 1995 and have since worked for other fashion houses including Balenciaga, Louis Vuitton and Calvin Klein. Their work in the art world ranges from commissions for museums such as Centre Georges Pompidou and Palais de Tokyo in Paris, to collaborations with artists like Philippe Parreno and Pierre Hughe. Amzalag and Augustyniak also work as creative consultants to Paris Vogue.
+            <blockquote id="scale">We chose graphic design not just for the sake of being graphic designers. It was some kind of social commitment, a way to earn a living and also to disseminate our ideas. The activities related to graphic design are very suitable for us. We enjoy the thinking process, but we prefer that it be related to form and that ideas have tangible results. Also, we don’t create things out of the blue, we want to form a relationship with someone. But, as such, graphic design doesn’t excite us more than any other media, than film or books for example.</blockquote>
+        Source: <a href="http://design.designmuseum.org/design/m-m" target="_blank">Design Museum Article</a>
+        </p>
+    </body>
+    
+</html>
