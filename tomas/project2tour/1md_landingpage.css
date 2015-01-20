@@ -19,7 +19,7 @@
 #md {
   display: inline-block;
   position: relative;
-  bottom: 44px;
+  bottom: 2.54em;
   right: 170px;
   z-index: 10;
 }
@@ -37,7 +37,7 @@
   left: 120px;
 }
 
-#wk:hovfer {
+x#wk:hover {
   content: '';
   display: block;
   background: rgba(255, 0, 0, .5); /* your background */
@@ -89,7 +89,7 @@ top: 45%;
   display: block;
 }
 
-#popup:hover {
+x#popup:hover {
   opacity: 1;
 }
 

@@ -1,0 +1,42 @@
+.bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1200px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: url("http://www-tc.pbs.org/art21/files/images/dion-mark.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: .9;
+  z-index: 0;
+}
+
+.bg::after {
+  content: url(http://media.idownloadblog.com/wp-content/uploads/2013/08/Blue-Clean-iOS7_iPad00-Max-Kas.png);
+  opacity: .4;
+}
+
+.bio {
+ margin-bottom: 100px;
+  margin: 5% 5% 5% 9%;
+  max-width: 1200px;
+  z-index: 10;
+  position: absolute;
+}
+
+p {
+  color: white;
+  /*color: rgba(255, 125,86,1);*/
+  font-family: futura;
+  font-size: 3.3em;
+  z-index: 15;
+}

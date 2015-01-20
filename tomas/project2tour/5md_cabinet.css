@@ -33,10 +33,6 @@ width: 100%;
 z-index: 1;
 }
 
-.content {
-  padding-top: 15px;
-}
-
 .header span {
 color: #1f28a7;
 font-family: 'Futura';
@@ -48,7 +44,7 @@ z-index: 1;
 
 
 .space {
-  height: 200px;
+  height: 280px;
 }
 
 #one {
@@ -73,12 +69,12 @@ box-sizing: border-box;
 
 img {
 display: block;
-  max-width: 100%;
+  width: 100%;
 }
 
 figcaption {
 color: #a3a3a3;
-font-family: 'FuturaLTPro-Book';
+font-family: 'Futura';
 font-size: 12px;
 font-size: 0.75rem;
 line-height: 1.125;
@@ -88,6 +84,7 @@ padding-bottom: 2px;
 
 .col-half~.col-half {
 margin-left: 6.66666667%;
+padding-top: 12px;
 }
 
 h2 {
@@ -124,15 +121,8 @@ margin: 0;
 }
 
 p {
-font-family: sans-serif;
-font-size: 1.1rem;
+ffont-size: 1.1rem;
 line-height: 1.4;
-margin: 0;
-  display: block;
--webkit-margin-before: 1em;
--webkit-margin-after: 1em;
--webkit-margin-start: 0px;
--webkit-margin-end: 0px;
 }
 
 li {
