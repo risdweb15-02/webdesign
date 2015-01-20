@@ -1,47 +1,54 @@
-html {} 
-.project1 {
-    text-decoration-line: none; 
+html {} .project1 {
+    font-family: "montserrat";
+    text-decoration-line: none;
     font-size: 30pt;
-height: 100px;
-  width: 200px;
-  border-radius: 50%;
-  background-color: transparent;
-  text-align: center;
-  box-sizing: border-box;
-  color: white;
--webkit-animation-name: roll;
-  -webkit-animation-duration: 6s;
-  -webkit-animation-timing-function: ease-in-out;
-  -webkit-animation-delay: 1.5s;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
-      webkit-animation-play-state: paused;
+    height: 100px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: transparent;
+    text-align: center;
+    box-sizing: border-box;
+    color: white;
+    -webkit-animation-name: roll;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-delay: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    webkit-animation-play-state: paused;
 }
-.project1:hover { 
+.project1:hover {
     webkit-animation-play-state: paused;
     background-color: yellow;
-} 
-
-
-@-webkit-keyframes roll {
-  0% {
-    transform: translate(0);
-  }
-  100% {
-    transform: translate(800px) rotate(3.25turn);
-  }
-    
-    
-a {
-    color: magenta; 
-    margin: 0;
-  font-family: helvetica;
-  font-size: 60px;
-  letter-spacing: 0.025em;
-  transform: translateY(60px) rotate(-45deg) ;
-
 }
-
-body {
-    font-family: sans-serif;  
+@-webkit-keyframes roll {
+    0% {
+        transform: translate(0);
+    }
+    100% {
+        transform: translate(800px) rotate(3.25turn);
+    }
+    a {
+        font-family: "montserrat";
+        color: magenta;
+        margin: 0;
+        font-family: helvetica;
+        font-size: 60px;
+        letter-spacing: 0.025em;
+        transform: translateY(60px) rotate(-45deg);
+    }
+    body {
+        font-family: "Montserrat";
+    }
+}
+h1 {
+    font-family: "montserrat";
+}
+h2 {
+    font-family: "montserrat";
+}
+@media screen and (max-width: 300px) {
+    h1 {
+        background-color: lightblue;
+    }
 }
