@@ -1,0 +1,39 @@
+body{
+	background-color: yellow;
+}
+
+#title{
+	font-family: arial;
+	font-size: 30px;
+	margin-left: 40px;
+	
+	background-color: white;
+	width: 115px;
+}
+
+.move{
+    font-size: 18px;
+    background-color: white;
+    background-size: 300px,25px;
+    transition-property: all; 
+	transition-duration: 0.3s;}
+
+.move:hover {
+    font-size: 24px;
+    background-color:pink; 
+   
+}
+
+
+
+@media screen and (max-width: 480px) { 
+
+	#title {
+	font-family: arial;
+	font-size: 30px;
+	background-color: white;
+	width: 120px;
+    margin-left: auto;
+	margin-right: auto;
+
+}
