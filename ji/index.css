@@ -1,0 +1,11 @@
+a {
+	transition-property: color, font-size;
+	transition-duration: 1s;
+	transition-timing-function: ease-in-out;
+	transition-delay: 0.1s;
+}
+
+a:hover {
+	color: red;
+	font-size: 20px;
+}
