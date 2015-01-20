@@ -19,3 +19,11 @@ p {
 #exercise {
 	margin-top:50px;
 }
+
+body {
+	background-image:url(../img/background_02.jpg);
+}
+
+li {
+	list-style-type:circle;
+}
