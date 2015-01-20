@@ -5,10 +5,7 @@ a:hover {
 
 a:link {
 	text-decoration:none;
-	color:gray;
-}
-a:visited {
-	color:orange
+	color:orange;
 }
 
 p {
