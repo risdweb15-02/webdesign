@@ -1,0 +1,7 @@
+html { 
+  background: url(http://res.cloudinary.com/bombmagazine/image/upload/v1412020955/dion05_body.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

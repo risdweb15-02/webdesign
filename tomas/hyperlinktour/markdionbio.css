@@ -1,0 +1,51 @@
+h1 {
+  font-family: Montserrat;
+  font-size: 4em;
+  color: #004488;
+  display: block;
+  position: absolute;
+  left: 600px;
+  top: 0px;
+}
+
+img {
+  width: 500px;
+  position: relative;
+  top: 45px;
+  display: inline-block;
+  margin-left: 40px;
+}
+
+#text {
+  position: relative;
+  top: 60px;
+  width: 650px;
+  left: 300px;
+}
+
+p {
+  font-family: Playfair Display;
+  color: #444444
+}
+
+blockquote {
+  font-family: Montserrat;
+  font-size: 3em;
+  color: #004488;
+}
+
+#quote {
+  width: 950px; 
+  position: relative;
+  top: 60px;
+}
+
+a {
+  font-family: Playfair Display;
+  color: grey;
+  text-decoration: none;
+}
+
+#space {
+  height: 300px;
+}

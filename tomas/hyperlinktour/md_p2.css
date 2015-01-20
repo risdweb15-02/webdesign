@@ -1,0 +1,13 @@
+html {
+  background-color: #FCFDF5
+}
+
+
+
+img {
+  position: absolute;
+   width: 960px;
+    left: 50%;
+    margin-left: -480px;
+    bottom: 0;
+}
