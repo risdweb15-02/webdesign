@@ -163,6 +163,9 @@ body {
 }
 
 .text a:hover {
-    letter-spacing: .5px;
     border-bottom: 0px dotted #224184;
+}
+
+.text a:visited {
+    color: #939393;
 }
