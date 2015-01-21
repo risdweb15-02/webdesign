@@ -3,7 +3,7 @@
 }
 
 a {
-    color: blue;
+    color: gray;
 }
 
 a:hover {
@@ -11,15 +11,15 @@ a:hover {
 }
 
 a:active {
-    color: blue;
+    color: gray;
 }
 
 a:visited {
-    color: blue;
+    color: gray;
 }
 
 a:unvisited {
-    color: blue;
+    color: gray;
 }
 
 #right {
