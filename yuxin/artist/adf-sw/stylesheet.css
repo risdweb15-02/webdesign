@@ -83,6 +83,17 @@ p{
 }
 
 
+a:link{
+	color: black;
+}
+
+
+
+a:visited{
+	color: black;
+}
+
+
 
 /*#photo:hover{
 	position: relative;
