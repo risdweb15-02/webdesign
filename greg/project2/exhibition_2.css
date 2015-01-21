@@ -1,0 +1,46 @@
+#navi_1 {
+	font-family: Helvetica;
+	font-style: normal;
+	text-align: center;
+	margin-top: 70px;
+	color: black;
+}
+
+#navi_1:hover {
+	color: red;
+}
+
+#navi_2 {
+	font-family: Helvetica;
+	font-style: normal;
+	text-align: center;
+	color: black;
+}
+
+#navi_2:hover {
+	color: red;
+}
+
+body {
+	background-image: url("img/exhibition_2.jpg");
+	background-size: 2100px;
+	background-position: left;
+	background-repeat: no-repeat;
+}
+
+#Absence {
+	opacity: 0.0;
+}
+
+#Absence:hover {
+	opacity: 1.0;
+}
+
+#work_1 {
+	font-family: Helvetica;
+	font-style: normal;
+	font-size: 300px;
+	text-align: center;
+	margin-top: 180px;
+	color: red;
+}

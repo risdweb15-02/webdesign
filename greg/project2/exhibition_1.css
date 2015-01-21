@@ -1,0 +1,35 @@
+body {
+	background-image: url("img/exhibition.jpg");
+	background-size: 1780px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#navi_1 {
+	font-family: Helvetica;
+	font-style: normal;
+	text-align: center;
+	margin-top: 70px;
+	color: black;
+}
+
+#navi_1:hover {
+	color: red;
+}
+
+#Absence {
+	opacity: 0.0;
+}
+
+#Absence:hover {
+	opacity: 1.0;
+}
+
+#work_1 {
+	font-family: Helvetica;
+	font-style: normal;
+	font-size: 300px;
+	text-align: center;
+	margin-top: 180px;
+	color: red;
+}
