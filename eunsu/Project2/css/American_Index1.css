@@ -1,0 +1,224 @@
+.header{ 
+	background-color: black;
+	height: 150px;
+	width: 100%;
+	
+	padding: 0px 0px 0px 0px;
+	top: 0px;
+	
+
+}
+.container{
+	text-align: center;
+	position: relative;
+	top: 60px;
+
+}
+
+
+#logo {
+	margin-top: -10px;
+	text-align: center;
+	color: white;
+	letter-spacing: 5px;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+a:visited {
+    color: #FFFFFF;
+}
+a:hover {
+    color: #DCDCDC;
+}
+a:active {
+    color: #DCDCDC;
+}
+
+.wrapper {
+	background-color: #413f3b;
+	text-align: left;
+	width: 100%;
+	height: 820px;
+	
+
+}
+.main-story {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	height: 800px;
+	background-color: white;
+	margin-top: 0px;
+}
+h1{
+	text-transform: uppercase;
+	font-size: 90%;
+	margin-top: 150px;
+	text-align: center;
+	letter-spacing: 3px;
+}
+#innocence_1 {
+	margin-top: 30px;
+	margin-left: 160px;
+	
+}
+
+.the_list {
+	width: 450px;
+	height: 800px;
+	background-color: none;
+	margin-left: 250px;
+	text-align: left;
+	float: left;
+	position: relative;
+	top: -100px;
+}
+
+.ProfileDetails {
+	width: 450px;
+	height: 400px;
+	background-color: none;
+	position: relative;
+	left: 10px;
+
+}
+.ExonInfo {
+	width: 450px;
+	font-size: 12px;
+	background-color: none;
+	border-collapse: collapse;
+	border-bottom: 1px solid #999999;
+
+}
+.ExonName {
+	color: #FFFFFF;
+	background: black;
+	font-size: 12px;
+	padding-left: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	height: 15px;
+	width: 500px;
+	text-indent: 10px;
+	font-weight: bold;
+
+}
+.ExonPict {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.ExonInfoL {
+	width: 200px;
+	padding-left: 15px;
+	padding-top: 0px;
+	border-collapse: collapse;
+	background-color: none;
+	position: relative;
+	top:-15px;
+	
+}
+.ExonInfoR {
+	padding-top: 0px;
+	padding-left: 15px;
+	width: 200px;
+	background-color: none;
+	border-collapse: collapse;
+}
+.gray {
+	color: #413f3b;
+	font-weight: bold;
+
+}
+.des1{
+	width: 450px;
+	text-align: left;
+	position: relative;
+	top:-30px;
+	font-size: 15px;
+	
+	
+}
+.readmore{
+	text-align: left;
+	font-size: 12px;
+	position: relative;
+	left:10px;
+	top:-150px;
+}
+
+.the_list1 {
+	width: 200px;
+	height: 800px;
+	background-color: none;
+	float:right;
+	
+
+}
+
+.right_1 {
+	width: 100px;
+	height: 100px;
+	background-color: none;
+	margin-top: 350px;
+	margin-left: 50px;
+	margin-right: 40px;
+	text-align: center;
+	font-size: 30px;
+}
+.the_list2 {
+	width: 200px;
+	height: 800px;
+	background-color: none;
+	float:left;
+	position: relative;
+	right: 760px;
+	bottom: 450px;
+	
+
+}
+
+.right_2 {
+	width: 100px;
+	height: 100px;
+	background-color: none;
+	margin-top: 350px;
+	margin-left: 60px;
+	margin-right: 40px;
+	text-align: center;
+	font-size: 30px;
+	position: relative;
+	right: 10px;
+}
+
+.arrow {
+	color: black;
+
+}
+.arrow:hover {
+	color: #C8C8C8;
+}
+.footer {
+	background-color: black;
+	height: 120px;
+	width: 100%;
+	padding: 30px 0px 0px 0px;
+}
+.end_container {
+	background-color: none;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	color: white;
+	font-size: 10px;
+}
+body {
+	font-family: Garamond, Georgia;
+}
+
+
+
+
+
