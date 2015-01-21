@@ -6,25 +6,108 @@
         <title>Mimi's Index</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
-        <!-- <link rel="stylesheet" href="css/main.css"> -->
+        <!-- <link rel="stylesheet" href="index.css"> -->
     </head>
     
 
 
     <body>
         <style>
+        .category {
+            color: black;
+            font-size: 25px;
+            font-weight: bold;
+            margin-bottom: -10px;
+            -webkit-animation-name: colors;
+            -webkit-animation-duration: 8s;
+            -webkit-animation-timing-function: ease;
+            -webkit-animation-delay: 1s;
+            -webkit-animation-iteration-count: 2;
+            -webkit-animation-direction: alternate;
+            -webkit-animation-play-state: running;
+            -webkit-animation-fill-mode: none;
+            -webkit-transition: text-align 1s ease 0s;
+        }
+
+        @-webkit-keyframes colors {
+            0% {
+                color: black;
+            }
+
+            15% {
+                color: orange;
+            }
+
+            30% {
+                color: gold;
+            }
+
+            45% {
+                color: limegreen;
+            }
+
+            60% {
+                color: dodgerblue;
+            }
+
+            75% {
+                color: indigo;
+            }
+
+            90% {
+                color: violet;
+            }
+
+            100% {
+                color: black;
+            }
+        }
+
         a {
             text-decoration: none;
+            color: black;
+            -webkit-transition: all 1s ease 0s;
+            transition: all 1s ease 0s;
         }
 
         a:hover {
-            color: black;
+            color: grey;
+            letter-spacing: 1px;
+            -webkit-animation-name: colors;
         }
-        </style>
 
+        ol {
+            margin-bottom: 30px;
+        }
+
+
+        @media screen and (max-width: 480px) {
+            .category {
+                text-align: center;
+                -webkit-animation-name: none;
+            }
+
+            a {
+                -webkit-transition: webkit-animation-name 2s ease 0s;
+            }
+
+            a:hover {
+                letter-spacing: 0px;
+                -webkit-animation-name: colors;
+                -webkit-animation-duration: 5s;
+                -webkit-animation-timing-function: linear;
+                -webkit-animation-delay: 0s;
+                -webkit-animation-iteration-count: 1;
+                -webkit-animation-direction: alternate;
+                -webkit-animation-fill-mode: none;
+                -webkit-animation-play-state: running;
+            }
+        }
+
+        </style>
         
 
-        <b>Exercises</b>
+        <div class="category">Exercises</div>
         <ol>
             <li><a href="exercises/art school website wireframe/sitemap.pdf">Art school website sitemap</a></li>
             <li><a href="exercises/seven principles markup/seven principles.html">Carl Dair Markup</a></li>
@@ -38,14 +121,16 @@
             <li><a href="exercises/css-grid-positioning/absolute-positioning.html">Positioning: Absolute positioning</a></li>
             <li><a href="exercises/css-grid-positioning/fixed-positioning.html">Positioning: Fixed positioning</a></li>
             <li><a href="exercises/css-grid-positioning/floats-&-relative-positioning.html">Positioning: Floats and relative positioning</a></li>
+            <li><a href-"exercises/artist-bio.html">Artist Bio</a></li>
         </ol>
 
 
 
 
-        <b>Projects</b>
+        <div class="category">Projects</div>
         <ol>
             <li><a href="projects/interviewstyle/interviewstyle.html">Interview</a></li>
+            <li><a href="projects/artist-tour/home.html">Hyperlinked artist tour</a></li>
         </ol>
        
 
