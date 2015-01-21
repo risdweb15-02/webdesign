@@ -1,0 +1,167 @@
+body{
+	margin: 0;
+}
+
+.wrapper{
+	width:960px;
+	margin:auto;
+	
+	
+}
+
+.main{
+	width: 650px;
+	height:auto;
+	
+	float: right;
+	
+	margin-top:100px;
+	
+}
+
+.headerbox{
+	width:100%;
+	height: 70px;
+	background-color: white;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.1)
+}
+
+.logo{
+	float:left;
+	padding-left: 80px;
+	padding-top: 10px;
+}
+
+.menu{
+	
+	float: right;
+	padding-right: 150px;
+	padding-top: 10px;
+	
+
+
+}
+
+.menu a{
+	font-family:'Roboto', sans-serif;
+	color:black;
+	
+  	transition-property: color;
+  	transition-duration: 300ms;
+  	transition-timing-function: ease-in-out;
+  	transition-delay: 100ms;
+
+
+}
+.menu a:hover{
+	
+  	cursor: pointer;
+  	color:#f95017;
+  	/*border:2px solid #f95017;*/
+
+}
+
+
+.title{
+	width: 650px;
+	height:100px;
+	
+	float:left;
+	font-size: 30px;
+	padding-bottom: 20px;
+	
+}
+
+.titletxt{
+	font-family: 'Roboto', sans-serif;
+
+}
+
+span{
+	font-family: 'Roboto Condensed', sans-serif;
+	text-transform: uppercase;
+}
+
+.sidebar{
+	width:250px;
+	height: auto;
+	float: right;
+	position: fixed;
+	
+	margin-top: 120px;
+}
+
+.sidebar ul li a{
+
+	transition-property: color;
+  	transition-duration: 300ms;
+  	transition-timing-function: ease-in-out;
+  	transition-delay: 100ms;
+}
+
+.sidebar ul li a:hover{
+	color:#f95017;
+
+}
+
+a{
+	text-decoration: none;
+	color:black;
+}
+
+li{
+	list-style: none;
+	font-family: 'Roboto', sans-serif;
+}
+
+.content{
+	padding-bottom: 140px;
+	
+}
+
+.img{
+	
+	width: auto;
+	
+}
+
+.biotxt{
+	padding-top: 120px;
+	
+	
+
+}
+
+p{
+	font-family:'Roboto', sans-serif;
+}
+
+
+span{
+	font-family: 'Roboto Condensed', sans-serif;
+	text-transform: uppercase;
+	color:#f95017
+}
+
+
+.footer{
+	width:100%;
+	height: 70px;
+	background-color: white;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	clear:both;
+	float:bottom;
+	border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+.footnote{
+	display: inline-block;
+	margin: auto;
+	text-align: center;
+	padding-left: 350px;
+	padding-top: 25px;
+	color:rgba(0,0,0,0.2);
+
+
+
+}
