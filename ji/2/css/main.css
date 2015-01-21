@@ -1,0 +1,70 @@
+body {
+	margin: 0px;
+}
+
+div {
+	display: block;
+}
+
+#a {
+	font-family: 'Amatic SC', cursive;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 46.5px;
+	background: url(../img/bar.png) repeat;
+	background-color: rgba(255,255,255,0.9);
+	text-align: center;
+	font-size: 35px;
+	color: #8b8b8b;
+	letter-spacing: 5px;
+	position: fixed;
+	z-index: 3;
+}
+
+#b {
+	font-family: 'Amatic SC', cursive;
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	height: 680px;
+	text-align: center;
+}
+
+#d {
+	transform: translateY(90px);
+}
+
+h1 {
+	transform-origin: 50% 40%;
+	transform: rotate(-40deg) translate(35px, 30px);
+	font-size: 40px;
+}
+
+#c {
+	font-family: 'Crimson Text', serif;
+	height: auto;
+	padding: 50px 350px;
+	background-color: #d6d6d6;
+	font-size: 19px;
+	text-align: justify;
+}
+
+a:link {
+	text-decoration: none;
+	color: purple;
+}
+
+a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+a:active {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	text-decoration: none;
+}
