@@ -1,0 +1,47 @@
+html {} 
+
+body {
+         background-image: url(../images/salemdiamondsimg/342.jpg);
+     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#quotesalem {
+    position: fixed; 
+    color: lime;
+    background:black;
+    padding:.5em;
+    opacity: 0.7; 
+    
+    transform:rotate(90deg);
+    font-size: 20pt;
+    text-align: center;
+    margin-left:40%;
+    margin-top: 16%;
+}
+
+#salemmaintext {
+    z-index: -100; 
+    position: absolute; 
+    font-size: 25pt;
+    line-height: 130%;
+    color:white;
+    background: black; 
+    width: 30%; 
+    margin-left: 7%; 
+    margin-bottom: 5em; 
+    padding:1em;
+    opacity: 0.8;
+    
+    
+}
+
+a {
+    color:lime; 
+    text-decoration: none; 
+}
+a:hover { 
+    color: lightblue; 
+} 

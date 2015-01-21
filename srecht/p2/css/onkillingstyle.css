@@ -1,0 +1,42 @@
+html{} 
+body {
+     background-image: url(../images/onkillingimg/264.jpg);
+     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#quotekilling {
+    position:absolute; 
+    font-size: 45pt; 
+    margin-top: 9em;
+    margin-left: 10%;
+    width:30%; 
+    transform: rotate(-12deg); 
+    line-height: 130%; 
+    
+    
+}
+
+#killingmaintext {
+    position:absolute; 
+    font-size: 13pt;
+    width: 20%;
+    margin-left:70%;
+    margin-top: 45em;
+    color: white; 
+    line-height: 130%; 
+    margin-bottom: 5em; 
+    
+    
+}
+
+a {
+    text-decoration: line-through;
+    color:red;
+}
+a:hover { 
+    text-decoration: none; 
+    color:white; 
+} 

@@ -1,0 +1,60 @@
+html {} 
+
+body {
+         background-image: url(../images/shoeimg/249.jpg);
+     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#quoteshoe {
+    position: absolute; 
+    color:white; 
+    font-size: 40pt; 
+    width: 20%; 
+    margin-left: 41%;
+    margin-top: 30%
+    
+    
+    
+}
+
+#hidingsomething {
+    position: absolute; 
+    color:transparent; 
+    font-size: 30pt; 
+    margin-left: 67%;
+    margin-top: 35%; 
+    text-align: center;
+    border: lightgreen 10px; 
+    margin-bottom: 3em;
+     width: 10%;
+    padding: 30px;
+    border: 10px solid lightgreen;
+    
+}
+#hidingsomething:hover { 
+    color: white; 
+} 
+
+#maintextshoe {
+    position: absolute; 
+    font-size: 14pt;
+    width:20%; 
+    color: lightgreen; 
+    margin-top: 16em;
+    margin-left:25em;
+    transform:rotate(42deg);
+    line-height: 133%;
+    
+    
+    
+}
+
+a {
+    color:transparent; 
+}
+a:hover { 
+    color: white;
+} 

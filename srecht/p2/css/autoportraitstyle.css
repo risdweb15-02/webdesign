@@ -1,0 +1,45 @@
+html{} 
+body {
+     background-image: url(../images/autoportimg/37.jpg);
+     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#quoteautop {
+    position: absolute; 
+    color:white; 
+    font-size: 40pt; 
+    margin-left: 3%; 
+}
+
+#hoveringtext {
+    position: absolute; 
+    color:white; 
+    font-size: 40pt;
+    margin-top: 35%; 
+    margin-left: 3%; 
+    letter-spacing: 10px; 
+    
+}
+
+#autopmaintext {
+    position:absolute; 
+    font-size: 14pt; 
+    margin-top: 3%; 
+    margin-left: 70%; 
+    width: 20%; 
+    color: white; 
+    line-height: 132%; 
+    
+}
+
+a {
+    text-decoration: none; 
+    color: gold; 
+    
+}
+a:hover { 
+    color: white; 
+} 
