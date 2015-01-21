@@ -1,7 +1,9 @@
-div {
+#box {
 	width: 600px;
 	height: 1000px;
 	background-color:red;
+	overflow: hidden;
+	margin-left:100px;
 	
 }
 
@@ -10,5 +12,6 @@ div div {
     height: 150px;
     outline: 1px solid;
     float: left;
+    background-color:red;
 }
 
