@@ -185,7 +185,7 @@ text-decoration: none;
 
 
 .pagination a:after {
-content: "Next";
+content: "";
 text-align: right;
 display: block;
 font-family: 'futura';
