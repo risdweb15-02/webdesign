@@ -1,0 +1,128 @@
+
+.title{
+	font-size: 25px;
+	font-family: Cambria;
+	font-weight: bold;
+	}
+
+
+
+.line{
+	/*background-color: yellow;*/
+	height: 35px;
+	width: 100%;
+	border-bottom: 2px solid black;
+}
+
+.spacer{
+	background-color: white;
+	height: 20px;
+	width: 100%;
+
+
+}
+
+
+
+.ender{
+	background-color: white;
+	height: 10px;
+	width: 100%;
+	border-top: 2px solid black;
+	}
+
+
+
+
+p{
+	font-family: Cambria, Helvetica, Arial, sans-serif;
+	font-size: 18px;
+}
+
+
+
+#pic{
+	width: 250px;
+	height: 800px;
+	display: inline-block;
+	float: left;
+	margin-top: 140px;
+	margin-left: 350px;
+}
+
+
+
+#pic img{
+     max-width:100%; 
+     margin:auto;
+     display:block;
+}
+
+
+
+
+#bio{
+	width: 700px;
+	display: inline-block;
+	
+	margin-left: 50px;
+	margin-top: 100px;
+	
+}
+
+p{
+	font-size: 20px;
+	margin-top: 0px;
+}
+
+
+
+.name{
+	background-color: black;
+}
+
+
+
+.name:hover {
+	background-color: white;
+}
+
+
+
+a:link{
+	color: black;
+}
+
+
+
+a:visited{
+	color: black;
+}
+
+
+
+.file{
+	height:50px; 
+	width:300px;
+	margin-left:0px;
+	background-color: white;
+	margin-top: 0px;
+	
+}
+
+.icon{
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	float: left;
+	margin-left: 0px;
+	margin-top: 5px;
+}
+
+.file-name{
+	height: 40px;
+	width: 150px;
+	float: left;
+	margin-left: 5px;
+	margin-top: 15px;
+}
