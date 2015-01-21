@@ -1,0 +1,23 @@
+html {
+	background-color: black;
+}
+
+#bg {
+	background-image: url("http://www.wpclipart.com/page_frames/more_frames/gold_frames/gold_frames_2/ornate_gold_black_frame.jpg");
+	background-position: center;
+	background-size: 450px;
+	background-repeat: no-repeat;
+	background-color: black;
+	height: 650px;
+	position: relative;
+}
+
+iframe {
+	position: absolute;
+	width: 300px;
+	height: 420px;
+	left: 50%;
+	margin-left: -150px;
+	top: 115px;
+	overflow: hidden;
+}

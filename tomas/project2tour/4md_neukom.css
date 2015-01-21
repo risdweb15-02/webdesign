@@ -1,12 +1,16 @@
-
 body {
 font-family: arial,sans-serif;
 font-size: 100%;
+background-color: #FFFFF8;
 }
 
 div {
   border: 0px solid black;
   display: block;
+}
+
+a{
+  text-decoration: none;
 }
 
 .header {
@@ -21,7 +25,7 @@ opacity: 1;
 }
 
 .header:before {
-background: #fff;
+background: #FFFFF8;
 bottom: 0;
 -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.1), 0 0 0 rgba(0,0,0,0.1) inset;
 box-shadow: 0 1px 5px rgba(0,0,0,0.1), 0 0 0 rgba(0,0,0,0.1) inset;
@@ -34,14 +38,13 @@ z-index: 1;
 }
 
 .header span {
-color: #1f28a7;
-font-family: 'Futura';
-font-size: 1rem;
+color: rgba(114, 100, 61, .7);
+font-family: 'futura';
+font-size: 1em;
 position: relative;
 text-transform: uppercase;
 z-index: 1;
 }
-
 
 .space {
   height: 280px;
@@ -73,8 +76,8 @@ display: block;
 }
 
 figcaption {
-color: #a3a3a3;
-font-family: 'Futura';
+color: rgba(64, 50, 127,.5);
+font-family: 'futura';
 font-size: 12px;
 font-size: 0.75rem;
 line-height: 1.125;
@@ -84,13 +87,13 @@ padding-bottom: 2px;
 
 .col-half~.col-half {
 margin-left: 6.66666667%;
-  padding-top: 12px;
+padding-top: 12px;
 }
 
 h2 {
-color: #1f28a7;
-font-family: 'Futura';
-font-size: 1.625rem;
+color: rgba(64, 50, 61, .8);
+font-family: 'georgia';
+font-size: 1.625em;
 font-weight: normal;
 letter-spacing: 1px;
 margin-bottom: 43px;
@@ -99,13 +102,13 @@ text-transform: uppercase;
 }
 
 h3 {
-color: #1f28a7;
-font-family: 'Futura';
+color: rgba(64, 50, 61, .8);
+font-family: 'georgia';
 font-size: 18px;
-font-size: 1.125rem;
+font-size: 1.125em;
 font-weight: normal;
-letter-spacing: 1px;
-margin-bottom: 22px;
+letter-spacing: 3px;
+margin-bottom: 36px;
 text-transform: uppercase;
 display: block;
 font-size: 1.17em;
@@ -121,9 +124,11 @@ margin: 0;
 }
 
 p {
-font-family: 'Futura';
-font-size: 0.9375rem;
-line-height: 1.5;
+font-family: 'helvetica';
+color: rgba(64, 50, 61, .6);
+font-size: 1em;
+line-height: 1.4;
+letter-spacing: 1px;
 margin: 0;
   display: block;
 -webkit-margin-before: 1em;
@@ -132,10 +137,28 @@ margin: 0;
 -webkit-margin-end: 0px;
 }
 
-li {
-font-family: sans-serif;
-font-size: 1.1rem;
+ol {
+font-family: 'helvetica';
+color: rgba(64, 50, 61, .6);
+font-size: 1em;
 line-height: .5;
+letter-spacing: 1px;
+margin: 0;
+font-variant: small-caps;
+  display: block;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+}
+
+li {
+font-family: 'helvetica';
+color: rgba(64, 50, 61, .6);
+font-size: .8em;
+line-height: .5;
+letter-spacing: 1px;
+font-variant: normal;
 margin: 0;
   display: block;
 -webkit-margin-before: 1em;
@@ -149,8 +172,8 @@ margin: 0;
 clear: left;
 float: right;
 text-align: right;
-color: #1f28a7;
-font-family: 'Futura';
+color: rgba(64, 50, 61, .7);
+font-family: 'futura';
 font-size: 1.375rem;
 text-transform: uppercase;
 text-decoration: none;
@@ -161,10 +184,10 @@ text-decoration: none;
 content: "Next";
 text-align: right;
 display: block;
-font-family: 'Futura';
+font-family: 'futura';
 font-size: 1rem;
 }
 
 .pagination a:hover {
-color: #d93c88;
+color: rgba(214,107,194,.8);
 }

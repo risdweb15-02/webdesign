@@ -9,9 +9,9 @@
   display: inline-block;
   height: 27px;
   width: 94px;
-  background-color: blac;
+  border: 1px solid black;
   position: relative;
-  bottom: 103px;
+  bottom: 100px;
   left: 379px;
   border-radius: 4px;
 }
@@ -19,7 +19,7 @@
 #md {
   display: inline-block;
   position: relative;
-  bottom: 2.54em;
+  bottom: 2.79em;
   right: 170px;
   z-index: 10;
 }
@@ -37,61 +37,6 @@
   left: 120px;
 }
 
-x#wk:hover {
-  content: '';
-  display: block;
-  background: rgba(255, 0, 0, .5); /* your background */
-  width: 20px; /* image width */
-  height: 100px; /* image height */
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-element.style {
-background: rgba(248, 249, 253, 0.8);
-}
-
-#popuphover {
-  width: 780px;
-  height: 90px;
-  background-color: black;
-  position: relative;
-  bottom: 310px;
-  left: 102px;
-  opacity: 0;
-}
-
-#popup {
-border: solid 8px #0a35af;
-background-color: rgba(210,225,252, .9);
-z-index: 22;
-width: 100%;
-height: 100%;
-box-sizing: border-box;
-position: absolute;
-top: 0px;
-left: 0px;
-opacity: 0;
-}
-
-.overlay {
-position: absolute;
-top: 0px;
-left: 0px;
-}
-
-.profile_txt {
-margin-left: 26%;
-margin-right: 21%;
-top: 45%;
-  color: rgb(51,105,232);
-  display: block;
-}
-
-x#popup:hover {
-  opacity: 1;
-}
 
 .b {
   color: #3369e8;
@@ -108,3 +53,20 @@ x#popup:hover {
 .g {
   color: #009939;
 }
+
+
+    #definition {
+    height: 100px;
+    width: 750px;
+    border: 0px solid black;
+    position: absolute;
+    top: 130px;
+    z-index: 12;
+    left: 50vw;
+    margin-left: -375px;
+    cursor: help;
+  }
+
+  #search {
+    cursor: help;
+  }

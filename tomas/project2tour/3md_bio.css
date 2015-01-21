@@ -21,8 +21,8 @@
 }
 
 .bg::after {
-  content: url(http://media.idownloadblog.com/wp-content/uploads/2013/08/Blue-Clean-iOS7_iPad00-Max-Kas.png);
-  opacity: .4;
+  content: url(http://www.truevalueofawoman.com/wp-content/uploads/2013/02/purple-gradient-32.jpg);
+  opacity: .3;
 }
 
 .bio {
@@ -34,7 +34,7 @@
 }
 
 p {
-  color: white;
+  color: #FFFFF8;
   /*color: rgba(255, 125,86,1);*/
   font-family: futura;
   font-size: 3.3em;
