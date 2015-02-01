@@ -1,0 +1,71 @@
+
+#master {
+  margin: auto;
+  width: 700px;
+  float: right;
+}
+
+
+img {
+	width:700px;
+}
+
+
+
+#content {
+	
+	width: 400px;
+	font-family:Helvetica;
+  font-size:1.5em;
+  line-height:1.5em;
+  }
+	
+
+
+p {
+  font-color: black;
+}
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p {
+    font-family: serif;
+    color: red;
+}
+

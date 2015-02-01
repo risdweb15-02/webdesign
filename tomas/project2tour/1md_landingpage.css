@@ -2,7 +2,8 @@
   height: 650px;
   width: 960px;
   margin: auto;
-  position:
+  position: relative;
+
 }
 
 #enter {
@@ -18,9 +19,9 @@
 
 #md {
   display: inline-block;
-  position: relative;
-  bottom: 2.79em;
-  right: 170px;
+  position: absolute;
+  top: 16.05em;
+  left: 13em;
   z-index: 10;
 }
 

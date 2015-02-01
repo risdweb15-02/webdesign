@@ -1,0 +1,94 @@
+a:link{
+	color:black;
+}
+
+a:visited{
+	text-decoration:none;
+	color:white;
+}
+
+a:hover{
+	text-decoration:none;
+	color:black;
+}
+
+body{
+	width:3100px;
+	height:3100px;
+	margin:0;
+}
+
+.circle{
+	width:3000px;
+	height:3000px;
+	background-color:#D63375;
+	border-radius:100% 0% 0% 0%;
+	position:absolute;
+	top:100px;
+	left:100px;
+	z-index:1;
+}
+
+.text{
+	width:450px;
+	color:white;
+	font-family:Avenir;
+	font-size:32px;
+	line-height:1.5em;
+	position:absolute;
+	top:1425px;
+	left:2520px;
+	z-index:10;
+}
+
+.paragraph-break{
+	height:7px;
+}
+
+#title{
+	font-size:40px;
+	font-family:Avenir;
+	color:white;
+	top:1450px;
+	left:1800px;
+	position:absolute;
+	z-index:10;
+}
+
+#title-part{
+	position:absolute;
+	font-size:65px;
+	font-family:Avenir;
+	top:145px;
+	left:14px;
+}
+
+#tiborkalman{
+	position:absolute;
+	color:white;
+	font-size:100px;
+	font-family:sans-serif;
+	top:2870px;
+	left:2290px;
+	z-index:30;
+}
+
+#image1{
+	top:1000px;
+	left:200px;
+	position:absolute;
+	-ms-transform: rotate(12deg);
+    -webkit-transform: rotate(12deg);
+    transform: rotate(12deg);
+	z-index:10;
+}
+
+#image2{
+	position:absolute;
+	top:135px;
+	left:320px;
+	-ms-transform: rotate(25deg);
+    -webkit-transform: rotate(25deg);
+    transform: rotate(25deg);
+	z-index:9;
+}

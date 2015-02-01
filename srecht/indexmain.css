@@ -10,7 +10,8 @@ html {
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ff5db1', endColorstr='#ef017c', GradientType=0);
     background-repeat: no-repeat;
     background-size: cover;
-}
+} 
+    
 .project1 {
     margin-left: 50px; 
     font-family: "montserrat";

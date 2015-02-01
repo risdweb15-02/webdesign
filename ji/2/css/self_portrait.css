@@ -1,0 +1,59 @@
+body {
+	margin: 0px;
+}
+
+div {
+	display: block;
+}
+
+#a {
+	font-family: 'Amatic SC', cursive;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 46.5px;
+	background: url(../img/bar.png) repeat;
+	background-color: rgba(255,255,255,0.9);
+	text-align: center;
+	font-size: 35px;
+	color: #8b8b8b;
+	letter-spacing: 5px;
+	position: fixed;
+}
+
+#b {
+	font-family: 'Amatic SC', cursive;
+	width: 100%;
+	height: 480;
+	text-align: center;
+	padding-top: 120px;
+	padding-bottom: 100px;
+}
+
+#c {
+	font-family: 'Crimson Text', serif;
+	height: auto;
+	padding: 50px 350px;
+	background-color: #a1af9f;
+	font-size: 19px;
+	text-align: justify;
+}
+
+a:link {
+	text-decoration: none;
+	color: purple;
+}
+
+a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+a:active {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	text-decoration: none;
+}

@@ -4,6 +4,10 @@
 
 a {
     color: blue;
+    transition-property: opacity;
+    transition-duration: 800ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 100ms;
 }
 
 a:hover {

@@ -1,0 +1,15 @@
+html {
+	background: #000000;
+}
+
+#sophie_name {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 250px;
+	opacity: 1.0;
+}
+
+#sophie_name:hover {
+	opacity: 0.8;
+}

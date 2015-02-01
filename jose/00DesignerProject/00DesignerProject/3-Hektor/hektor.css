@@ -1,0 +1,114 @@
+/*div {
+  border: 2px solid black;
+}*/
+html {
+  background-color:gray;
+}
+
+
+#master {
+  margin: auto;
+  width: 960px;
+  border: 1px solid black;
+  background-color:white;
+  position:relative;
+}
+
+
+#imageone {
+
+  width:640px;
+  position:static;
+  left:1px;
+  border:0px;
+
+}
+
+#blocktwo {
+  width: 960px;
+  height: 1200px;
+}
+
+#imagetwo {
+  width:520px;
+  float: right;
+  top:10px;
+  display: inline-block;
+  border:0px;
+  margin-top:20px;
+  
+
+  
+
+}
+
+#one {
+  width: 100%;
+}
+
+.name {
+  vertical-align:middle;
+  border: 3px solid black;
+  text-align:center;
+  display: block;
+  width: 105px;
+  height:35px;
+  font-family:Century, serif;
+  font-size:1.9em;
+  padding-top: 15px;
+  
+}
+
+
+
+/*#content {
+
+  position: relative;
+  width: 300px;
+  font-family:Helvetica;
+  left:20px;
+  font-size:1.1em;
+  line-height:1.3em;
+  top:-390px;
+  border:0px;
+  }*/
+  
+#content {
+
+  float:left;
+  width: 300px;
+  font-family:Helvetica;
+  display: inline-block;
+  font-size:1.1em;
+  line-height:1.3em;
+  margin-top:-14px;
+  margin-left:20px;
+  clear: left;
+
+  border:0px;
+  }
+
+p {
+  font-color: black;
+}
+
+#line {
+    position: absolute;
+    z-index: 10;
+    top: 840px;
+    bottom: 0px;
+    left: 760px;
+    border-left: 4px dashed red;
+}
+
+a{
+  color:black;
+  text-decoration:none;
+  background-color: rgba(200,200,200, .4);
+}
+
+a:hover {
+  background-color:red;
+}
+
+
