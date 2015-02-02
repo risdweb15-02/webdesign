@@ -1,0 +1,62 @@
+body{
+	background-image: url("../img/kaws/kaws_main.jpg");
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	z-index: 0;
+
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+
+}
+
+#logo {
+	width: 300px;
+	display: block;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.kaws {
+	display: block;
+	font-size: 150px;
+	font-family: Helvetica, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	color: white;
+	text-align: center;
+	margin-top: 230px;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 1.0;
+	letter-spacing: 20px;
+}
+
+.site {
+	display: block;
+	font-size: 40px;
+	font-family: Helvetica, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	color: white;
+	text-align: center;
+	margin-top: -100px;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 1.0;
+}
+
+h1 {
+	text-shadow: 1px 1px 1px rgba(0,0,0,.1);
+	text-transform: uppercase;
+	display: block;
+}
+
+h2 {
+	text-shadow: 1px 1px 1px rgba(0,0,0,.1);
+	display: block;
+}
+
