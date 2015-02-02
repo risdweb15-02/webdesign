@@ -1582,6 +1582,7 @@
 			nav.find('li').first().find('a').addClass('active');
 		}
 
+		
 
 		/**
 		* Sets the state of the website depending on the active section/slide.
