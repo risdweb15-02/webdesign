@@ -1,0 +1,282 @@
+@font-face{
+    font-family: Brown;
+    src: url(../fonts/Brown-Regular-Alt.otf);
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    font-size: 18px;
+	font-family: 'Karla', sans-serif;
+	margin: 0px;
+}
+
+#header {
+	display: block;
+	position: fixed;
+    color: black;
+
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	padding: 40px 40px 40px 40px;
+    text-decoration: none;
+}
+
+#header_right {
+	float: right;
+/*    padding: 0px 10px;*/
+}
+
+#header_right a {
+/*	padding: 0px 20px;*/
+    color: #B8B8B8;
+}
+
+#header_right a:hover {
+    color: white;
+}
+
+#header_right2 {
+	float: right;
+/*    padding: 0px 10px;*/
+}
+
+#header_right2 a {
+/*	padding: 0px 20px;*/
+    color: #B8B8B8;
+}
+
+#date {
+    opacity: 0.4;
+}
+
+
+#header_right2 a:hover {
+    color: black;
+}
+
+#header_left {
+    padding: 0px 10px;
+}
+
+#about {
+    text-decoration: none;
+    color: black;
+}
+
+#splash {
+    text-align: center;
+	font-size: 40px;
+	line-height: 50px;
+	font-weight: bold;
+    font-family: Brown, "Karla", sans-serif;
+	padding: 380px 60px;
+    color: black;
+}
+
+#splash .center {
+    width: 94%;
+	max-width: 1000px;
+	margin: 0px auto;
+}
+
+#dan, #james, #hiroshi {
+    transition-property: border-bottom;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.2s;
+    text-decoration: none;
+}
+
+#dan:hover, #james:hover, #hiroshi:hover {
+    padding-bottom: 7px;
+    border-bottom: 2px solid white;
+}
+
+#dan2, #james2, #hiroshi2 {
+    transition-property: border-bottom;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.2s;
+    text-decoration: none;
+}
+
+#dan2:hover, #james2:hover, #hiroshi2:hover {
+    padding-bottom: 7px;
+    border-bottom: 2px solid black;
+    color: black;
+}
+
+#info_display {
+    position: fixed;
+    top: 250px;
+    left: 60px;
+    width: 340px;
+    line-height: 20pt;
+}
+
+.blue {
+    color: #0000CC;
+}
+
+#intro, #end {
+    cursor:pointer;
+}
+
+#img {
+    width: 770px;
+}
+
+ul.images {
+	position: absolute;
+	top: 250px;
+	left: 500px;
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+	overflow-y: auto;
+	width: 800px;
+	height: 515px;
+}
+
+ul.images li {
+	width: 770px;
+}
+
+#img2 {
+    width: 770px;
+}
+
+ul.images2 {
+	position: absolute;
+	top: 250px;
+	left: 500px;
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+	overflow-y: auto;
+	width: 800px;
+	height: 515px;
+}
+
+ul.images2 li {
+	width: 770px;
+}
+
+@media screen and (max-width: 400px) {
+    
+    
+/*BRIE'S CODING START*/
+/*
+    #box {
+    width:500px;height:2000px;
+}    
+*/
+    
+#img {
+    width: 320px;
+}
+    
+ul.images {
+    float:left;
+	position: fixed;
+	top: 700px;
+	left: 40px;
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+	overflow-y: auto;
+	width: 800px;
+	height: 200px;
+}
+    
+ul.images li {
+	width: 320px;
+}
+  
+#img2 {
+    width: 320px;
+}
+    
+ul.images2 {
+    float:left;
+	position: fixed;
+	top: 600px;
+	left: 40px;
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+	overflow-y: auto;
+	width: 800px;
+	height: 290px;
+}
+
+ul.images2 li {
+	width: 320px;
+}
+/*BRIE'S CODING END*/
+    
+    
+    
+    #splash{
+       font-size: 40px;
+	   line-height: 50px;
+    }
+    #splash .center {
+        max-width: 340px;
+    }
+    #info_display {
+         position: absolute;
+         top: 250px;
+         left: 40px;
+         width: 330px;
+    }
+    #about {
+        position: absolute;
+        left: 130px;
+    }
+    #dan, #dan2 {
+        position: absolute;
+        top: 80px;
+        left: 145px;
+        width: 87px;
+        float: left;
+    }
+    #james, #james2 {
+        position: absolute;
+        top: 120px;
+        left: 135px;
+        width: 111px;
+        float: left;
+    }
+    #hiroshi, #hiroshi2 {
+        position: absolute;
+        top: 160px;
+        left: 120px;
+        width: 145px;
+        float: left;
+    }
+}
+
+@media screen and (min-width: 600px){
+    #splash{
+	    font-size: 60px;
+        line-height: 70px;
+    }
+    #splash .center {
+        max-width: 700px;
+    } 
+}
+
+@media screen and (min-width: 1000px){
+    #splash{
+       	font-size: 95px;
+        line-height: 105px;
+    }
+    #splash .center {
+        max-width: 1000px;
+    } 
+    
+}
