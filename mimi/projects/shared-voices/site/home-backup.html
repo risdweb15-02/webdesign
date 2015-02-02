@@ -1,0 +1,494 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>RISD Shared Voices</title>
+  <meta name="description" content="SlidesJS is a simple slideshow plugin for jQuery. Packed with a useful set of features to help novice and advanced developers alike create elegant and user-friendly slideshows.">
+  <meta name="author" content="Nathan Searles">
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700|Lato:300,400,700,900|Quicksand:400,700|Open+Sans:400,300,600,700|Raleway:400,300,500,600,700,800' rel='stylesheet' type='text/css'>
+
+  <!-- SlidesJS Required (if responsive): Sets the page width to the device width. -->
+  <meta name="viewport" content="width=device-width">
+  <!-- End SlidesJS Required -->
+
+<style>
+body {
+  -webkit-font-smoothing: antialiased;
+  color: #232525;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
+  overflow-x: hidden;
+  padding-bottom: 15px;
+  margin: 0;
+}
+
+#sitecontainer {
+  width: 98%;
+  margin: auto;
+}
+
+#header {
+  width: 100%;
+  background: rgba(255,255,255,1);
+  height: auto;
+  text-align: center;
+  padding: 5px 0px 5px 0px;
+  color: black;
+  position: relative;
+  z-index: 20;
+  -webkit-transition: all 1s ease;
+}
+
+#header:hover {
+  background: rgba(255,255,255,0.95);
+  text-shadow: 2px 2px 1px #c5c1aa;
+}
+
+#header > p:first-child {
+  font-family: 'Source Sans Pro';
+  font-size: 14px;
+  line-height: 0;
+}
+
+#header > p:nth-child(2) {
+  font-family: 'Source Sans Pro';
+  font-size: 35px;
+  line-height: 1em;
+  margin-bottom: 0px;
+  margin-top: -5px;
+
+}
+
+#slideshowarea {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 30;
+}
+
+#slides {
+  display: none
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-bottom: -50px;
+  position: relative;
+  z-index: -100;
+}
+
+
+.info {
+  width: 30%;
+  height: 100%;
+  padding: 10px 35% 20px 35%;
+  display: none;
+  text-align: justify;
+  background: rgba(255,255,255,0.95);
+  height: auto;
+  position: absolute;
+  border-bottom-right-radius: 200%;
+  border-bottom-left-radius: 200%;
+  z-index: 50;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+
+.slide {
+  width: 100%;
+  height: 95%;
+  position: absolute;
+  border-radius: 10% / 15%;
+  z-index: 20;
+}
+
+.slidetext {
+    font-size: 18px;
+    margin-left: 100px;
+    margin-top: 22%;
+    position: relative;
+    z-index: 30;
+}
+
+.slidetitle {
+    font-size: 4vw;
+    line-height: 1em;
+    width: 250px;
+    margin-bottom: -15px;
+    position: relative;
+    z-index: 30
+}
+
+.slidetextbody {        
+  width: 350px;
+  font-weight: 300;
+  font-size: 18px;
+  position: relative;
+  z-index: 30
+}
+
+.time {
+  font-weight: 400;
+  position: relative;
+  z-index: 30
+}
+
+.profileurl > a {
+  text-decoration: none;
+  line-height: 2em;
+  font-weight: 500;
+  color: #3d3d3d;
+  -webkit-transition: all .5s ease;
+}
+
+.profileurl > a:hover {
+  margin-left: 10px;
+}
+
+
+#slides .slidesjs-navigation {
+  margin-top:5px;
+}
+
+a.slidesjs-next,
+a.slidesjs-previous,
+a.slidesjs-play,
+a.slidesjs-stop {
+  background-image: url(img/btns-next-prev.png);
+  background-repeat: no-repeat;
+  display:block;
+  width:12px;
+  height:18px;
+  overflow: hidden;
+  text-indent: -9999px;
+  float: left;
+  margin-right:5px;
+  opacity: 0.7;
+}
+
+a.slidesjs-next {
+  margin-right:10px;
+  background-position: -12px 0;
+  position: absolute;
+  z-index: 50;
+  top: 86%;
+  left: 6.8%;
+}
+
+a:hover.slidesjs-next {
+  background-position: -12px -18px;
+}
+
+a.slidesjs-previous {
+  background-position: 0 0;      
+  position: absolute;
+  z-index: 50;
+  top: 86%;
+  left: 5%;
+  }
+
+a:hover.slidesjs-previous {
+  background-position: 0 -18px;
+}
+
+a.slidesjs-play {
+  width:15px;
+  background-position: -25px 0;
+  position: absolute;
+  z-index: 50;
+  top: 86%;
+  left: 8.6%;
+}
+
+a:hover.slidesjs-play {
+  background-position: -25px -18px;
+}
+
+a.slidesjs-stop {
+  width:18px;
+  background-position: -41px 0;
+  position: absolute;
+  z-index: 150;
+  top: 86%;
+  left: 8.6%;
+}
+
+a:hover.slidesjs-stop {
+  background-position: -41px -18px;
+}
+
+.slidesjs-pagination {
+  margin-top: -7%;
+  margin-left: 43.5%;
+  list-style: none;
+  position: absolute;
+  z-index: 150;
+}
+
+.slidesjs-pagination li {
+  float: left;
+  margin: 0 1px;
+}
+
+.slidesjs-pagination li a {
+  display: block;
+  width: 13px;
+  height: 0;
+  padding-top: 13px;
+  background-image: url(img/pagination.png);
+  background-position: 0 0;
+  float: left;
+  overflow: hidden;
+}
+
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+  background-position: 0 -13px
+}
+
+.slidesjs-pagination li a:hover {
+  background-position: 0 -26px
+}
+
+#slides a:link,
+#slides a:visited {
+  color: #333
+}
+
+#slides a:hover,
+#slides a:active {
+  color: #9e2020
+}
+
+.navbar {
+  overflow: hidden;
+}
+
+
+@media screen and (max-width: 750px) {
+  .slidetext {
+    font-size: 15px;
+    margin: 13% auto;
+
+   }
+
+   .slidetitle {
+    font-size: 30px;
+    padding: 10px;
+    width: 70%;
+    background: rgba(255,255,255,0.9);
+    border-top-right-radius: 10% 40%;
+   }
+
+   .slidetextbody {
+    height: 100px;
+    width: 70%;
+    overflow: auto;
+    position: relative; 
+    z-index: 100;
+    background: rgba(255,255,255,0.9);
+    padding: 10px;
+    border-bottom-right-radius: 10% 40%;
+   }
+
+   .info {
+    width: 50%;
+    padding: 10px 25% 40px 25%;
+    font-size: 15px;       
+    font-weight: 400;
+    background: white;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+  }
+
+  a.slidesjs-next {
+    left: 8.4%;
+  }
+
+  a.slidesjs-previous {
+    left: 6.2%;
+    }
+
+  a.slidesjs-play {
+    left: 10.6%;
+  }
+
+  a.slidesjs-stop {
+    left: 10.6%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .info {
+    padding: 10px 11% 40px 11%;
+    width: 78%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    background: white;
+  }
+
+  .slidetext {
+    font-size: 15px;
+    margin: 8% auto;
+   }
+
+   .slidetitle {
+    width: 80%;
+   }
+
+   .slidetextbody {
+    height: 90px;
+    width: 80%;
+    overflow: auto;
+    position: relative; 
+    z-index: 100;
+    background: rgba(255,255,255,0.9);
+    padding: 10px;
+   }
+
+   a.slidesjs-next {
+    left: 13%;
+  }
+
+  a.slidesjs-previous {
+    left: 10%;
+    }
+
+  a.slidesjs-play {
+    left: 16%;
+  }
+
+  a.slidesjs-stop {
+    left: 16%;
+  }
+}</style>
+
+
+
+</head>
+
+
+<body>
+
+
+    <div id="sitecontainer">
+      <div id="header">
+          <p class="test">rhode island school of design</p>
+          <p>SHARED VOICES</p>
+      </div>
+      
+      
+      <div id="slideshowarea">
+          <div class="info">
+              The RISD Presidential Speaker Series offers a forum for welcoming some of the most expansive thinkers of our times to campus. Each speaker is a master of his or her domain but is also ready to transcend it, sharing the RISD community’s own belief in the fruitful exchange of ideas that happens when artists, designers, activists, scientists and other scholars really talk and listen to each other.
+          </div>
+
+          <div id="slides">
+            <div class="slide" style="background: url(img/edited/inspiration.jpg); background-position: center; background-size: cover;"> 
+              <div class="slidetext">
+                  <div class="slidetitle">
+                  BIOLOGY
+                  BY DESIGN 
+                  </div> <br />
+                  <div class="slidetextbody">
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </div>
+              </div>
+            </div>
+
+            <div class="slide" style="background: url(img/edited/abaloneshell.jpg); background-position: center; background-size: cover;"> 
+              <div class="slidetext">
+                  <div class="slidetitle">
+                  ANGELA BELCHER
+                  </div> <br />
+                  <div class="slidetextbody">
+                    <div>biological engineer, materials scientist, W.M. Keck professor of energy, founder of Cambrios Technologies</div> 
+                    <br />
+                    <div class="time">March 19, 2015 <br />
+                    RISD Auditorium <br />
+                    7:00 pm</div>
+                    <div class="profileurl"><a href="belcher.html">» Profile</a></div>
+                  </div>
+              </div>
+            </div>
+
+            <div class="slide" style="background: url(img/edited/geckofoot.jpg); background-position: center; background-size: cover;"> 
+              <div class="slidetext">
+                  <div class="slidetitle">
+                  ROBERT FULL
+                  </div> <br />
+                  <div class="slidetextbody">
+                    <div>biologist, founder of CiBer, founder of Poly-PEDAL Laboratory, professor of Integrative Biology</div> 
+                    <br />
+                    <div class="time">April 17, 2015 <br />
+                    RISD Auditorium <br />
+                    7:30 pm</div>
+                    <div class="profileurl"><a href="full.html">» Profile</a></div>
+                  </div>
+              </div>
+            </div>
+
+            <div class="slide" style="background: url(img/edited/nature.jpg); background-position: center; background-size: cover;"> 
+              <div class="slidetext">
+                  <div class="slidetitle">
+                  MICHAEL PAWLYN
+                  </div> <br />
+                  <div class="slidetextbody">
+                    <div>architect, founder of Exploration architecture</div> 
+                    <br />
+                    <div class="time">May 1, 2015 <br />
+                    RISD Auditorium <br />
+                    7:30 pm</div>
+                    <div class="profileurl"><a href="pawlyn.html">» Profile</a></div>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+      </div>
+    </div>
+
+
+
+  <!-- SlidesJS Required: Link to jQuery -->
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <!-- End SlidesJS Required -->
+
+  <!-- SlidesJS Required: Link to jquery.slides.js -->
+  <script src="js/jquery.slides.min.js"></script>
+  <!-- End SlidesJS Required -->
+
+  <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
+  <script>
+    $(function() {
+      $('#slides').slidesjs({
+        width: 940,
+        height: 528,
+        play: {
+          active: true,
+          auto: true,
+          interval: 4000,
+          swap: true
+        }
+      });
+    });   
+
+
+$(document).ready(function() {
+    $("#header").click(function() {       
+        $(".info").slideToggle();
+    });
+
+    alert("Best viewed fullscreen");
+});
+  </script>
+  <!-- End SlidesJS Required -->
+</body>
+</html>
