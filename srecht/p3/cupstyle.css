@@ -1,0 +1,188 @@
+html{} 
+body {
+   
+     background-image: url(../images/cup1.jpg);
+     background-size: cover;
+    background-attachment: fixed;
+    background-position: center; 
+    
+    
+}
+
+.container {
+          top:-12px;
+    left: -10px; 
+    right:-10px;
+    background: #00aedb;
+    position: absolute;
+    display: block;
+    width: 100%;
+    z-index:100;
+    height: 2000px;
+    color: white;
+    text-align: center; 
+    min-width: 24px;
+    opacity: 0.8; 
+}
+
+nav {
+    background-color: transparent;
+  
+    height: 55px;
+    top: 0;
+    position: absolute;
+    /* hold tight... */
+    visibility: none;
+    /* we'll override these shortly */
+    z-index: 1000;
+    width: 100%;
+}
+nav ul {
+    list-style: none;
+}
+nav li {
+    float: left;
+    background: transparent; 
+    padding: 0 10px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center; 
+   background: #f3eb4d;
+    border-radius: 30px;
+    padding: 10px 18px 10px 18px;
+    width: 10%; 
+
+}
+
+nav li:hover {
+    background: red; 
+
+} 
+nav li:last-child {
+    border: 0;
+}
+header {
+    
+    height: 300px;
+}
+header h1 {
+   font-family: raleway; 
+    font-size: 100pt; 
+    margin-top:10%; 
+    padding-left: 100px;
+    height: 10%;
+}
+#content {
+    height: 1000px;
+   
+}
+a {
+      text-decoration: none;  
+    font-weight: 900; 
+}
+
+.section {
+position:absolute;
+  display:block;
+  width:100%;
+  top: 400px;
+    margin: auto;
+  z-index:100;
+  color:white;
+  text-align: left; 
+  padding-left: 3em;
+}
+
+#sect0 {
+    top: 750px; 
+}
+
+#object0 {
+     position:fixed; 
+    font-family: 'Raleway', sans-serif;
+    margin-left:5%; 
+   letter-spacing: 0.95px;
+    color:blue; 
+    font-size:18px; 
+    line-height: 139%;
+    font-weight: 700; 
+}
+
+#sect3 {
+     top: 200px; 
+    left: 200px;
+}
+
+#object3 {
+  postion: absolute; 
+  
+ background: none;
+    border-radius: 30px;
+    padding: 50px 18px 50px 18px;
+    width: 70%;
+    min-width:200px;
+    max-width:400px;
+    margin-left:30%;
+    float:right; 
+    text-align: left; 
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700; 
+    font-size: 40pt;
+}
+
+
+
+@media screen and (max-width:480px)
+{
+    header h1 {
+   font-family: raleway; 
+    font-size: 30pt; 
+    margin-top:10%; 
+    padding-left: 100px;
+    height: 10%;
+}
+    
+    nav li {
+    float: left;
+    background: transparent; 
+    padding: 0 10px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center; 
+   background: #f3eb4d;
+    border-radius: 30px;
+    padding: 10px 18px 10px 18px;
+    width: 10%; 
+
+}
+    a {
+        font-size: 11.5px; 
+      text-decoration: none;  
+    font-weight: 900; 
+}
+    #object3 {
+
+    font-size: 20pt;
+}
+    #sect3 {
+     top: 300px; 
+    left: 1%;
+}
+    #sect0 {
+    top: 400px; 
+}
+
+#object0 {
+     position:fixed; 
+    font-family: 'Raleway', sans-serif;
+    margin-left: 1%; 
+   letter-spacing: 0.95px;
+    color:blue; 
+    font-size:16px; 
+    line-height: 139%;
+    font-weight: 700; 
+    
+    
+}
+    .container { 
+        height:1900px; 
+    
+} 
