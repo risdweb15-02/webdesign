@@ -1,0 +1,15 @@
+ div { 
+            background: white ;
+            width: 100px;
+            height: 100px;
+            float: left;
+            }
+
+        .box {
+            background: red;
+            }
+
+       .container {
+            width: 800px;
+            height: 800px;
+            }
