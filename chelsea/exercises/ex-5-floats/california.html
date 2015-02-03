@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CSS Floats</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <style>
+       .container {
+            width: 840px;
+            height: 500px;
+            background: red;
+            overflow: hidden;
+            }
+        .box1 { 
+            height: 470px; 
+            width: 260px;
+            background: red;
+            border: 1px solid white;
+            position:absolute; 
+            top:22px; 
+            left:23px;
+            overflow: hidden;
+            }
+        .box2 { 
+            height: 470px; 
+            width: 260px;
+            background: red;
+            border: 1px solid white;
+            position: relative;
+            top:14px; 
+            left:290px;
+            overflow: hidden;
+            }
+        .box3 { 
+            height: 470px; 
+            width: 260px;
+            background: red;
+            border: 1px solid white;
+            position: relative;
+            top:-458px; 
+            left:565px;
+            overflow: hidden;
+            }
+        .stripe { 
+            height:800px; 
+            width:1px;
+            background:white;
+            position:absolute; 
+            top:0px; 
+            left:60px;
+            overflow: hidden;
+            }
+        .stripe2 { 
+            height:800px; 
+            width:1px;
+            background:white;
+            position:absolute; 
+            top:0px; 
+            left:200px;
+            overflow: hidden;
+            }
+        .stripe3 { 
+            height:800px; 
+            width:1px;
+            background:white;
+            position:absolute; 
+            top:0px; 
+            left:130px;
+            overflow: hidden;
+            }
+        .stripe4 { 
+            height:1px; 
+            width:700px;
+            background:white;
+            position:absolute; 
+            top:340px; 
+            left:0px;
+            overflow: hidden;
+            }
+        .stripe5 { 
+            height:1px; 
+            width:800px;
+            background:white;
+            position:absolute; 
+            top:210px; 
+            left:0px;
+            overflow: hidden;
+            }
+        .stripe6 { 
+            height:1px; 
+            width:200px;
+            background:white;
+            position:absolute; 
+            top:80px; 
+            left:0px;
+            overflow: hidden;
+        }
+        .stripe6b { 
+            height:1px; 
+            width:700px;
+            background:white;
+            position:absolute; 
+            top:80px; 
+            left:0px;
+            overflow: hidden;
+        }
+        .stripe6c { 
+            height:1px; 
+            width:700px;
+            background:white;
+            position:absolute; 
+            top:145px; 
+            left:0px;
+            overflow: hidden;
+        } 
+        .stripe6d { 
+            height:1px; 
+            width:700px;
+            background:white;
+            position:absolute; 
+            top:275px; 
+            left:0px;
+            overflow: hidden;
+        } 
+        .stripe6e { 
+            height:1px; 
+            width:700px;
+            background:white;
+            position:absolute; 
+            top:405px; 
+            left:0px;
+            overflow: hidden;
+        } 
+        .stripe7 { 
+            height:800px; 
+            width:1px;
+            background:white;
+            position:absolute; 
+            top:0px; 
+            left:30px;
+            overflow: hidden;
+            }
+        .stripe7b { 
+            height:80px; 
+            width:1px;
+            background:white;
+            position:absolute; 
+            top:0px; 
+            left:30px;
+            overflow: hidden;
+            }
+        .stripe8 { 
+            height:80px; 
+            width:1px;
+            background:white;
+            position:absolute; 
+            top:0px; 
+            left:95px;
+            overflow: hidden;
+            }
+        .stripe8b { 
+            height:130px; 
+            width:1px;
+            background:white;
+            position:absolute; 
+            top:210px; 
+            left:95px;
+            overflow: hidden;
+            }
+        .stripe9 { 
+            height:80px; 
+            width:1px;
+            background:white;
+            position:absolute; 
+            top:0px; 
+            left:165px;
+            overflow: hidden;
+            }
+        .stripe9b { 
+            height:500px; 
+            width:1px;
+            background:white;
+            position:absolute; 
+            top:0px; 
+            left:165px;
+            overflow: hidden;
+            }
+        .stripe10 { 
+            height:1px; 
+            width:30px;
+            background:white;
+            position:absolute; 
+            top:145px; 
+            left:0px;
+            overflow: hidden;
+            }
+        .stripe10b { 
+            height:1px; 
+            width:70px;
+            background:white;
+            position:absolute; 
+            top:405px; 
+            left:130px;
+            overflow: hidden;
+            }
+        .stripe11 { 
+            height:1px; 
+            width:30px;
+            background:white;
+            position:absolute; 
+            top:270px; 
+            left:0px;
+            overflow: hidden;
+            }
+        .stripe12 { 
+            height:1px; 
+            width:30px;
+            background:white;
+            position:absolute; 
+            top:400px; 
+            left:0px;
+            overflow: hidden;
+            }
+        .stripe12b { 
+            height:1px; 
+            width:70px;
+            background:white;
+            position:absolute; 
+            top:145px; 
+            left:200px;
+            overflow: hidden;
+            }
+        .stripe13 { 
+            height:340px; 
+            width:1px;
+            background:white;
+            position:absolute; 
+            top:0px; 
+            left:230px;
+            overflow: hidden;
+            }
+        .stripe13b { 
+            height:500px; 
+            width:1px;
+            background:white;
+            position:absolute; 
+            top:0px; 
+            left:230px;
+            overflow: hidden;
+            }
+        .stripe13c { 
+            height:500px; 
+            width:1px;
+            background:white;
+            position:absolute; 
+            top:0px; 
+            left:95px;
+            overflow: hidden;
+            }
+        .stripe13d { 
+            height:500px; 
+            width:1px;
+            background:white;
+            position:absolute; 
+            top:0px; 
+            left:95px;
+            overflow: hidden;
+            }
+        .stripe13e { 
+            height:470px; 
+            width:1px;
+            background:white;
+            position:absolute; 
+            top:0px; 
+            left:30px;
+            overflow: hidden;
+            }
+        .stripe13f { 
+            height:470px; 
+            width:1px;
+            background:white;
+            position:absolute; 
+            top:0px; 
+            left:165px;
+            overflow: hidden;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box1">
+                <div class=stripe></div>                    `<div class=stripe2></div>
+                <div class=stripe3></div>
+                <div class=stripe4></div>
+                <div class=stripe5></div>
+                <div class=stripe6></div>
+                <div class=stripe7></div>
+                <div class=stripe8></div>
+                <div class=stripe9></div>
+                <div class=stripe10></div>
+                <div class=stripe11></div>
+                <div class=stripe12></div>
+            </div>
+            <div class="box2">
+                <div class=stripe></div>  
+                <div class=stripe2></div>
+                <div class=stripe3></div>
+                <div class=stripe4></div>
+                <div class=stripe5></div>
+                <div class=stripe6b></div>
+                <div class=stripe7b></div>
+                <div class=stripe8></div>
+                <div class=stripe8b></div>
+                <div class=stripe9b></div>
+                <div class=stripe10b></div>
+                <div class="stripe12b"></div>
+                <div class="stripe13"></div>
+            </div>
+            <div class="box3">
+                <div class=stripe></div>  
+                <div class=stripe2></div>
+                <div class=stripe3></div>
+                <div class=stripe4></div>
+                <div class=stripe5></div>
+                <div class=stripe6b></div>
+                <div class=stripe6c></div>
+                <div class=stripe6d></div>
+                <div class=stripe6e></div>
+                <div class="stripe13b"></div>
+                <div class="stripe13c"></div>
+                <div class="stripe13d"></div>
+                <div class="stripe13e"></div>
+                <div class="stripe13f"></div>
+            </div>
+        </div>
+			
+    </body>
+    
+</html>

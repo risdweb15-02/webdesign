@@ -1,0 +1,365 @@
+@font-face{
+    font-family: DinReg;
+    src: url(../fonts/DINPro-Regular.otf);
+}
+
+@font-face{
+    font-family: DinMed;
+    src: url(../fonts/DINPro-Medium.otf);
+    font-weight:medium;
+}
+
+@font-face{
+    font-family: MinionPro;
+    src: url(../fonts/MinionPro-Regular.otf);
+}
+
+@font-face{
+    font-family: MinionProItalic;
+    src: url(../fonts/MinionPro-It.otf);
+    font-weight: italic;
+}
+
+#sketch {
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+body {
+    margin: 200px 500px 100px 560px;
+    padding: 0px;
+    text-align: left;
+}
+
+#remember {
+    position: absolute;
+    width: 550px;
+}
+
+h1 {
+    font-family: DinReg, Arial, sans-serif;
+    font-size: 35px;
+    line-height: 50px;
+}
+
+#liked {
+    position:absolute;
+    width: 500px;
+    top: 700px;
+}
+
+.hara {
+    font-family: MinionPro, Times, serif;
+    font-size: 21px;
+    line-height: 27px;
+    width: 700px;
+}
+
+.db {
+    font-family: DinMed, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.speaker {
+    font-family: DinReg, Arial, sans-serif;
+    font-size: 15px;
+}
+
+#how {
+    position:absolute;
+    width: 500px;
+    top: 870px;
+}
+
+#kenya1 {
+    position: absolute;
+    left: 450px;
+    top: 700px;
+}
+
+#designb {
+    position: absolute;
+    left: 410px;
+    top: 874px;
+}
+
+#kenya2 {
+    position: absolute;
+    left: -100px;
+    top: 803x;
+}
+
+#designb2 {
+    position: absolute;
+    left: 410px;
+    top: 1385px;
+}
+
+#firstlist {
+    position: absolute;
+    width: 550px;
+}
+
+#kenya3 {
+    position: absolute;
+    left: 450px;
+    top: 1465px;
+}
+
+#kenya3 {
+    position: absolute;
+    left: 450px;
+    top: 1465px;
+}
+
+#circumstance {
+    position: absolute;
+    left: 555px;
+    top: 1780px;
+    width: 550px;
+}
+
+#designb3 {
+    position: absolute;
+    left: 410px;
+    top: 2555px;
+}
+
+#embrace {
+    position: absolute;
+    top: 2640px;
+    width: 550px;
+}
+
+#kenya4 {
+    position: absolute;
+    left: 450px;
+    top: 2640px;
+}
+
+#designb4 {
+    position: absolute;
+    left: 410px;
+    top: 5600px;
+}
+
+#designb5 {
+    position: absolute;
+    left: 410px;
+    top: 8005px;
+}
+
+#kenya5 {
+    position: absolute;
+    left: 450px;
+    top: 8109px;
+}
+
+#designb6 {
+    position: absolute;
+    left: 410px;
+    top: 8275px;
+}
+
+#kenya6 {
+    position: absolute;
+    left: 450px;
+    top: 11480px;
+}
+
+#designb7 {
+    position: absolute;
+    left: 410px;
+    top: 8475px;
+}
+
+#kenya7 {
+    position: absolute;
+    left: 450px;
+    top: 8360px;
+}
+
+#kenya8 {
+    position: absolute;
+    left: 450px;
+    top: 8552px;
+}
+
+#might {
+    font-size: 35px;
+    position: absolute;
+    right: 0px;
+}
+
+#cir {
+    height: 200px;
+    float: left;
+    position: absolute;
+    left: 560px;
+    top: 1060px;
+}
+
+#awakenings {
+    position: absolute;
+    left: 1000px;
+    top: 1215px;
+    width: 200px;
+}
+
+#strong {
+    position: absolute;
+    top: 1380px;
+    width: 550px;
+}
+
+#discover {
+    position: absolute;
+    top: 1465px;
+    width: 550px;
+}
+
+ul {
+    position: absolute;
+    left: 520px;
+    list-style-type: none;
+    top: 1500px;
+    width: 550px;
+}
+
+#muji {
+    height: 200px;
+    position: absolute;
+    top: 4750px;
+}
+
+#person {
+    height: 200px;
+    position: absolute;
+    width: 550px;
+    top: 5600px;
+    left: 550px;
+}
+
+#author {
+    position: absolute;
+    left: 555px;
+    font-size: 35px;
+    line-height: 25px;
+    width: 600px;
+    top: 2100px;
+}
+
+#author2 {
+    position: absolute;
+    left: 555px;
+    font-size: 35px;
+    line-height: 45px;
+    width: 600px;
+    top: 5720px;
+}
+
+#crit {
+    position: absolute;
+    width: 550px;
+    top: 2550px;
+}
+
+#muji {
+    position: absolute;
+     left: 550px;
+    font-size: 35px;
+    line-height: 25px;   
+}
+
+#die {
+    position: absolute;
+    left: 250px;
+    font-size: 75px;
+    line-height: 25px;
+    top: 3400px;
+    width: 1200px;
+}
+
+#if {
+    position: absolute;
+    left: 500px;
+    width: 700px;
+    top: 4100px;
+}
+
+#simple {
+    font-size: 200px;
+    position: absolute;
+    top: 6300px;
+    left: 1140px;
+    width: 550px;
+}
+
+#question {
+    position: absolute;
+    top: 6500px;
+    width: 600px;
+    left: 200px;
+}
+
+#haptic {
+    height: 200px;
+    position: absolute;
+    top: 7200px;
+}
+
+#fascinate {
+    height: 200px;
+    position: absolute;
+    width: 500px;
+    top: 8000px;
+}
+
+#math {
+    height: 200px;
+    position: absolute;
+    width: 500px;
+    top: 8110px;
+}
+
+#wish {
+    height: 200px;
+    position: absolute;
+    width: 500px;
+    top: 8270px;
+}
+
+#license {
+    height: 200px;
+    position: absolute;
+    width: 500px;
+    top: 8360px;
+}
+
+#motto {
+    height: 200px;
+    position: absolute;
+    width: 500px;
+    top: 8470px;
+}
+
+#hand {
+    height: 200px;
+    position: absolute;
+    width: 500px;
+    top: 8550px;
+}
+
+a:visited, a:active, a:unvisited {
+    color: black;
+}
+
+a:hover {
+    color: #C9C9C9;
+}
+
+a {
+    color: black;
+}
+
