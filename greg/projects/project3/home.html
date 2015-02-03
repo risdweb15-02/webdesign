@@ -1,5 +1,10 @@
 <html>
-    <head>
+
+    <head>    
+        <style>
+            a:link {text-decoration:none}  /* 밑줄 제거 */
+
+        </style>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Shared Voices</title>
@@ -7,18 +12,202 @@
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" type="text/css" href="css/home.css">
         <script type="text/javascript" src="js/jquery.interactive_bg.js"></script>
+        <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>    <!-- jquery 명령어 사용 라이브러리-->
     </head>
 
 
     <body>
-        <a href="home.html"><img src="img/main/sv_name.png" id="logo"></a>
-
-        <div class="current_title_container" style="opacity: 1;">
-            <h1 class="kaws">Kaws</h1>
-            <h2 class="site">RISD Auditorium</h2>
+        <div style="position:absolute; z-index:0; background-position:center ">
+            <img id="background" src="img/kaws/kaws_main.jpg" style='width:100%;height:100%' />
         </div>
 
+        <a href="home.html"><img id="logo" src="img/main/sv_name.png"></a>
+        <div class="current_title_container" style="opacity: 1">
+            <h1 class="date" id="datemove">03.12, 14:00</h1>
+            <h2>
+                <a id="kawsbutton" href="#" class="kaws">KAWS</a></h2>
+            <h3 class="site" id="sitemove">RISD Auditorium</h3>
+        </div>
+        <!-- boxes -->
+        <div>
+        <canvas id="black_box" class="bbox" />
+        </div>
+        <div>
+        <canvas id="text_box"  class="textbox" />
+        </div>
+        <div>
+        <canvas id="right_box"  class="rightbox" />
+        </div>
+
+        <!-- 6 circles -->
+        <div id = "first" class="first"></div>
+        <div id = "second" class="second"></div>
+        <div id = "third" class="third"></div>
+        <div id = "fourth" class="fourth"></div>
+        <div id = "fifth" class="fifth"></div>
+        <div id = "sixth" class="sixth"></div>
+        <div id = "seven" class="seven"></div>
+
+        <!-- previous button -->
+        <a id="previousbutton" href="#" class="previous">
+            <img src="img/icon/arrow_left.png">
+        </a>
+        <!-- next button -->
+        <a id="nextbutton" href="#" class="next">
+            <img src="img/icon/arrow_right.png">
+        </a>
+
+        <!-- close button -->
+        <a id="closebutton" href="#" class="close">
+            <img src="img/icon/exit.png">
+        </a>
 
     </body>
+        <script>
+            var clickable = true;
+
+            $('#kawsbutton').click(function(){
+                    //moving text to right
+                    if(clickable ==true){
+                    $("#datemove").animate({
+                    'marginLeft':"+=50%"});
+                    $("#kawsbutton").animate({
+                    'marginLeft':"+=50%"});
+                    $("#sitemove").animate({
+                    'marginLeft':"+=50%"});
+
+                    //box visible
+                    $("#black_box").fadeIn("slow");
+                    $("#right_box").fadeIn("slow");
+                    $("#text_box").fadeIn("slow");
+
+                    //hide logo
+                    $("#logo").fadeOut("slow");
+                    
+                    //circles
+                    $("#first").fadeIn("slow");
+                    $("#second").fadeIn("slow");
+                    $("#third").fadeIn("slow");
+                    $("#fourth").fadeIn("slow");
+                    $("#fifth").fadeIn("slow");
+                    $("#sixth").fadeIn("slow");
+                    $("#seven").fadeIn("slow");
+
+                    //previous next button exit button
+                    $("#previousbutton").fadeIn("slow");
+                    $("#nextbutton").fadeIn("slow");
+                    $("#closebutton").fadeIn("slow");
+                    clickable=false;
+                }
+            });
+
+            var count=1;
+            $('#nextbutton').click(function(){    
+                if(count==1){
+                    document.getElementById("background").src="img/kaws/kaws" + 1 + ".jpg";
+                    document.getElementById("first").style.opacity="0.5";
+                    document.getElementById("second").style.opacity="1";
+                    document.getElementById("third").style.opacity="0.5";
+                    document.getElementById("fourth").style.opacity="0.5";
+                    document.getElementById("fifth").style.opacity="0.5";
+                    document.getElementById("sixth").style.opacity="0.5";
+                    document.getElementById("seven").style.opacity="0.5";
+                }
+                if(count==2){
+                    document.getElementById("background").src="img/kaws/kaws" + 2 + ".jpg";
+                    document.getElementById("first").style.opacity="0.5";
+                    document.getElementById("second").style.opacity="0.5";
+                    document.getElementById("third").style.opacity="1";
+                    document.getElementById("fourth").style.opacity="0.5";
+                    document.getElementById("fifth").style.opacity="0.5";
+                    document.getElementById("sixth").style.opacity="0.5";
+                    document.getElementById("seven").style.opacity="0.5";
+                }
+                if(count==3){
+                    document.getElementById("background").src="img/kaws/kaws" + 3 + ".jpg";
+                    document.getElementById("first").style.opacity="0.5";
+                    document.getElementById("second").style.opacity="0.5";
+                    document.getElementById("third").style.opacity="0.5";
+                    document.getElementById("fourth").style.opacity="1";
+                    document.getElementById("fifth").style.opacity="0.5";
+                    document.getElementById("sixth").style.opacity="0.5";
+                    document.getElementById("seven").style.opacity="0.5";
+                }
+                if(count==4){
+                    document.getElementById("background").src="img/kaws/kaws" + 4 + ".jpg";
+                    document.getElementById("first").style.opacity="0.5";
+                    document.getElementById("second").style.opacity="0.5";
+                    document.getElementById("third").style.opacity="0.5";
+                    document.getElementById("fourth").style.opacity="0.5";
+                    document.getElementById("fifth").style.opacity="1";
+                    document.getElementById("sixth").style.opacity="0.5";
+                    document.getElementById("seven").style.opacity="0.5";
+                }
+                if(count==5){
+                    document.getElementById("background").src="img/kaws/kaws" + 5 + ".jpg";
+                    document.getElementById("first").style.opacity="0.5";
+                    document.getElementById("second").style.opacity="0.5";
+                    document.getElementById("third").style.opacity="0.5";
+                    document.getElementById("fourth").style.opacity="0.5";
+                    document.getElementById("fifth").style.opacity="0.5";
+                    document.getElementById("sixth").style.opacity="1";
+                    document.getElementById("seven").style.opacity="0.5";
+                }
+                if(count==6){
+
+                    document.getElementById("background").src="img/kaws/kaws" + 6 + ".jpg";
+                    document.getElementById("first").style.opacity="0.5";
+                    document.getElementById("second").style.opacity="0.5";
+                    document.getElementById("third").style.opacity="0.5";
+                    document.getElementById("fourth").style.opacity="0.5";
+                    document.getElementById("fifth").style.opacity="0.5";
+                    document.getElementById("sixth").style.opacity="0.5";
+                    document.getElementById("seven").style.opacity="1";
+                }
+                if(count==7){
+                    document.getElementById("background").src="img/kaws/kaws_main.jpg";   
+                    count=0; //Initialize
+                    document.getElementById("first").style.opacity="1";
+                    document.getElementById("second").style.opacity="0.5";
+                    document.getElementById("third").style.opacity="0.5";
+                    document.getElementById("fourth").style.opacity="0.5";
+                    document.getElementById("fifth").style.opacity="0.5";
+                    document.getElementById("sixth").style.opacity="0.5";
+                    document.getElementById("seven").style.opacity="0.5";
+                }
+                count++;
+            });
+            
+            $('#closebutton').click(function(){
+                //moving text to right
+                $("#datemove").animate({
+                  'marginLeft':"-=50%"});
+                $("#kawsbutton").animate({
+                  'marginLeft':"-=50%"});
+                $("#sitemove").animate({
+                  'marginLeft':"-=50%"});
+
+                //circles
+                $("#first").fadeOut("slow");
+                $("#second").fadeOut("slow");
+                $("#third").fadeOut("slow");
+                $("#fourth").fadeOut("slow");
+                $("#fifth").fadeOut("slow");
+                $("#sixth").fadeOut("slow");
+                $("#seven").fadeOut("slow");     
+                //box visible
+                $("#black_box").fadeOut("slow");
+                $("#right_box").fadeOut("slow");
+                $("#text_box").fadeOut("slow");
+
+                //hide logo
+                $("#logo").fadeIn("slow");       
+                //previous next button exit
+                $("#previousbutton").fadeOut("slow");
+                $("#nextbutton").fadeOut("slow");
+                $("#closebutton").fadeOut("slow");
+                clickable=true;
+            });
+        </script>
 
 </html>
