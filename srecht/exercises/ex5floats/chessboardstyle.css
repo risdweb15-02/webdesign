@@ -1,0 +1,22 @@
+html {} 
+
+#container {
+    float: left; 
+ width: 150px;
+height: 150px;
+color: rgb(239, 65, 35);
+background-color: red;
+padding: 5px;
+margin:10px; 
+
+}
+
+#container1 {
+        float: right; 
+ width: 150px;
+height: 150px;
+color: rgb(239, 65, 35);
+background-color: red;
+padding: 5px;
+margin:10px; 
+}
