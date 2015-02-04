@@ -1,0 +1,278 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Shared Voices</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/rams.css"/>
+        <script type="text/javascript" src="js/jquery.interactive_bg.js"></script>
+        <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>    <!-- jquery 명령어 사용 라이브러리-->
+    </head>
+
+    <body>
+        <div id="background">
+            <img id="backchange" src='../project3 (new)/img/rams/rams_main.jpg' class="stretch" alt=""/>
+        </div>
+        <a href="project3.html"><img src="img/main/sv_white.png" id="logo"></a>
+
+        <div id="text_box">
+            <h2 id="date">03.21.15, 19:00</h2>
+            <h1 id="title">DIETER<br>RAMS</h1>
+            <h2 id="site">RISD Auditorium</h2>
+        </div>
+
+        <div id="container">    
+            <div id="box_left"></div>
+            <div id="box_black">
+               <img src="img/profile/rams_profile.png" id="profile">
+                <h2 id="name">DIETER RAMS</h2>
+                <div id="scroll" style="overflow:auto">One of Germany’s and the design world’s best-known industrial designers, Dieter Rams, was born May 20, 1932 in Wiesbaden, Germany.<br><br>
+
+                Influenced by his grandfather, a carpenter, Rams knew he wanted to design and create from an early age. In 1947 he enrolled in architecture at the Werkkunstschule Wiesbaden, leaving after a year to study carpentry and returning in 1951 to graduate with honours.<br><br>
+
+                Rams joined Braun in 1955, starting as an architect and interior designer at the age of 23, before moving into design in 1956. By 1961 Rams was the head of Braun’s product design and development division at Braun, becoming the design and production manager seven years later.<br><br>
+
+                In 1988 Dieter Rams joined Braun’s board of directors as a chief representative and in 1995 was promoted from director of product design to Braun’s executive director of corporate identity affairs, a position which he held until his retirement in 1997 at the age of 65. Rams was also a member of the BraunPrize jury from 1974 to 1995. Still in place today, the BraunPrize is an international design competition that is open to students or graduates of industrial design courses.<br><br>
+
+                Together with Hans Gugelot, Dieter Rams designed the Phonosuper SK4, nicknamed “Snow White’s Coffin”, the forerunner of the modern hi-fi system. A combination radio and record player, the SK4 was hugely influential, and Rams went on to design the first component audio system (Studio 2), the first portable world-band radio (T 1000) and the first transistor radio that could be fitted into a car (TP1). The designs were initially considered avant-garde and the Braun brothers encouraged Rams to design modern furniture for companies such as Vitsoe to take this new design trend to the heart of people’s homes.<br><br>
+
+                Dieter Rams is known worldwide as one of the most significant representatives of function-oriented design. His design work throughout the second half of the 20th century has been recognized with a multitude of honours including the title of Royal Designer for Industry by London’s Royal Society of Arts. <br><br>
+
+                He was also awarded the SIAD medal by the Society of Industrial Artists and Designers in London in 1978 and the World Design Medal by the Industrial Designer Society of America in 1996. In 1990 he was the first winner of the Industrie Forum Design, Hannover for his special contributions to design.<br><br>
+
+                As recognition of his commitment to the design philosophy which he helped to establish, in 2002 he was awarded the Order of Merit of the Federal Republic of Germany.<br><br>
+
+                Many of the Braun designs developed under his guidance have become part of permanent collections of several prestigious international museums, including the Museum of Modern Art in New York, the Centre Pompidou in Paris, the Werkbund Archiv in Berlin, the Victoria and Albert Museum in London and the Stedelijik in Amsterdam.<br><br>
+
+                Dieter Rams’ work has a quality which distinguishes it from the vast majority of industrial design of the mid 20th century. His products are designed to be timeless and beyond fashion. Even people who have never heard of Dieter Rams will probably have owned a few of his products in their lifetimes and his designs are still influential today.</div>
+            </div>
+            <div id="box_right"></div>
+        </div>
+
+        <div id="icons">
+            <img src="img/icon/arrow_left.png" id="arrow_left">
+            <img src="img/icon/exit.png" id="close">
+            <img src="img/icon/arrow_right.png" id="arrow_right">
+        </div>
+
+        <a href="kaws.html"><img src="img/icon/arrow_down.png" id="arrow_down"></a>
+        <div class="circles">
+            <div id="circle_1"></div>
+            <div id="circle_2"></div>
+            <div id="circle_3"></div>
+            <div id="circle_4"></div>
+            <div id="circle_5"></div>
+            <div id="circle_6"></div>
+        </div>
+    </body>
+    <script>
+            var clickable = true;
+            $('#title').click(function(){
+                    
+                if(clickable ==true){
+                    //moving text to right
+                    $("#date").animate({
+                    'marginLeft':"+=50%"});
+                    $("#title").animate({
+                    'marginLeft':"+=50%"});
+                    $("#site").animate({
+                    'marginLeft':"+=50%"});
+
+                    //box visible
+                    $("#box_left").fadeIn("slow");
+                    $("#box_black").fadeIn("slow");
+                    $("#box_right").fadeIn("slow");
+
+                    //previous next button exit button
+                    $("#arrow_left").fadeIn("slow");
+                    $("#close").fadeIn("slow");
+                    $("#arrow_right").fadeIn("slow");
+
+                    //circles
+                    $("#circle_1").fadeIn("slow");
+                    $("#circle_2").fadeIn("slow");
+                    $("#circle_3").fadeIn("slow");
+                    $("#circle_4").fadeIn("slow");
+                    $("#circle_5").fadeIn("slow");
+                    $("#circle_6").fadeIn("slow");
+
+                    //profile
+                    $("#profile").fadeIn("slow");
+                    $("#name").fadeIn("slow");
+                    $("#scroll").fadeIn("slow");
+
+                    //hide logo
+                    $("#logo").css({opacity:0});;
+
+                    clickable=false;
+                }
+            });
+             var count=0;
+            $("#arrow_right").click(function(){    
+                count++;
+                if(count==1 || count==-5){
+                    document.getElementById("backchange").src="img/rams/rams" + 1 + ".jpg";
+                    document.getElementById("circle_1").style.opacity="0.5";
+                    document.getElementById("circle_2").style.opacity="1";
+                    document.getElementById("circle_3").style.opacity="0.5";
+                    document.getElementById("circle_4").style.opacity="0.5";
+                    document.getElementById("circle_5").style.opacity="0.5";
+                    document.getElementById("circle_6").style.opacity="0.5";
+                    //alert(count);
+                 }
+                if(count==2|| count==-4){
+                    document.getElementById("backchange").src="img/rams/rams" + 2 + ".jpg";
+                    document.getElementById("circle_1").style.opacity="0.5";
+                    document.getElementById("circle_2").style.opacity="0.5";
+                    document.getElementById("circle_3").style.opacity="1";
+                    document.getElementById("circle_4").style.opacity="0.5";
+                    document.getElementById("circle_5").style.opacity="0.5";
+                    document.getElementById("circle_6").style.opacity="0.5";
+                    //alert(count);
+                }
+                if(count==3|| count==-3){
+                    document.getElementById("backchange").src="img/rams/rams" + 3 + ".jpg";
+                    document.getElementById("circle_1").style.opacity="0.5";
+                    document.getElementById("circle_2").style.opacity="0.5";
+                    document.getElementById("circle_3").style.opacity="0.5";
+                    document.getElementById("circle_4").style.opacity="1";
+                    document.getElementById("circle_5").style.opacity="0.5";
+                    document.getElementById("circle_6").style.opacity="0.5";
+                    //alert(count);
+                }
+                if(count==4|| count==-2){
+                    document.getElementById("backchange").src="img/rams/rams" + 4 + ".jpg";
+                    document.getElementById("circle_1").style.opacity="0.5";
+                    document.getElementById("circle_2").style.opacity="0.5";
+                    document.getElementById("circle_3").style.opacity="0.5";
+                    document.getElementById("circle_4").style.opacity="0.5";
+                    document.getElementById("circle_5").style.opacity="1";
+                    document.getElementById("circle_6").style.opacity="0.5";
+                    //alert(count);
+                }
+                if(count==5|| count==-1){
+                    document.getElementById("backchange").src="img/rams/rams" + 5 + ".jpg";
+                    document.getElementById("circle_1").style.opacity="0.5";
+                    document.getElementById("circle_2").style.opacity="0.5";
+                    document.getElementById("circle_3").style.opacity="0.5";
+                    document.getElementById("circle_4").style.opacity="0.5";
+                    document.getElementById("circle_5").style.opacity="0.5";
+                    document.getElementById("circle_6").style.opacity="1";
+                    //alert(count);
+                }
+                if(count==6|| count==0){
+                    document.getElementById("backchange").src="img/rams/rams_main.jpg";   
+                    count=0; //Initialize
+                    document.getElementById("circle_1").style.opacity="1";
+                    document.getElementById("circle_2").style.opacity="0.5";
+                    document.getElementById("circle_3").style.opacity="0.5";
+                    document.getElementById("circle_4").style.opacity="0.5";
+                    document.getElementById("circle_5").style.opacity="0.5";
+                    document.getElementById("circle_6").style.opacity="0.5";
+                    //alert(count);
+                }
+
+            });
+            
+            $("#arrow_left").click(function(){
+                count--;
+                if(count==5 || count==-1){
+                    document.getElementById("backchange").src="img/rams/rams" + 5 + ".jpg";
+                    document.getElementById("circle_1").style.opacity="0.5";
+                    document.getElementById("circle_2").style.opacity="0.5";
+                    document.getElementById("circle_3").style.opacity="0.5";
+                    document.getElementById("circle_4").style.opacity="0.5";
+                    document.getElementById("circle_5").style.opacity="0.5";
+                    document.getElementById("circle_6").style.opacity="1";
+                    //alert(count);
+                }
+                if(count==4 || count==-2){
+                    document.getElementById("backchange").src="img/rams/rams" + 4 + ".jpg";
+                    document.getElementById("circle_1").style.opacity="0.5";
+                    document.getElementById("circle_2").style.opacity="0.5";
+                    document.getElementById("circle_3").style.opacity="0.5";
+                    document.getElementById("circle_4").style.opacity="0.5";
+                    document.getElementById("circle_5").style.opacity="1";
+                    document.getElementById("circle_6").style.opacity="0.5";
+                    //alert(count);
+                }
+                if(count==3|| count==-3){
+                    document.getElementById("backchange").src="img/rams/rams" + 3 + ".jpg";
+                    document.getElementById("circle_1").style.opacity="0.5";
+                    document.getElementById("circle_2").style.opacity="0.5";
+                    document.getElementById("circle_3").style.opacity="0.5";
+                    document.getElementById("circle_4").style.opacity="1";
+                    document.getElementById("circle_5").style.opacity="0.5";
+                    document.getElementById("circle_6").style.opacity="0.5";
+                    //alert(count);
+                }
+                if(count==2|| count==-4){
+                    document.getElementById("backchange").src="img/rams/rams" + 2 + ".jpg";
+                    document.getElementById("circle_1").style.opacity="0.5";
+                    document.getElementById("circle_2").style.opacity="0.5";
+                    document.getElementById("circle_3").style.opacity="1";
+                    document.getElementById("circle_4").style.opacity="0.5";
+                    document.getElementById("circle_5").style.opacity="0.5";
+                    document.getElementById("circle_6").style.opacity="0.5";
+                    //alert(count);
+                }
+                if(count==1|| count==-5){
+                    document.getElementById("backchange").src="img/rams/rams" + 1 + ".jpg";
+                    document.getElementById("circle_1").style.opacity="0.5";
+                    document.getElementById("circle_2").style.opacity="1";
+                    document.getElementById("circle_3").style.opacity="0.5";
+                    document.getElementById("circle_4").style.opacity="0.5";
+                    document.getElementById("circle_5").style.opacity="0.5";
+                    document.getElementById("circle_6").style.opacity="0.5";
+                    //alert(count);
+                }
+                if(count==0|| count==-6){
+                    document.getElementById("backchange").src="img/rams/rams_main.jpg";
+                    document.getElementById("circle_1").style.opacity="1";
+                    document.getElementById("circle_2").style.opacity="0.5";
+                    document.getElementById("circle_3").style.opacity="0.5";
+                    document.getElementById("circle_4").style.opacity="0.5";
+                    document.getElementById("circle_5").style.opacity="0.5";
+                    document.getElementById("circle_6").style.opacity="0.5";
+                    //alert(count);
+                    count=0;
+                }             
+            });
+            $("#close").click(function(){
+                    //moving text to right
+                    $("#date").animate({
+                    'marginLeft':"-=50%"});
+                    $("#title").animate({
+                    'marginLeft':"-=50%"});
+                    $("#site").animate({
+                    'marginLeft':"-=50%"});
+
+                    //box visible
+                    $("#box_left").fadeOut("slow");
+                    $("#box_black").fadeOut("slow");
+                    $("#box_right").fadeOut("slow");
+
+                    //previous next button exit button
+                    $("#arrow_left").fadeOut("slow");
+                    $("#close").fadeOut("slow");
+                    $("#arrow_right").fadeOut("slow");
+
+                    //circles
+                    $("#circle_1").fadeOut("slow");
+                    $("#circle_2").fadeOut("slow");
+                    $("#circle_3").fadeOut("slow");
+                    $("#circle_4").fadeOut("slow");
+                    $("#circle_5").fadeOut("slow");
+                    $("#circle_6").fadeOut("slow");
+
+                    //profile
+                    $("#profile").fadeOut("slow");
+                    $("#name").fadeOut("slow");
+                    $("#scroll").fadeOut("slow");
+                    //show logo
+                    $("#logo").css({opacity:1});;
+                    clickable=true;
+            });
+    </script>
+ </html>
