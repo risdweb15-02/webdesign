@@ -1,0 +1,167 @@
+div {
+  background-color: red;
+  border: 1px solid white;
+}
+
+#unit {
+  height: 100px;
+  width: 50px;
+  margin-top:;
+}
+
+#big {
+  height: 200px;
+  width: 100px;
+  margin-top: 2px;
+}
+
+#skinny {
+  height: 200px;
+  width: 50px;
+  margin-top: 2px;
+}
+
+#bigger {
+  height: 302px;
+  width: 100px;
+}
+
+#base {
+  height: 776px;
+  width: 1375px;
+}
+
+
+#column1 {
+  height: 700px;
+  width: 50px;
+  float: left;
+}
+
+#board1 {
+  height: 722px;
+  width: 425px;
+  position: relative;
+  bottom: 750px;
+  left: 25px;
+}
+
+#board2 {
+  height: 722px;
+  width: 425px;
+  position: relative;
+  bottom: 1474px;
+  left: 475px;
+}
+
+#board3 {
+  height: 722px;
+  width: 425px;
+  position: relative;
+  bottom: 2199px;
+  left: 925px;
+}
+
+.column2 {
+  height: 614px;
+  width: 104px;
+  z-index: 10;
+  position: relative;
+}
+
+#column2a {
+  bottom: 2820px;
+  left: 132px;
+}
+
+#column2b {
+  bottom: 3437px;
+  left: 238px;
+}
+
+#column2c {
+  bottom: 4153px;
+  left: 342px;
+}
+
+#column2d {
+  bottom: 4668px;
+  left: 477px;
+}
+
+#column2e {
+  bottom: 5284px;
+  left: 584px;
+}
+
+.column3 {
+  height: 606px;
+  width: 50px;
+  z-index: 10;
+  position: relative;
+  bottom: 5899px;
+  left: 78px;
+}
+
+#skinny1 {
+  height: 206px;
+  width: 52px;
+  z-index: 14;
+  position: relative;
+  bottom: 6304px;
+  left: 584px;
+}
+
+#skinny2 {
+  height: 206px;
+  width: 52px;
+  z-index: 14;
+  position: relative;
+  bottom: 6512px;
+  left: 636px;
+}
+
+#skinny3 {
+  height:406px;
+  width: 52px;
+  z-index: 14;
+  position: relative;
+  bottom: 6924px;
+  left: 687px;
+}
+
+#skinny4 {
+  height:406px;
+  width: 52px;
+  z-index: 14;
+  position: relative;
+  bottom: 7332px;
+  left: 736px;
+}
+
+#skinny5 {
+  height: 206px;
+  width: 52px;
+  z-index: 14;
+  position: relative;
+  bottom: 7536px;
+  left: 788px;
+}
+
+#skinny6 {
+  height: 206px;
+  width: 52px;
+  z-index: 14;
+  position: relative;
+  bottom: 7744px;
+  left: 840px;
+}
+
+#big7 {
+  height: 206px;
+  width: 103px;
+  z-index: 14;
+  position: relative;
+  bottom: 7748px;
+  left: 788px;
+}

@@ -1,0 +1,456 @@
+html {
+  background-color: #FCFDF5
+}
+
+
+
+#bg {
+  position: absolute;
+   width: 960px;
+    left: 50%;
+    margin-left: -480px;
+    bottom: 0;
+    z-index: 0;
+}
+
+.button {
+	position: absolute;
+	z-index: 10;
+}
+
+.image {
+	opacity: 0;
+}
+
+.image:hover {
+	opacity: 1;
+}
+
+#bio {
+	bottom: 529px;
+	left: 50%;
+	margin-left: -18;
+}
+
+#duck {
+	bottom: 481px;
+	left: 50%;
+	margin-left: -113px;
+}
+
+#bunny {
+	bottom: 483px;
+	left: 50%;
+	margin-left: 40px;
+}
+
+#turtle {
+	bottom: 434px;
+	left: 50%;
+	margin-left: -123px;
+}
+
+#frog {
+	bottom: 436px;
+	left: 50%;
+	margin-left: -16px;
+}
+
+#fish {
+	bottom: 433px;
+	left: 50%;
+	margin-left: 39px;
+}
+
+#lobster {
+	bottom: 373px;
+	left: 50%;
+	margin-left: -157px;
+}
+
+#seaplant {
+	bottom: 372px;
+	left: 50%;
+	margin-left: -23px;
+}
+
+#cuttlefish {
+	bottom: 380px;
+	left: 50%;
+	margin-left: 91px;
+}
+
+#one {
+	bottom: 350px;
+	left: 50%;
+	margin-left: -152px;
+}
+
+#two {
+	bottom: 325px;
+	left: 50%;
+	margin-left: -153px;
+}
+
+#three {
+	bottom: 349px;
+	left: 50%;
+	margin-left: -122px;
+}
+
+#four {
+	bottom: 329px;
+	left: 50%;
+	margin-left: -111px;
+}
+
+#five {
+	bottom: 353px;
+	left: 50%;
+	margin-left: -91px;
+}
+
+#six {
+	bottom: 329px;
+	left: 50%;
+	margin-left: -86px;
+}
+
+#seven {
+	bottom: 320px;
+	left: 50%;
+	margin-left: -96px;
+}
+
+#eight {
+	bottom: 359px;
+	left: 50%;
+	margin-left: -59px;
+}
+
+#nine {
+	bottom: 346px;
+	left: 50%;
+	margin-left: -58px;
+}
+
+#onezero {
+	bottom: 322px;
+	left: 50%;
+	margin-left: -55px;
+}
+
+#oneone {
+	bottom: 352px;
+	left: 50%;
+	margin-left: -26px;
+}
+
+#onetwo {
+	bottom: 334px;
+	left: 50%;
+	margin-left: -37px;
+}
+
+#onethree {
+	bottom: 332px;
+	left: 50%;
+	margin-left: -1px;
+}
+
+#onefour {
+	bottom: 335px;
+	left: 50%;
+	margin-left: 29px;
+}
+
+#onefive {
+	bottom: 321px;
+	left: 50%;
+	margin-left: 28px;
+}
+
+#onesix {
+	bottom: 355px;
+	left: 50%;
+	margin-left: 54px;
+}
+
+#oneseven {
+	bottom: 328px;
+	left: 50%;
+	margin-left: 48px;
+}
+
+#oneeight {
+	bottom: 361px;
+	left: 50%;
+	margin-left: 86px;
+}
+
+#onenine {
+	bottom: 346px;
+	left: 50%;
+	margin-left: 89px;
+}
+
+#twozero {
+	bottom: 324px;
+	left: 50%;
+	margin-left: 86px;
+}
+
+#twoone {
+	bottom: 324px;
+	left: 50%;
+	margin-left: 95px;
+}
+
+#twotwo {
+	bottom: 351px;
+	left: 50%;
+	margin-left: 115px;
+}
+
+#twothree {
+	bottom: 348px;
+	left: 50%;
+	margin-left: 138px;
+}
+
+#twofour {
+	bottom: 327px;
+	left: 50%;
+	margin-left: 136px;
+}
+
+#twofive {
+	bottom: 250px;
+	left: 50%;
+	margin-left: -186px;
+}
+
+#twosix {
+	bottom: 275px;
+	left: 50%;
+	margin-left: -145px;
+}
+
+#twoseven {
+	bottom: 254px;
+	left: 50%;
+	margin-left: -139px;
+}
+
+#twoeight {
+	bottom: 270px;
+	left: 50%;
+	margin-left: -99px;
+}
+
+#threezero {
+	bottom: 254px;
+	left: 50%;
+	margin-left: -50px;
+}
+
+#threeone {
+	bottom: 267px;
+	left: 50%;
+	margin-left: -31px;
+}
+
+#threetwo {
+	bottom: 258px;
+	left: 50%;
+	margin-left: 5px;
+}
+
+#threethree {
+	bottom: 264px;
+	left: 50%;
+	margin-left: 32px;
+}
+
+#threefour {
+	bottom: 265px;
+	left: 50%;
+	margin-left: 50px;
+}
+
+#threefive {
+	bottom: 251px;
+	left: 50%;
+	margin-left: 63px;
+}
+
+#threesix {
+	bottom: 254px;
+	left: 50%;
+	margin-left: 117px;
+}
+
+#threeseven {
+	bottom: 285px;
+	left: 50%;
+	margin-left: 138px;
+}
+
+#threeeight {
+	bottom: 186px;
+	left: 50%;
+	margin-left: -226px;
+}
+
+#threenine {
+	bottom: 180px;
+	left: 50%;
+	margin-left: -150px;
+}
+
+#fourzero {
+	bottom: 200px;
+	left: 50%;
+	margin-left: -125px;
+}
+
+#fourone {
+	bottom: 201px;
+	left: 50%;
+	margin-left: -74px;
+}
+
+#fourtwo {
+	bottom: 180px;
+	left: 50%;
+	margin-left: -54px;
+}
+
+#fourthree {
+	bottom: 190px;
+	left: 50%;
+	margin-left: -5px;
+}
+
+#fourfour {
+	bottom: 183px;
+	left: 50%;
+	margin-left: 25px;
+}
+
+#fourfive {
+	bottom: 200px;
+	left: 50%;
+	margin-left: 55px;
+}
+
+#foursix {
+	bottom: 180px;
+	left: 50%;
+	margin-left: 63px;
+}
+
+#fourseven {
+	bottom: 184px;
+	left: 50%;
+	margin-left: 86px;
+}
+
+#foureight {
+	bottom: 182px;
+	left: 50%;
+	margin-left: 138px;
+}
+
+#fournine {
+	bottom: 186px;
+	left: 50%;
+	margin-left: 166px;
+}
+
+#fivezero {
+	bottom: 94px;
+	left: 50%;
+	margin-left: -208px;
+}
+
+#fiveone {
+	bottom: 116px;
+	left: 50%;
+	margin-left: -177px;
+}
+
+#fivetwo {
+	bottom: 96px;
+	left: 50%;
+	margin-left: -164px;
+}
+
+#fivethree {
+	bottom: 96px;
+	left: 50%;
+	margin-left: -118px;
+}
+
+#fivefour {
+	bottom: 154px;
+	left: 50%;
+	margin-left: 106px;
+}
+
+#fivefive {
+	bottom: 117px;
+	left: 50%;
+	margin-left: 124px;
+}
+
+#fivesix {
+	bottom: 122px;
+	left: 50%;
+	margin-left: 165px;
+}
+
+#fiveseven {
+	bottom: 123px;
+	left: 50%;
+	margin-left: 193px;
+}
+
+#fiveeight {
+	bottom: 20px;
+	left: 50%;
+	margin-left: -195px;
+}
+
+#fivenine {
+	bottom: 19px;
+	left: 50%;
+	margin-left: -135px;
+}
+
+#sixzero {
+	bottom: 24px;
+	left: 50%;
+	margin-left: -63px;
+}
+
+#sixone {
+	bottom: 1px;
+	left: 50%;
+	margin-left: -45px;
+}
+
+#sixtwo {
+	bottom: 13px;
+	left: 50%;
+	margin-left: 61px;
+}
+
+#sixthree {
+	bottom: 12px;
+	left: 50%;
+	margin-left: 118px;
+}
+
+
+

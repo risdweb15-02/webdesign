@@ -1,0 +1,78 @@
+#court {
+  background-color: red;
+  height: 600px;
+  width: 500px;
+  z-index: 0;
+}
+
+#skinny1 {
+  width: 75px;
+  height: 300px;
+  border: 1px solid white;
+  position: relative;
+  bottom: 600px;
+}
+
+#skinny2 {
+  width: 75px;
+  height: 300px;
+  border: 1px solid white;
+  position: relative;
+  bottom: 600px;
+}
+
+#skinny3 {
+  width: 75px;
+  height: 300px;
+  border: 1px solid white;
+  position: relative;
+  left: 423px;
+  bottom: 1206px;
+}
+
+#skinny4 {
+  width: 75px;
+  height: 300px;
+  border: 1px solid white;
+  position: relative;
+  left: 423px;
+  bottom: 1206px;
+}
+
+#square1 {
+  width: 175px;
+  height: 175px;
+  border: 1px solid white;
+  position: relative;
+  bottom: 1708px;
+  left: 75px;
+}
+
+
+#square2 {
+  width: 175px;
+  height: 175px;
+  border: 1px solid white;
+  position: relative;
+  bottom: 1708px;
+  left: 75px;
+}
+
+#square3 {
+  width: 173px;
+  height: 175px;
+  border: 1px solid white;
+  position: relative;
+  bottom: 2062px;
+  left: 250px;
+}
+
+
+#square4 {
+  width: 173px;
+  height: 175px;
+  border: 1px solid white;
+  position: relative;
+  bottom: 2062px;
+  left: 250px;
+}

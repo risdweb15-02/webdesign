@@ -1,0 +1,192 @@
+body {
+  background-image: url("ahttp://i62.tinypic.com/vorapt.jpg");
+  margin: auto;
+  background-repeat: repeat-y;
+}
+
+hr {
+    border: 0;
+    border-bottom: 2px dashed #AAAAAA;
+    background: rgb6(0,0,0,0);
+    margin-top: 28px;
+}
+
+#header2 {
+  height: 200px;
+  width: 545px;
+  border: 0px solid white;
+  margin: auto;
+  margin-top: 20px;
+  position: relative;
+  left: 3px;
+  padding: 0px;
+}
+
+#title {
+  font-family: Playfair Display SC;
+  text-align: center;
+  position: relative;
+  top: 10%;
+  transform: translateY(-100%);
+  font-size: 72.2px;
+  letter-spacing: -4px;
+  color: black;
+}
+
+#LM {
+  font-family: Playfair Display SC;
+  text-align: center;
+  position: relative;
+  top: 1%;
+  transform: translateY(-180%);
+  font-size: 72.2px;
+  letter-spacing: -4px;
+  color: black;
+}
+
+#author {
+  height: 30px;
+  width: 85px;
+  border: 2px solid
+    white;
+  margin: auto;
+  position: relative;
+  bottom: 70px;
+  right: 118px;
+}
+
+#authortext {
+  color: black;
+  font-size: 16px;
+  font-weight: bold
+}
+
+#interview {
+  height: 1500px;
+  width: 572px;
+  border: 0px solid
+    black;
+  margin: auto;
+  position: relative;
+  left: 171px;
+  bottom: 70px;
+   color: #666666;
+  font-size: 14px;
+}
+
+#intro {
+  color: #666666;
+  font-size: 14px;
+  line-height: 29px;
+}
+
+p {
+  color: #666666;
+  font-size: 14px;
+}
+
+#speaker {
+  font-family: Playfair Display SC;
+  letter-spacing: -.6px;
+  font-size: 16px;
+  margin-right: 8px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: -3.8px;
+}
+
+#lowe0 {
+  padding-left: 5.1em;
+    text-indent: 0em;
+  display: inline-block;
+  width: 400px;
+  margin-bottom;
+}
+
+#messi0 {
+  padding-left: 3em;
+    text-indent: 0em;
+  display: inline-block;
+  width: 400px;
+  margin-bottom;
+}
+
+#messi {
+  padding-left: 7em;
+    text-indent: 0em;
+  display: inline-block;
+  width: 400px;
+  margin-bottom;
+}
+
+#lowe {
+  padding-left: 7.1em;
+    text-indent: 0em;
+  display: inline-block;
+  width: 400px;
+  margin-bottom;
+}
+
+#bio {
+  font-weight: bold;
+}
+
+#img1 {
+  width: 909px;
+  opacity: .89;
+}
+
+#img1a {
+  height: 700px;
+  width: 909px;
+  border: px solid black;
+  margin: auto;
+  margin-top: -20px;
+  position: relative;
+  left: 1px;
+}
+
+#img2 {
+  width: 244px;
+  opacity: .85;
+}
+
+#img2a {
+  height: 700px;
+  width: 909px;
+  border: px solid black;
+  margin: auto;
+  position: relative;
+  left: px;
+  bottom: 670px;
+}
+
+#img3 {
+  width: 244px;
+  opacity: .85;
+}
+
+#img3a {
+  height: 700px;
+  width: 909px;
+  border: px solid black;
+  margin: auto;
+  position: relative;
+  left: px;
+  bottom: 1220px;
+}
+
+#img4 {
+  width: 244px;
+  opacity: .85;
+}
+
+#img4a {
+  height: 700px;
+  width: 909px;
+  border: px solid black;
+  margin: auto;
+  position: relative;
+  left: px;
+  bottom: 1776px;
+}

@@ -1,0 +1,95 @@
+* {
+	font-family: Helvetica;
+	color: #774444;
+	background-color: #FFFFFF;
+}
+
+h1 {
+	margin: 10px 20px 20px 40px;
+	font-variant: small-caps;
+}
+
+h2 {
+	margin: 10px 20px 20px 40px;
+	font-variant: small-caps;
+}
+
+p {
+	margin: 10px 20px 20px 60px;
+}
+
+ul {
+	margin: 10px 20px 20px 60px;
+}
+
+#hello {
+	color: blue;
+}
+
+#container {
+	height: auto;
+	width: 160px;
+	color: blue;
+	background-color: rgba(255, 255, 0, 0.5);
+	border: 2px solid black;
+	border-radius: 100%;;
+  margin-left: 200px;
+	padding: 20px;
+}
+
+#container2 {
+	height: auto;
+	background-color: rgba(86, 102, 255, 0.5);
+	width: 160px;
+  border-radius: 100%;
+	color: yellow;
+	border: 2px solid black;
+	margin: -62px 20px 10px 300px;
+	padding: 20px;
+}
+
+.column {
+	float: left;
+  width: 144px;
+	border: 2px solid black;
+	padding: 5px;
+	border-radius: 5px;
+	margin: 30px 20px 20px 40px;
+}
+
+#short {
+	height: 60px;
+	clear: both;
+}
+
+#long {
+	height: 380px;
+}
+
+#medium {
+	height: 160px;
+}
+
+#s {
+	font-size: 3em;
+	font-family: Garamond;
+	background-color: red;
+	margin-top:-40px;
+	color: white;
+}
+
+#l {
+	font-size: 3em;
+	font-family: Garamond;
+	background-color: red;
+	margin-top:-40px;
+	color: white;
+}
+
+#m {
+	font-size: 3em;
+	font-family: Garamond;
+	background-color: red;
+	margin-top:-40px;
+	color: white;
+}

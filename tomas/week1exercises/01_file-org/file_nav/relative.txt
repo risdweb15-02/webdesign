@@ -1,0 +1,4 @@
+<link href="img/image.jpg" type="image/jpg" rel="image">
+<link href="js/vendor/jquery-2.1.1.min.js" type="text/js" rel="vendor">
+<link href="../../css/main.css" type="text/cs" rel="stylesheet">
+<link href="../js/script.js" type="text/js" rel="script">

@@ -1,0 +1,83 @@
+<html>
+  
+  <head> 
+   
+    <meta charset="utf-8">
+    <title>Shared Voices</title>
+    <meta name="description" content="">
+    <meta name="viewport" contents="width-device-width">
+    <link rel="stylesheet" type="text/css" href="3sv_gromov.css">
+   <link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js'></script>
+
+    <script type="text/javascript">
+    
+        $(document).ready(function(){ 
+            
+            $('.home').hide();
+
+            $('.text2').hover(function(){
+                $('.home').fadeIn(500)
+            });
+
+            $('.text2').mouseleave(function(){
+                $('.home').fadeOut(1600)
+            });
+
+            $('.barney').hide();
+
+            $('.text2').hover(function(){
+                $('.barney').fadeIn(1000)
+            });
+
+            $('.text2').mouseleave(function(){
+                $('.barney').fadeOut(800)
+            });
+
+            $('.elgin').hide();
+
+            $('.text2').hover(function(){
+                $('.elgin').fadeIn(1000)
+            });
+
+            $('.text2').mouseleave(function(){
+                $('.elgin').fadeOut(800)
+            });
+
+        });
+  
+
+    </script>
+    
+    
+  </head>
+  
+  <body>
+  
+<div id="bg"><img id="bg" src="images/botyellow.JPG">
+
+<img class="portrait" src="http://nimg.sulekha.com/science/thumbnailfull/mikhail-gromov-2009-3-26-10-30-39.jpg">
+
+<div class="text1">
+	<h2>Mikhael Gromov</h2>
+
+    <p>Mikhail Leonidovich Gromov is a French–Russian mathematician known for important contributions in many different areas of mathematics. He is considered a geometer in a very broad sense of the word. Gromov's style of geometry features a "coarse" or "soft" viewpoint, often analyzing asymptotic or large-scale properties, and he is known for approaching abstrct algebraic problems in a geometric approach. In 2009 he was awarded the Abel Prize "for his revolutionary contributions to geometry".</p>
+</div>
+
+<div class="media">
+    <iframe width="500" height="370" src="https://www.youtube.com/embed/jRSqGYJQQM8" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<div class="text2">
+    
+
+    <p>4/23 6:00pm</p>
+    <a href="https://www.google.com/maps/place/RISD+Auditorium/@41.826002,-71.408805,17z/data=!3m1!4b1!4m2!3m1!1s0x89e4451654014467:0xed606b3fce9ee3d9?hl=en"><p class="place">RISD Auditorium</p></a>
+	<a href="2sv_barney.html"><div class="barney"><span class="nav">Matthew Barney</span></div></a>
+    <a href="1sv_home.html"><div class="home"><span class="nav">Home</span></div></a>
+    <a href="4sv_elgin.html"><div class="elgin"><span class="nav">Catherine Elgin</span></div></a>
+</div>
+
+</div>
