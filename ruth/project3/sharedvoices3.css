@@ -1,0 +1,571 @@
+.wave1text{
+	position:absolute;
+	top:730px;
+}
+
+.introtext{
+	position:absolute;
+	top:200px;
+	left:600px;
+}
+
+.wave2{
+	position:fixed;
+	left:0px;
+	top:700px;
+}
+
+.wave3{
+	position:fixed;
+	left:0px;
+	top:680px;
+}
+
+.wave4{
+	position:fixed;
+	left:0px;
+	top:660px;
+}
+
+#wave1{
+	position:fixed;
+	left:0px;
+	top:720px;
+}
+
+#wave2{
+	position:fixed;
+}
+
+#wave3{
+	position:fixed;
+}
+
+#wave4{
+	position:fixed;
+}
+
+#wave5{
+	position:fixed;
+	left:0px;
+	top:680px;
+}
+
+#wave6{
+	position:fixed;
+	left:0px;
+	top:670px;
+}
+
+#wave7{
+	position:fixed;
+	left:0px;
+	top:660px;
+}
+
+#wave8{
+	position:fixed;
+	left:0px;
+	top:650px;
+}
+
+#wave9{
+	position:fixed;
+	left:0px;
+	top:640px;
+}
+
+#wave10{
+	position:fixed;
+	left:0px;
+	top:630px;
+}
+
+#wave11{
+	position:fixed;
+	left:0px;
+	top:620px;
+}
+
+#wave12{
+	position:fixed;
+	left:0px;
+	top:610px;
+}
+
+#wave13{
+	position:fixed;
+	left:0px;
+	top:600px;
+}
+
+#wave14{
+	position:fixed;
+	left:0px;
+	top:590px;
+}
+
+#wave15{
+	position:fixed;
+	left:0px;
+	top:580px;
+}
+
+#wave16{
+	position:fixed;
+	left:0px;
+	top:570px;
+}
+
+#wave17{
+	position:fixed;
+	left:0px;
+	top:560px;
+}
+
+#wave18{
+	position:fixed;
+	left:0px;
+	top:550px;
+}
+
+#wave19{
+	position:fixed;
+	left:0px;
+	top:540px;
+}
+
+#wave20{
+	position:fixed;
+	left:0px;
+	top:530px;
+}
+
+#wave21{
+	position:fixed;
+	left:0px;
+	top:520px;
+}
+
+#wave22{
+	position:fixed;
+	left:0px;
+	top:510px;
+}
+
+#wave23{
+	position:fixed;
+	left:0px;
+	top:500px;
+}
+
+#wave24{
+	position:fixed;
+	left:0px;
+	top:490px;
+}
+
+#wave25{
+	position:fixed;
+	left:0px;
+	top:480px;
+}
+
+#wave26{
+	position:fixed;
+	left:0px;
+	top:470px;
+}
+
+#wave27{
+	position:fixed;
+	left:0px;
+	top:460px;
+}
+
+#wave28{
+	position:fixed;
+	left:0px;
+	top:450px;
+}
+
+#wave29{
+	position:fixed;
+	left:0px;
+	top:440px;
+}
+
+#wave30{
+	position:fixed;
+	left:0px;
+	top:430px;
+}
+
+#wave31{
+	position:fixed;
+	left:0px;
+	top:420px;
+}
+
+#wave32{
+	position:fixed;
+	left:0px;
+	top:410px;
+}
+
+#wave33{
+	position:fixed;
+	left:0px;
+	top:400px;
+}
+
+#wave34{
+	position:fixed;
+	left:0px;
+	top:390px;
+}
+
+#wave35{
+	position:fixed;
+	left:0px;
+	top:380px;
+}
+
+#wave36{
+	position:fixed;
+	left:0px;
+	top:370px;
+}
+
+#wave37{
+	position:fixed;
+	left:0px;
+	top:360px;
+}
+
+#wave38{
+	position:fixed;
+	left:0px;
+	top:350px;
+}
+
+#wave39{
+	position:fixed;
+	left:0px;
+	top:340px;
+}
+
+#wave40{
+	position:fixed;
+	left:0px;
+	top:330px;
+}
+
+#wave41{
+	position:fixed;
+	left:0px;
+	top:320px;
+}
+
+#wave42{
+	position:fixed;
+	left:0px;
+	top:310px;
+}
+
+#wave43{
+	position:fixed;
+	left:0px;
+	top:300px;
+}
+
+#wave44{
+	position:fixed;
+	left:0px;
+	top:290px;
+}
+
+#wave45{
+	position:fixed;
+	left:0px;
+	top:280px;
+}
+
+#wave46{
+	position:fixed;
+	left:0px;
+	top:270px;
+}
+
+#sharedvoices{
+	font-size:40px;
+	font-family:'Lato';
+	font-weight:100;
+	text-align:center;
+}
+
+#date{
+	margin-top:-20px;
+	font-size:37px;
+	font-family:'Lato';
+	font-weight:100;
+	text-align:center;
+}
+
+#themetmuseum{
+	font-size:20px;
+	font-family:'Lato';
+	font-weight:100;
+	text-align:center;
+}
+
+#about{
+	position:fixed;
+	top:770px;
+	left:400px;
+	font-family:'Lato';
+	font-weight:300;
+	font-size:14px;
+}
+
+#themet{
+	position:fixed;
+	top:770px;
+	left:550px;
+	font-family:'Lato';
+	font-weight:300;
+	font-size:14px;
+	color:black;
+	text-decoration:none;
+}
+
+#tickets{
+	position:fixed;
+	top:770px;
+	left:700px;
+	font-family:'Lato';
+	font-weight:300;
+	font-size:14px;
+}
+
+#agenda{
+	position:fixed;
+	top:770px;
+	right:550px;
+	font-family:'Lato';
+	font-weight:300;
+	font-size:14px;
+}
+
+#contact{
+	position:fixed;
+	top:770px;
+	right:400px;
+	font-family:'Lato';
+	font-weight:300;
+	font-size:14px;
+}
+
+#hayaomiyazaki{
+	width:800px;
+	position:absolute;
+	top:110px;
+	left:766px;
+	font-family:'Lato';
+	font-weight:500;
+	font-size:40px;
+}
+
+#miyazakitext{
+	width:400px;
+	position:absolute;
+	top:203px;
+	left:766px;
+	font-family:'Lato';
+	font-weight:300;
+	font-size:15px;
+	line-height:19px;
+}
+
+#miyazakiimage{
+	position:absolute;
+	top:160px;
+	left:215px;
+}
+
+#miyazakiicon{
+	position:absolute;
+	top:-60px;
+	left:610px;
+	-ms-transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+    transform: rotate(7deg);
+}
+
+#ghiblilink{
+	width:300px;
+	position:absolute;
+	top:10px;
+	left:595px;
+	-ms-transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+    transform: rotate(7deg);
+    font-family:'Lato';
+    font-weight:500;
+    font-size:14px;
+    color:#75E375;
+}
+
+#yayoikusama{
+	width:800px;
+	position:absolute;
+	top:83px;
+	left:736px;
+	font-family:'Lato';
+	font-weight:500;
+	font-size:40px;
+}
+
+#kusamatext{
+	width:400px;
+	position:absolute;
+	top:176px;
+	left:736px;
+	font-family:'Lato';
+	font-weight:300;
+	font-size:15px;
+	line-height:19px;
+}
+
+#kusamaimage{
+	position:absolute;
+	top:130px;
+	left:385px;
+}
+
+#kusamaicon{
+	position:absolute;
+	top:-60px;
+	left:910px;
+	-ms-transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+    transform: rotate(7deg);
+}
+
+#kusamalink{
+	width:300px;
+	position:absolute;
+	top:53px;
+	left:895px;
+	-ms-transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+    transform: rotate(7deg);
+    font-family:'Lato';
+    font-weight:500;
+    font-size:14px;
+    color:#E64040;
+}
+
+#toyoito{
+	width:800px;
+	position:absolute;
+	top:103px;
+	left:736px;
+	font-family:'Lato';
+	font-weight:500;
+	font-size:40px;
+}
+
+#itotext{
+	width:400px;
+	position:absolute;
+	top:196px;
+	left:736px;
+	font-family:'Lato';
+	font-weight:300;
+	font-size:15px;
+	line-height:19px;
+}
+
+#itoimage{
+	position:absolute;
+	top:150px;
+	left:285px;
+}
+
+#itoicon{
+	position:absolute;
+	top:-50px;
+	left:1240px;
+	-ms-transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+    transform: rotate(7deg);
+}
+
+#itolink{
+	width:300px;
+	position:absolute;
+	top:53px;
+	left:1195px;
+	-ms-transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+    transform: rotate(7deg);
+    font-family:'Lato';
+    font-weight:500;
+    font-size:14px;
+    color:black;
+}
+
+#top-ito{
+	position:absolute;
+	top:40px;
+	right:120px;
+	font-family:'Lato';
+	font-weight:500;
+	font-size:14px;
+}
+
+#top-kusama{
+	position:absolute;
+	top:40px;
+	right:210px;
+	font-family:'Lato';
+	font-weight:500;
+	font-size:14px;
+}
+
+#top-miyazaki{
+	position:absolute;
+	top:40px;
+	right:340px;
+	font-family:'Lato';
+	font-weight:500;
+	font-size:14px;
+}
+
+#arrow-ito{
+	position:absolute;
+	top:35px;
+	right:50px;
+	-ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+#arrow-kusama{
+	position:absolute;
+	top:25px;
+	right:100px;
+	-ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+#arrow-miyazaki{
+	position:absolute;
+	top:35px;
+	right:100px;
+	-ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}

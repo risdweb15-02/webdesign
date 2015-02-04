@@ -1,0 +1,28 @@
+a{
+	text-decoration:none;
+	color:black;
+}
+
+.exercises{
+	position:absolute;
+	top:80px;
+	left:200px;
+}
+
+.projects{
+	position:absolute;
+	top:330px;
+	left:200px;
+}
+
+#exercisestitle{
+	font-family:Raleway;
+	font-weight:600;
+	font-size:30px;
+}
+
+#projectstitle{
+	font-family:Raleway;
+	font-weight:600;
+	font-size:30px;
+}

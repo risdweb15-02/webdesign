@@ -1,0 +1,62 @@
+.tenniscourt{
+  background-color:red;
+  width:500px;
+  height:500px;
+  position:fixed;
+  top:0;
+  left:0;
+}
+
+#line1{
+  background-color:white;
+  width:500px;
+  height:2px;
+  position:fixed;
+  top:250px;
+  left:0;
+}
+
+#line2{
+  background-color:white;
+  height:250px;
+  width:2px;
+  position:fixed;
+  left:250px;
+  top:125px;
+}
+
+#line3{
+  background-color:white;
+  height:500px;
+  width:2px;
+  position:fixed;
+  left:80px;
+  top:0;
+}
+
+#line4{
+  background-color:white;
+  height:500px;
+  width:2px;
+  position:fixed;
+  left:420px;
+  top:0;
+}
+
+#line5{
+  background-color:white;
+  height:2px;
+  width:340px;
+  position:fixed;
+  left:80px;
+  top:125px;
+}
+
+#line6{
+  background-color:white;
+  height:2px;
+  width:340px;
+  position:fixed;
+  left:80px;
+  top:375px;
+}
