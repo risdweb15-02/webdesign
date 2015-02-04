@@ -3,12 +3,6 @@
 	top:730px;
 }
 
-.introtext{
-	position:absolute;
-	top:200px;
-	left:600px;
-}
-
 .wave2{
 	position:fixed;
 	left:0px;
@@ -298,25 +292,31 @@
 }
 
 #sharedvoices{
-	font-size:40px;
+	position:absolute;
+	top:195px;
+	font-size:42px;
 	font-family:'Lato';
 	font-weight:100;
-	text-align:center;
+	left:593px;
 }
 
 #date{
+	position:absolute;
+	top:325px;
 	margin-top:-20px;
 	font-size:37px;
 	font-family:'Lato';
 	font-weight:100;
-	text-align:center;
+	left:612px;
 }
 
 #themetmuseum{
+	position:absolute;
+	top:356px;
 	font-size:20px;
 	font-family:'Lato';
 	font-weight:100;
-	text-align:center;
+	left:575px;
 }
 
 #about{
@@ -584,33 +584,32 @@
 	top:730px;
 }
 
-.introtext{
-	position:absolute;
-	top:200px;
-	left:600px;
-}
-
-
 #sharedvoices{
-	font-size:40px;
+	position:absolute;
+	top:195px;
+	font-size:42px;
 	font-family:'Lato';
 	font-weight:100;
-	text-align:center;
+	left:275px;
 }
 
 #date{
+	position:absolute;
+	top:325px;
 	margin-top:-20px;
 	font-size:37px;
 	font-family:'Lato';
 	font-weight:100;
-	text-align:center;
+	left:294px;
 }
 
 #themetmuseum{
+	position:absolute;
+	top:356px;
 	font-size:20px;
 	font-family:'Lato';
 	font-weight:100;
-	text-align:center;
+	left:263px;
 }
 
 #about{
