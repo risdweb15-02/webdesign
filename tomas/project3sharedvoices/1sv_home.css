@@ -1,0 +1,322 @@
+
+
+#bg {
+  position: absolute;
+   width: 100vw;
+    left: 50%;
+    margin-left: -50vw;
+    top: 0;
+    z-index: 0;
+    -webkit-animation: Skypulsetwo 1s infinite;
+}
+
+#sky {
+  position: absolute;
+  width: 100vw;
+  left: 50%;
+  margin-left: -50vw;
+  top: 0;
+  z-index: 1;
+  -webkit-animation: Skypulse 40s infinite;
+}
+
+
+
+@-webkit-keyframes Skypulsetwo {
+  0% {opacity:1;}
+  20% {opacity:.982;}
+  40% {opacity:.964;}
+  60% {opacity:.964;}
+  80% {opacity:.982;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes Skypulse {
+  0% {opacity:.25;}
+  2% {opacity:.525;}
+  4% {opacity:.8;}
+  6% {opacity:.8;}
+  8% {opacity:.525;}
+  10% {opacity:.25;}
+  20% {opacity:1;}
+  22% {opacity:1;}
+  24% {opacity:.8;}
+  26% {opacity:.8;}
+  28% {opacity:.525;}
+  30% {opacity:.25;}
+  40% {opacity:0;}
+  42% {opacity:.525;}
+  44% {opacity:.8;}
+  46% {opacity:.8;}
+  48% {opacity:.525;}
+  50% {opacity:.25;}
+  60% {opacity:.8;}
+  62% {opacity:1;}
+  64% {opacity:.8;}
+  66% {opacity:.8;}
+  68% {opacity:.525;}
+  70% {opacity:.25;}
+  80% {opacity:.525;}
+  82% {opacity:0;}
+  84% {opacity:.1;}
+  86% {opacity:.1;}
+  88% {opacity:.525;}
+  90% {opacity:.25;}
+  100% {opacity:.25;}
+}
+
+html {
+  background-color: rgba(245,208,68,.04);
+
+}
+
+#one {
+  position:absolute;
+  left: 50%;
+  height:21.5vw;
+  width:20.3vw;
+  margin-left: -33.8vw;
+  top: 48vw;
+    opacity: 0;
+}
+#one:hover {
+  opacity: 1;
+}
+#one img {
+  position:absolute;
+  height: 100%;
+    width: 100%;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+#one img.bottom {
+  display: none
+}
+#one img.middle:hover {
+  -webkit-animation: FadeInOut 2s;
+}
+#one img.top:hover {
+  -webkit-animation: FadeInOut2 2s;
+}
+
+#two {
+  position:absolute;
+  left: 50%;
+  height:25.5vw;
+  width:19.3vw;
+  margin-left: -10.3vw;
+  top: 43.9vw;
+    opacity: 0;
+}
+#two:hover {
+  opacity:1;
+}
+#two img {
+  position:absolute;
+  height: 100%;
+    width: 100%;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+#two img.bottom {
+  display: none
+}
+#two img.middle:hover {
+  -webkit-animation: FadeInOut 2s;
+}
+#two img.top:hover {
+  -webkit-animation: FadeInOut2 2s;
+}
+
+#three {
+  position:absolute;
+  left: 50%;
+  height:23.3vw;
+  width:20.7vw;
+  margin-left: 12.2vw;
+  top: 47.87vw;
+    opacity: 0;
+}
+#three:hover {
+  opacity:1;
+}
+#three img {
+  position:absolute;
+  height: 100%;
+    width: 100%;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+#three img.bottom {
+  display: none
+}
+#three img.middle:hover {
+  -webkit-animation: FadeInOut 2s;
+}
+#three img.top:hover {
+  -webkit-animation: FadeInOut2 2s;
+}
+
+ @-webkit-keyframes FadeInOut {
+  0% {opacity:1;}
+  50% {opacity:1;}
+  51% {opacity:0;}
+  100% {opacity:0;}
+}
+
+ @-webkit-keyframes FadeInOut2 {
+  0% {opacity:0;}
+  50% {opacity:0;}
+  51% {opacity:1;}
+  100% {opacity:1;}
+}
+
+#smallbg {
+  position: absolute;
+   width: 79.8vw;
+    left: 50%;
+    margin-left: -39.9vw;
+    top: 10.1vw;
+    z-index: 0;
+    display: none;
+}
+
+#year {
+  position: absolute;
+  height: 80vh;
+  width: 80vw;
+  bottom: 10vw;
+  left: 50%;
+  margin-left: -40vw;
+  border: 0px solid black;
+  z-index: -1;
+    overflow: hidden;
+    display: none;
+    opacity: .4;
+    -webkit-animation: Pulse 11s infinite 0.6s;
+}
+
+span {
+  position: absolute;
+  font-size: 50vw;
+  margin-left: -10vw;
+  bottom: 10vw;
+  font-weight: bolder;
+  background: -webkit-linear-gradient(#FFEAEE, #6ABB89);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display:block;
+    transform:scale(1,4); /* W3C */
+    -webkit-transform:scale(1,24); /* Safari and Chrome */
+    -moz-transform:scale(1,3); /* Firefox */
+    -ms-transform:scale(1,3); /* IE 9 */
+    -o-transform:scale(1,3); /* Opera */
+}
+
+
+@-webkit-keyframes Pulse {
+  0% {opacity:.1;}
+  40% {opacity:.4;}
+  50% {opacity:.3;}
+  60% {opacity:.4;}
+  100% {opacity:.1;}
+}
+
+
+@media (max-width: 500px) {
+  #bg {
+    display: none;
+  }
+
+  #smallbg {
+    display: block;
+  }
+
+  #sky {
+  position: absolute;
+   width: 80vw;
+    left: 50%;
+    margin-left: -40vw;
+    top: 10.1vw;
+    z-index: 10;
+  }
+
+  #year {
+    display: block;
+  }
+  
+  #one {
+    position:absolute;
+  left: 50%;
+  height:21.5vw;
+  width:20.3vw;
+  margin-left: -10.15vw;
+  top: 32vh;
+  z-index: 10;
+    opacity: 1;
+  }
+  #one img.bottom {
+  display: block;
+  }
+  #one img.middle {
+    -webkit-animation: FadeInOut 10s infinite 0.6s;
+  }
+  #one img.top {
+    -webkit-animation: FadeInOut2 10s infinite 0.6s;
+  }
+
+  #two {
+    position:absolute;
+    left: 50%;
+    height:25.5vw;
+    width:19.3vw;
+    margin-left: -9.65vw;
+    top: 51.5vh;
+    z-index: 10;
+      opacity: 1;
+  }
+  #two img.bottom {
+    display: block;
+  }
+  #two img.middle {
+    -webkit-animation: FadeInOut 18s infinite 0.6s;
+  }
+  #two img.top {
+    -webkit-animation: FadeInOut2 18s infinite 0.6s;
+  }
+
+  #three {
+    position:absolute;
+    left: 50%;
+    height:23.3vw;
+    width:20.7vw;
+    margin-left: -10.35vw;
+    top: 74vh;
+    z-index: 10;
+      opacity: 1;
+  }
+  #three img.bottom {
+    display: block;
+  }
+  #three img.middle {
+    -webkit-animation: FadeInOut 14s infinite 0.6s;
+  }
+  #three img.top {
+    -webkit-animation: FadeInOut2 14s infinite 0.6s;
+  }
+
+  html {
+    border: 10vw solid rgba(245,208,68,.04);
+    background-color: transparent;
+    z-index: 10;
+  }
+} 
