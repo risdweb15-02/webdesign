@@ -1,0 +1,38 @@
+.container {
+    width: 620px;
+    height: 308px;
+}
+
+.box1 {
+    background-color: red;
+    width: 100px;
+    height: 304px;
+    float: left;
+    border: 2px solid white;
+}
+
+.box2 {
+    background-color: red;
+    width: 404px;
+    height: 100px;
+    float: left;
+    border: 2px solid white;
+}
+
+.box3 {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    float: left;
+    border: 2px solid white;
+    z-index: -1;
+}
+
+.box4 {
+    background-color: red;
+    width: 100px;
+    height: 304px;
+    position: absolute;
+    border: 2px solid white;
+    top: 10;    
+}

@@ -1,17 +1,279 @@
-#box {
-	width: 600px;
-	height: 1000px;
-	background-color:red;
-	overflow: hidden;
-	margin-left:100px;
-	
+.container {
+width: 1000px;
+height: 600px;
+background: red;
+overflow: hidden;
 }
-
-div div {
-    width: 75px;
-    height: 150px;
-    outline: 1px solid;
-    float: left;
-    background-color:red;
+.box1 { 
+height: 500px; 
+width: 300px;
+background: red;
+border: 2px solid white;
+position:absolute; 
+top:50px; 
+left:50px;
+overflow: hidden;
 }
-
+.box2 { 
+height: 500px; 
+width: 300px;
+background: red;
+border: 2px solid white;
+position: relative;
+top:42px;
+left:350px;
+overflow: hidden;
+}
+.box3 { 
+height: 500px; 
+width: 300px;
+background: red;
+border: 2px solid white;
+position: relative;
+top:-460px; 
+left:660px;
+overflow: hidden;
+}
+.stripe { 
+height:800px; 
+width:2px;
+background:white;
+position:absolute; 
+top:0px; 
+left:60px;
+overflow: hidden;
+}
+.stripe2 { 
+height:800px; 
+width:2px;
+background:white;
+position:absolute; 
+top:0px; 
+left:200px;
+overflow: hidden;
+}
+.stripe3 { 
+height:800px; 
+width:2px;
+background:white;
+position:absolute; 
+top:0px; 
+left:130px;
+overflow: hidden;
+}
+.stripe4 { 
+height:2px; 
+width:700px;
+background:white;
+position:absolute; 
+top:340px; 
+left:0px;
+overflow: hidden;
+}
+.stripe5 { 
+height:2px; 
+width:800px;
+background:white;
+position:absolute; 
+top:210px; 
+left:0px;
+overflow: hidden;
+}
+.stripe6 { 
+height:2px; 
+width:200px;
+background:white;
+position:absolute; 
+top:80px; 
+left:0px;
+overflow: hidden;
+}
+.stripe6b { 
+height:2px; 
+width:700px;
+background:white;
+position:absolute; 
+top:80px; 
+left:0px;
+overflow: hidden;
+}
+.stripe6c { 
+height:2px; 
+width:700px;
+background:white;
+position:absolute; 
+top:145px; 
+left:0px;
+overflow: hidden;
+} 
+.stripe6d { 
+height:2px; 
+width:700px;
+background:white;
+position:absolute; 
+top:275px; 
+left:0px;
+overflow: hidden;
+} 
+.stripe6e { 
+height:2px; 
+width:700px;
+background:white;
+position:absolute; 
+top:405px; 
+left:0px;
+overflow: hidden;
+} 
+.stripe7 { 
+height:800px; 
+width:2px;
+background:white;
+position:absolute; 
+top:0px; 
+left:30px;
+overflow: hidden;
+}
+.stripe7b { 
+height:80px; 
+width:2px;
+background:white;
+position:absolute; 
+top:0px; 
+left:30px;
+overflow: hidden;
+}
+.stripe8 { 
+height:80px; 
+width:2px;
+background:white;
+position:absolute; 
+top:0px; 
+left:95px;
+overflow: hidden;
+}
+.stripe8b { 
+height:130px; 
+width:2px;
+background:white;
+position:absolute; 
+top:210px; 
+left:95px;
+overflow: hidden;
+}
+.stripe9 { 
+height:80px; 
+width:2px;
+background:white;
+position:absolute; 
+top:0px; 
+left:165px;
+overflow: hidden;
+}
+.stripe9b { 
+height:500px; 
+width:2px;
+background:white;
+position:absolute; 
+top:0px; 
+left:165px;
+overflow: hidden;
+}
+.stripe10 { 
+height:2px; 
+width:30px;
+background:white;
+position:absolute; 
+top:145px; 
+left:0px;
+overflow: hidden;
+}
+.stripe10b { 
+height:2px; 
+width:70px;
+background:white;
+position:absolute; 
+top:405px; 
+left:130px;
+overflow: hidden;
+}
+.stripe11 { 
+height:2px; 
+width:30px;
+background:white;
+position:absolute; 
+top:270px; 
+left:0px;
+overflow: hidden;
+}
+.stripe12 { 
+height:2px; 
+width:30px;
+background:white;
+position:absolute; 
+top:400px; 
+left:0px;
+overflow: hidden;
+}
+.stripe12b { 
+height:2px; 
+width:100px;
+background:white;
+position:absolute; 
+top:145px; 
+left:200px;
+overflow: hidden;
+}
+.stripe13 { 
+height:340px; 
+width:2px;
+background:white;
+position:absolute; 
+top:0px; 
+left:230px;
+overflow: hidden;
+}
+.stripe13b { 
+height:500px; 
+width:2px;
+background:white;
+position:absolute; 
+top:0px; 
+left:230px;
+overflow: hidden;
+}
+.stripe13c { 
+height:500px; 
+width:2px;
+background:white;
+position:absolute; 
+top:0px; 
+left:95px;
+overflow: hidden;
+}
+.stripe13d { 
+height:500px; 
+width:2px;
+background:white;
+position:absolute; 
+top:0px; 
+left:95px;
+overflow: hidden;
+}
+.stripe13e { 
+height:500px; 
+width:2px;
+background:white;
+position:absolute; 
+top:0px; 
+left:30px;
+overflow: hidden;
+}
+.stripe13f { 
+height:500px; 
+width:2px;
+background:white;
+position:absolute; 
+top:0px; 
+left:165px;
+overflow: hidden;
+}

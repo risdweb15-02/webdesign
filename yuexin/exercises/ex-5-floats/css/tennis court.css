@@ -1,0 +1,77 @@
+.vertical {
+	height:305px;
+	width:50px;
+	background-color:red;
+}
+
+.horizontal {
+	height:150px;
+	width:305px;
+	background-color:red;
+}
+
+.square {
+	height:150px;
+	width:150px;
+	background-color:red;
+}
+
+#b {
+	margin-left:55px;
+	margin-top:-305px;
+
+}
+
+#b {
+	margin-left:55px;
+	margin-top:-305px;
+
+}
+
+#c {
+	margin-left:365px;
+	margin-top:-150px;
+
+}
+
+#d {
+	margin-left:55px;
+	margin-top:-150px;
+
+}
+
+#e {
+	margin-left:210px;
+	margin-top:-150px;
+
+}
+
+#f {
+	margin-left:0;
+	margin-top:5px;
+
+}
+
+#g {
+	margin-left:55px;
+	margin-top:-305px;
+
+}
+
+#h {
+	margin-left:210px;
+	margin-top:-150px;
+
+}
+
+#i {
+	margin-left:365px;
+	margin-top:-150px;
+
+}
+
+#j {
+	margin-left:55px;
+	margin-top:-150px;
+
+}

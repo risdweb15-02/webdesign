@@ -1,0 +1,60 @@
+.horizontal {
+	background-color:red;
+	width:400px;
+	height:50px;
+	margin-left:400px;
+}
+
+.square {
+	background-color:red;
+	width:400px;
+	height:300px;
+	margin-left:400px;
+}
+
+.small {
+	background-color:red;
+	width:100px;
+	height:150px;
+}
+
+#a {
+	background-color:red;
+	margin-left:400px;
+	width:520px;
+	height:100px;
+}
+
+#c {
+	margin-top:100px;
+}
+
+#d {
+	position: absolute;
+	margin-top:20px;
+	margin-left:400px;
+
+}
+
+#e {
+	position: absolute;
+	margin-top:-300px;
+	margin-left:820px;
+}
+
+#f {
+	margin-top:200px;
+}
+
+#g {
+	position: absolute;
+	margin-top:20px;
+	margin-left:400px;
+
+}
+
+#h {
+	position: absolute;
+	margin-top:-300px;
+	margin-left:820px;
+}

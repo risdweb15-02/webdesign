@@ -1,0 +1,799 @@
+html {
+	font-size: 20px;
+}
+
+body {
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#all {
+	width: 70%;
+	margin: auto;
+}
+
+#all-home {
+	width: 1176px;
+	margin: auto;
+}
+
+h1 {
+	font-size: 1.5em;
+}
+
+h2 {
+ 	font-size: 1.2em;
+ }
+
+h4 {
+ 	font-size: 0.9em;
+ 	color: gray;
+ }
+
+.event {
+ 	position: absolute;
+ 	font-size: 3em;
+ 	line-height: 1.3em;
+ 	text-align: center;
+ 	width: 70%;
+ 	margin: auto;
+ 	left: 0;
+ 	right: 0;
+ }
+
+#event-shane {
+ 	color: #e94e3c;
+ 	top: 251px;
+ }
+
+#event-mac {
+ 	color: #ff9e15;
+ 	top: 98.5px;
+ 	font-size: 2.5em;
+ 	line-height: 1.3em;
+ }
+
+ #event-mitch {
+ 	color: #725090;
+ 	top: 98.5px;
+ 	font-size: 2.5em;
+ 	line-height: 1.3em;
+ 	left: 679.5px;
+ }
+
+#header {
+	position: absolute;
+	height: 100px;
+	top: 30px;
+	margin-bottom: 20px;
+	z-index: -1;
+	clear: both;
+}
+
+#box-up, #box-down {
+	padding: 5px;
+	background: -webkit-linear-gradient(-45deg, #725090, #ff9e15, #e94e3c); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-45deg, #725090, #ff9e15, #e94e3c); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-45deg, #725090, #ff9e15, #e94e3c); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-45deg, #725090, #ff9e15, #e94e3c); /* Standard syntax (must be last) */
+    z-index: 10;
+}
+
+#box-down {
+	padding: 177.3px;
+	padding-left: 12%;
+	padding-right: 12%;
+	display: none;
+	font-size: 2.5em;
+	line-height: 1.3em;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	z-index: 10;
+}
+
+#shane {
+	position: absolute;
+	display: inline-block;
+	width: 1176px;
+	height: auto;
+	top: 160px;
+	z-index: -1;
+}
+
+#shane img {
+	position: absolute;
+	width: 1176px;
+	height: auto;
+}
+
+#shane img:last-child {
+	display: none;
+	top: 0;
+	left: 0;
+}
+
+#mac {
+	position: absolute;
+	display: inline-block;
+	width: 583px;
+	height: auto;
+	top: 830px;
+	z-index: -1;
+}
+
+#mac img {
+	position: absolute;
+	width: 583px;
+	height: auto;
+	margin-bottom: 120px;
+}
+
+#mac img:last-child {
+	display: none;
+	top: 0;
+	left: 0;
+}
+
+#mitch {
+	position: absolute;
+	display: inline-block;
+	width: 583px;
+	height: auto;
+	top: 830px;
+	z-index: -1;
+}
+
+#mitch img {
+	position: absolute;
+	width: 583px;
+	height: auto;
+	left: 593px;
+	margin-bottom: 120px;
+}
+
+#mitch img:last-child {
+	display: none;
+	top: 0;
+	left: 593px;
+}
+
+
+
+#main-shane {
+	position: absolute;
+	width: 70%;
+	height: auto;
+	top: 160px;
+	z-index: -1;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+#quote-shane {
+	position: absolute;
+	color: #e94e3c;
+	font-size: 2.2em;
+	line-height: 1.25em;
+	left: 35%;
+	top: 0;
+}
+
+#profile-shane {
+	float: left;
+	margin-right: 200px;
+	margin-bottom: 30px;
+}
+
+#content-shane {
+	width: 27%;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a#home-1:hover {
+	color: #e94e3c;;
+}
+
+a#home-2:hover {
+	color: #ff9e15;
+}
+
+a#home-3:hover {
+	color: #725090;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+p {
+	font-size: 0.7em;
+	line-height: 1.4em;
+}
+
+video {
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#mac-barnett {
+	position: absolute;
+	width: 70%;
+	height: auto;
+	top: 160px;
+	z-index: -1;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+#quote-mac {
+	position: absolute;
+	color: #ff9e15;
+	font-size: 2.2em;
+	line-height: 1.25em;
+	left: 35%;
+	top: 0;
+}
+
+#profile-mac {
+	float: left;
+	margin-right: 200px;
+	margin-bottom: 30px;
+}
+
+#content-mac {
+	width: 27%;
+}
+
+#mitch-resnick {
+	position: absolute;
+	width: 70%;
+	height: auto;
+	top: 160px;
+	z-index: -1;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+#quote-mitch {
+	position: absolute;
+	color: #725090;
+	font-size: 2.2em;
+	line-height: 1.25em;
+	left: 35%;
+	top: 0;
+}
+
+#profile-mitch {
+	float: left;
+	margin-right: 200px;
+	margin-bottom: 30px;
+}
+
+#content-mitch {
+	width: 27%;
+}
+
+
+
+/******************************************************************/
+
+@media screen and (max-width: 1000px) {
+
+#all-home {
+	width: 823.2px;
+	margin: auto;
+}
+
+#all {
+	width: 82.32%;
+	margin: auto;
+}
+
+#event-shane {
+ 	color: #e94e3c;
+ 	top: 152px;
+ }
+
+#event-mac {
+ 	color: #ff9e15;
+ 	top: 152px;
+ 	font-size: 3em;
+ 	line-height: 1.3em;
+ }
+
+ #event-mitch {
+ 	color: #725090;
+ 	top: 152px;
+ 	font-size: 3em;
+ 	line-height: 1.3em;
+ 	left: 0px;
+ }
+
+#shane {
+	position: absolute;
+	display: inline-block;
+	width: 823.2px;
+	height: auto;
+	top: 160px;
+	z-index: -1;
+	margin: auto;
+}
+
+#shane img {
+	position: absolute;
+	width: 823.2px;
+	height: auto;
+}
+
+#shane img:last-child {
+	display: none;
+	top: 0;
+	left: 0;
+}
+
+#mac {
+	position: absolute;
+	display: inline-block;
+	width: 823.2px;
+	height: auto;
+	top: 630px;
+	z-index: -1;
+}
+
+#mac img {
+	position: absolute;
+	width: 823.2px;
+	height: auto;
+}
+
+#mac img:last-child {
+	display: none;
+	top: 0;
+	left: 0;
+}
+
+#mitch {
+	position: absolute;
+	display: inline-block;
+	width: 823.2px;
+	height: auto;
+	top: 1100px;
+	z-index: -1;
+}
+
+#mitch img {
+	position: absolute;
+	width: 823.2px;
+	height: auto;
+	left: 0;
+}
+
+#mitch img:last-child {
+	display: none;
+	top: 0;
+	left: 0;
+}
+
+#box-down {
+	padding: 107.3px;
+	padding-left: 12%;
+	padding-right: 12%;
+	display: none;
+	font-size: 2.15em;
+	line-height: 1.3em;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	z-index: 10;
+}
+
+#main-shane {
+	position: absolute;
+	width: 82.32%;
+	height: auto;
+	top: 160px;
+	z-index: -1;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+#profile-shane {
+	margin-right: 80px;
+	margin-bottom: 300px;
+	z-index: 1;
+}
+
+#content-shane {
+	width: 100%;
+	top: 0px;
+	z-index: 1;
+}
+
+#quote-shane {
+	position: absolute;
+	font-size: 1.4em;
+	line-height: 1.4em;
+	padding-left: 0%;
+	width: 100%;
+	top: 480px;
+	left: 0;
+	background: white;
+	z-index: 1;
+}
+
+#mac-barnett {
+	position: absolute;
+	width: 82.32%;
+	height: auto;
+	top: 160px;
+	z-index: -1;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+#profile-mac {
+	margin-right: 80px;
+	margin-bottom: 300px;
+	z-index: 1;
+}
+
+#content-mac {
+	width: 100%;
+	top: 0px;
+	z-index: 1;
+}
+
+#quote-mac {
+	position: absolute;
+	font-size: 1.4em;
+	line-height: 1.4em;
+	padding-left: 0%;
+	width: 100%;
+	top: 320px;
+	left: 0;
+	background: white;
+	z-index: 1;
+}
+
+#mitch-resnick {
+	position: absolute;
+	width: 82.32%;
+	height: auto;
+	top: 160px;
+	z-index: -1;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+#profile-mitch {
+	margin-right: 80px;
+	margin-bottom: 300px;
+	z-index: 1;
+}
+
+#content-mitch {
+	width: 100%;
+	top: 0px;
+	z-index: 1;
+}
+
+#quote-mitch {
+	position: absolute;
+	font-size: 1.4em;
+	line-height: 1.4em;
+	padding-left: 0%;
+	width: 100%;
+	top: 400px;
+	left: 0;
+	background: white;
+	z-index: 1;
+}
+
+#video-shane {
+	left: 0;
+	top: 820px;
+	margin-bottom: 100px;
+	position: absolute;
+}
+
+#video-mac {
+	left: 0;
+	top: 590px;
+	margin-bottom: 100px;
+	position: absolute;
+}
+
+#video-mitch {
+	left: 0;
+	top: 670px;
+	margin-bottom: 100px;
+	position: absolute;
+}
+
+
+}
+
+
+
+/******************************************************************/
+
+@media screen and (max-width: 400px) {
+
+#all-home {
+	width: 400px;
+	margin: auto;
+}
+
+#all {
+	width: 80%;
+	margin: auto;
+}
+
+.event {
+ 	font-size: 2em;
+ 	line-height: 1.3em;
+ 	width: 90%;
+ }
+
+#event-shane {
+ 	color: #e94e3c;
+ 	top: 60px;
+ }
+
+#event-mac {
+ 	color: #ff9e15;
+ 	top: 60px;
+ 	font-size: 2em;
+ 	line-height: 1.3em;
+ }
+
+ #event-mitch {
+ 	color: #725090;
+ 	top: 60px;
+ 	font-size: 2em;
+ 	line-height: 1.3em;
+ 	left: 0px;
+ }
+
+#header {
+	margin: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+
+#shane {
+	position: absolute;
+	display: inline-block;
+	width: 400px;
+	height: auto;
+	top: 160px;
+	z-index: -1;
+	margin: auto;
+}
+
+#shane img {
+	position: absolute;
+	width: 400px;
+	height: auto;
+}
+
+#shane img:last-child {
+	display: none;
+	top: 0;
+	left: 0;
+}
+
+#mac {
+	position: absolute;
+	display: inline-block;
+	width: 400px;
+	height: auto;
+	top: 390px;
+	z-index: -1;
+}
+
+#mac img {
+	position: absolute;
+	width: 400px;
+	height: auto;
+}
+
+#mac img:last-child {
+	display: none;
+	top: 0;
+	left: 0;
+}
+
+#mitch {
+	position: absolute;
+	display: inline-block;
+	width: 400px;
+	height: auto;
+	top: 620px;
+	z-index: -1;
+}
+
+#mitch img {
+	position: absolute;
+	width: 400px;
+	height: auto;
+	left: 0;
+}
+
+#mitch img:last-child {
+	display: none;
+	top: 0;
+	left: 0;
+}
+
+#box-down {
+	padding: 173.8px;
+	padding-left: 12%;
+	padding-right: 12%;
+	display: none;
+	font-size: 1.2em;
+	line-height: 1.3em;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	z-index: 10;
+}
+
+
+
+p {
+	padding-top: 0px;
+	padding-bottom: 80px;
+}
+
+h2 {
+ 	text-align: center;
+ }
+
+h4 {
+ 	text-align: center;
+ }
+
+#main-shane {
+	position: absolute;
+	width: 80%;
+	height: auto;
+	top: 160px;
+	z-index: -1;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+#profile-shane {
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	padding-left: 66.5px;
+	padding-right: 66.5px;
+	background-color: white;
+	margin-bottom: 40px;
+	z-index: 1;
+}
+
+#content-shane {
+	position: absolute;
+	width: 100%;
+	top: 200px;
+	z-index: 1;
+}
+
+#quote-shane {
+	position: absolute;
+	font-size: 0.9em;
+	line-height: 1.4em;
+	padding-left: 0%;
+	width: 100%;
+	top: 800px;
+}
+
+#mac-barnett {
+	position: absolute;
+	width: 80%;
+	height: auto;
+	top: 160px;
+	z-index: -1;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+#profile-mac {
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	padding-left: 66.5px;
+	padding-right: 66.5px;
+	background-color: white;
+	margin-bottom: 40px;
+	z-index: 1;
+}
+
+#content-mac {
+	position: absolute;
+	width: 100%;
+	top: 200px;
+	z-index: 1;
+}
+
+#quote-mac {
+	position: absolute;
+	font-size: 0.9em;
+	line-height: 1.4em;
+	padding-left: 0%;
+	width: 100%;
+	top: 560px;
+}
+
+#mitch-resnick {
+	position: absolute;
+	width: 80%;
+	height: auto;
+	top: 160px;
+	z-index: -1;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+#profile-mitch {
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	padding-left: 66.5px;
+	padding-right: 66.5px;
+	background-color: white;
+	margin-bottom: 40px;
+	z-index: 1;
+}
+
+#content-mitch {
+	position: absolute;
+	width: 100%;
+	top: 200px;
+	z-index: 1;
+}
+
+#quote-mitch {
+	position: absolute;
+	font-size: 0.9em;
+	line-height: 1.4em;
+	padding-left: 0%;
+	width: 100%;
+	top: 710px;
+}
+
+#video-shane {
+	left: 0;
+	top: 1185px;
+	margin-bottom: 100px;
+	position: absolute;
+}
+
+#video-mac {
+	left: 0;
+	top: 820px;
+	margin-bottom: 100px;
+	position: absolute;
+}
+
+#video-mitch {
+	left: 0;
+	top: 1000px;
+	margin-bottom: 100px;
+	position: absolute;
+}
+
+}

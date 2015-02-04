@@ -1,0 +1,45 @@
+div{
+	background-color:red;
+}
+
+#top1{
+	width:600px;
+	height:60px;
+}
+
+#top2{
+	width:600px;
+	height:15px;
+	margin-top:10px;
+}
+
+#middle1{
+	width:193.5px;
+	height:400px;
+	margin-top:10px;
+	float:left;
+}
+
+#middle2{
+	width:193.5px;
+	height:400px;
+	margin-top:10px;
+	float:left;
+	margin-left:10px;
+}
+
+#middle3{
+	width:193.5px;
+	height:400px;
+	margin-top:10px;
+	margin-left:10px;
+	float:left;
+}
+
+#bottom{
+	width:600px;
+	height:60px;
+	float:bottom;
+	position:absolute;
+	top:515px;
+}

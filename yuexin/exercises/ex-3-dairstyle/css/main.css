@@ -1,0 +1,60 @@
+h2 {
+	color:rgb(61,163,239);
+}
+
+body {
+	background-color: rgb(39,40,34);
+	/*background-color:rgb(191,201,210);*/
+}
+
+* {
+	color:rgb(50,135,208);
+}
+
+a:active {
+	color: green;
+}
+
+a:active {
+	color:purple;
+}
+
+a:visited {
+	color: black;
+}
+
+a {
+		text-decoration: none;
+	}
+
+div {
+	border: 100px;
+	background-color: black;
+	border-color: black;
+	height: 260px;
+	width: 230px;
+	border-spacing: 20px;
+	text-align: center;
+	padding: 10px;
+	margin: 10px auto;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+section {
+	border: 8px solid black;
+}
+
+body {
+	border: 8px solid black;
+	padding: 10px;
+}
+
+.column {
+	float: left;
+	font-size:80px;
+}
+
+#aaa {
+	flpaglt: auto;
+}

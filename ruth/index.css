@@ -1,0 +1,39 @@
+a{
+	text-decoration:none;
+	color:black;
+}
+
+.name{
+	position:absolute;
+	font-family:Raleway;
+	font-weight:600;
+	font-size:18px;
+	top:30px;
+	left:200px;
+}
+
+.exercises{
+	line-height:21px;
+	position:absolute;
+	top:80px;
+	left:200px;
+}
+
+.projects{
+	line-height:21px;
+	position:absolute;
+	top:450px;
+	left:200px;
+}
+
+#exercisestitle{
+	font-family:Raleway;
+	font-weight:600;
+	font-size:30px;
+}
+
+#projectstitle{
+	font-family:Raleway;
+	font-weight:600;
+	font-size:30px;
+}

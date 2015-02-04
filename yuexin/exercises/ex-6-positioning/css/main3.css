@@ -1,0 +1,137 @@
+div {
+	background-color: red;
+	height: 100px;
+	width: 20px;
+	float:left;
+	margin-left: 10px
+}
+
+#a {
+	top:100px;
+	position: relative;
+}
+
+#b {
+	top:90px;
+	position: relative;
+}
+
+#c {
+	top:120px;
+	position: relative;
+}
+
+#d {
+	top:140px;
+	position: relative;
+}
+
+#e {
+	top:80px;
+	position: relative;
+}
+
+#f {
+	top:160px;
+	position: relative;
+}
+
+#g {
+	top:180px;
+	position: relative;
+}
+
+#h {
+	top:120px;
+	position: relative;
+}
+
+#i {
+	top:90px;
+	position: relative;
+}
+
+#j {
+	top:70px;
+	position: relative;
+}
+
+#k {
+	top:60px;
+	position: relative;
+}
+
+#l {
+	top:100px;
+	position: relative;
+}
+
+#m {
+	top:140px;
+	position: relative;
+}
+
+#n {
+	top:120px;
+	position: relative;
+}
+
+#o {
+	top:180px;
+	position: relative;
+}
+
+#p {
+	top:60px;
+	position: relative;
+}
+
+#q {
+	top:50px;
+	position: relative;
+}
+
+#r {
+	top:80px;
+	position: relative;
+}
+
+#s {
+	top:70px;
+	position: relative;
+}
+
+#t {
+	top:90px;
+	position: relative;
+}
+
+#u {
+	top:130px;
+	position: relative;
+}
+
+#v {
+	top:140px;
+	position: relative;
+}
+
+#w {
+	top:160px;
+	position: relative;
+}
+
+#x {
+	top:110px;
+	position: relative;
+}
+
+#y {
+	top:120px;
+	position: relative;
+}
+
+#z {
+	top:130px;
+	position: relative;
+}
