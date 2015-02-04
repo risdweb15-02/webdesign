@@ -1,0 +1,88 @@
+#sv {
+	width: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 120px;
+	opacity: 1.0;
+	transition: all .2s ease-in-out;
+
+}
+
+#sv:hover {
+	transform: scale(1.2);
+}
+
+/* #sv:hover {
+	-webkit-transform: scale(1.1,1.1);
+    -moz-transform:scale(1.1,1.1);
+    -ms-transform:scale(1.1,1.1);
+    -o-transform:scale(1.1,1.1);
+    opacity: 0.7;
+    -webkit-opacity: 0.7;
+    -moz-opacity: 0.7;
+} */
+
+#first_circle {
+	width: 30px;
+	height: 30px;
+	background: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+#second_circle {
+	width: 30px;
+	height: 30px;
+	background: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 120px;
+}
+
+#third_circle {
+	width: 30px;
+	height: 30px;
+	background: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 120px;
+}
+
+#line {
+	width: 3px;
+	background-color: black;
+	height: 300px;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -300px;
+}
+
+#text {
+	float: left;
+	position: relative;
+	font-family: Helvetica, sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	letter-spacing: 1px;
+	line-height: 22px;
+}
+
+.circle { transition: all .2s ease-in-out; }
+.circle:hover { transform: scale(1.2); }
+
+@media screen and (max-width: 500px) {
+                #sv {
+                width: 150px;
+                }

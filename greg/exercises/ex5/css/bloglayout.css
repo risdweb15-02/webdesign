@@ -1,0 +1,58 @@
+.container {
+            width: 700px;
+            height: 1200px;
+            background: white;
+            overflow: hidden;
+            }
+        .box1 { 
+            height:120px; 
+            width:700px;
+            background:red;
+            float: left;
+            margin-bottom: 70px
+            }
+        .box2 { 
+            height:400px; 
+            width:560px;
+            background:red;
+            float: left;
+            margin-top: 15px;
+            margin-right: 10px;
+            }
+        .box3 { 
+            height:170px; 
+            width:130px;
+            background:red;
+            float: left;
+            margin-top: 15px;
+            }
+         .box4 { 
+            height:40px; 
+            width:560px;
+            background:red;
+            float: left;
+            margin-top: 10px;
+            margin-bottom: 70px
+            }
+        .box5 { 
+            height:400px; 
+            width:560px;
+            background:red;
+            float: left;
+            margin-top: 15px;
+            margin-right: 10px;
+            }
+        .box6 { 
+            height:170px; 
+            width:130px;
+            background:red;
+            float: left;
+            margin-top: 15px;
+            }
+         .box7 { 
+            height:40px; 
+            width:560px;
+            background:red;
+            float: left;
+            margin-top: 10px;
+            }
