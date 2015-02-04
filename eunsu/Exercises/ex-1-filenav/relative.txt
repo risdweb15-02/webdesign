@@ -1,0 +1,7 @@
+img/image.jpg
+
+js/vendor/jquery-2.1.1.min.js
+
+../../css/main.css
+
+../js/script.js

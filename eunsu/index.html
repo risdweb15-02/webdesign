@@ -6,7 +6,47 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" href="index.css"> 
+        <style>
+        @media only screen and (max-width: 500px) {
+    
+            .header {
+                width: 30%;
+                height: 30%;
+                
+            }
+
+            .bodyT{ 
+                width: 65%;
+                height: 65%;
+                
+                background-color: #FB7200;
+            }
+        }
+
+
+        body {
+            font-family: Helvetica, Arial, sans-serif;
+        }
+            .header {
+                width: 100%;
+                height: auto;
+                background-color: red;
+                margin-top: -10px;
+                padding-top: 20px;
+                padding-left: 20px;
+                
+                
+
+            }
+
+            .arrow:hover {
+                color: green;
+
+            }
+
+
+
+        </style>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
         <script src="js/script.js">
         </script>
@@ -14,13 +54,35 @@
 
     <body>
     	<div class="header"><h1>Eunsu Chang's Website</h1>
+            
+
+            <div class="Exercises">
+            <p><h2>Exercises</h2></p>    
+         <ol>
+            
+            <li><a href="Exercises/ex-1-filenav/index.html" target="_blank" class="arrow"/>File Path Navigation</a></li>
+            <li><a href="Exercises/ex-2-dairmarkup/seven_principles.html" target="_blank" class="arrow"/>Markup Carl Dair</a></li>
+            <li><a href="Exercises/ex-3-dairstyle/seven_principles_style.html" target="_blank" class="arrow"/>Style Carl Dair</a></li>
+            <li><a href="Exercises/ex-4-artschool/Mass_Art.pdf" target="_blank" class="arrow"/>Art Center Site Map</a></li>
+            <li><a href="Exercises/ex-5-floats/index.html" target="_blank" class="arrow"/>CSS Floats</a></li>
+            <li><a href="Exercises/ex-6-positioning/index.html" target="_blank" class="arrow"/>CSS Positioning</a></li>
+            <li><a href="Exercises/ex-7-artistbio/exercise_artist_bio.html" target="_blank" class="arrow"/>Artist Bio</a></li>
+        </ol>   
+            </div>    
+
+
+
             <div class="bodyT">
+            <p><h2>Projects</h2></p>    
             <ol>
         		<li id="first"> <a href="Projects/Project1/Gareth_bale.html"class="arrow">Project1: Gareth_Bale</a></li>
+                <li id="first"> <a href="Projects/Project1/Bale .pdf"class="arrow">Project1: Plans</a></li>
         		
-                <li ><a href="Projects/Project2/artist_tour.html"class="arrow">Project2: Taryn Simon
+                <li ><a href="Projects/Project2/artist_tour.html"class="arrow">Project2: Taryn Simon </a> </li>
+                <li id="first"> <a href="Projects/Project2/Artist_Tour.pdf"class="arrow">Project2: Plans</a></li>
                 
-                <li ><a href="Projects/Project3/sharedvoice.html"class="arrow">Project3: Shared Voice
+                <li ><a href="Projects/Project3/sharedvoice.html"class="arrow">Project3: Shared Voice </a> </li>
+                <li id="first"> <a href="Projects/Project3/Three_Speakers.pdf"class="arrow">Project3: Plans</a></li>
 
     	   </ol>
             </div>
