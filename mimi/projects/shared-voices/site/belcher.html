@@ -14,10 +14,19 @@
 </head>
 
 
-<style>
+<script>
+$(document).ready(function() {
+    $("#header").mouseenter(function() {       
+        $(".nav").slideToggle();
+  });
+    $(".nav").mouseleave(function() {
+        $(".nav").slideToggle();
+    });
 
+});
+  </script>
 
-</style>
+</script>
 
 
 
@@ -33,16 +42,15 @@
       
       
       <div id="pagearea">
-          <div class="info">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <div class="nav">
+              <ul>
+                <li><a href="belcher.html">ANGELA BELCHER</a></li>
+                <li><a href="full.html">ROBERT FULL</a></li>
+                <li><a href="pawlyn.html">MICHAEL PAWLYN</a></li>
+              </ul>
           </div>
 
-          <div class="headerpic" style="background: url(img/abaloneshell.jpg); background-position: center; background-size: cover;"></div>
+          <div class="headerpic" style="background: url(img/belcherbig.jpg); background-position: center; background-size: cover;"></div>
 
           <div class="textarea"> 
             <div class="text">
@@ -51,31 +59,23 @@
               </div>
 
               <div class="sidebar">
-                <img src="img/belcherbig.jpg" class="propic">
+                <img src="img/belcherpro.jpg" class="propic">
                 <p class="time">
-                April 22, 2015 <br />
+                March 19, 2015 <br />
                 RISD Auditorium <br />
-                7:30 pm <br />
+                7:00 pm <br />
                 </p>
               </div>
 
               <div class="bodytext">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                With a bachelors in Creative Studies and a Ph.D. in Inorganic Chemistry, Angela Belcher has made a career out of finding surprising and innovative solutions to energy problems. 
               </p>
-
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                After studying abalone shells as a graduate at the University of California, she was inspired by how the shell, despite being made of a common mineral, is 3,000 times stronger than the chalk that makes up 98% of it. She thus began work on programming viruses that have helped lead to new pathways for organizing molecules in ways to form new revolutionary materials. Products of this research include powerful new batteries, clean hydrogen fuels, and record-breaking solar cells.
+              </p>
+              <p>
+                As head of the Biomolecular Materials Group at MIT, Belcher brings together the fields of materials chemistry, electrical engineering and molecular biology to engineer viruses that can create batteries and clean energy sources. A MacArthur Fellow, she also founded <a href="http://www.cambrios.com/" target="_blank">Cambrios Technologies</a>, a Cambridge-based startup focused on applying her work with natural biological systems to the manufacture and assembly of electronic, magnetic and other commercially important materials, as well as <a href="http://siluria.com/" target="_blank">Siluria Technologies</a>. TIME magazine named her a climate-change hero in 2007.
               </p>
 
               
@@ -84,16 +84,6 @@
       </div>
 
     </div>
-
-
-<script>
-  /*  $(document).ready(function() {
-        $("#header").click(function() {       
-            $(".info").slideToggle();
-        });
-    }); */
-</script>
-
 
 </body>
 </html>
