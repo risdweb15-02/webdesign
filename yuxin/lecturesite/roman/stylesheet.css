@@ -1,0 +1,187 @@
+body{
+   
+   background-image: url("img/background.jpg");
+ 
+}
+
+
+#back{
+	width: 1900px;
+}
+
+
+#left{
+	float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	width: 500px;
+	height: 1080px;
+	display: inline-block;
+}
+
+
+#menu{
+	float: left;
+	margin-left: 50px;
+	margin-top: 20px;
+	width: 400px;
+	height: 100px;
+	/* background-color: white; */
+}
+
+
+
+
+#a1{
+	float:left;
+	height: 100px;
+	width: 100px;
+	opacity: 0.5;
+	transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+
+}
+
+
+#a1 img{
+    max-width:100%; 
+    margin:auto;
+    display:block;
+}
+
+#a1:hover{
+	opacity: 1;
+}
+
+
+
+#a2{
+	float:left;
+	height: 100px;
+	width: 100px;
+	margin-left:30px;
+	opacity: 0.5;
+	transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+}
+
+
+#a2 img{
+    max-width:100%; 
+    margin:auto;
+    display:block;
+    
+}
+
+#a2:hover{
+	opacity: 1;
+}
+
+#a3{
+	float:left;
+	height: 100px;
+	width: 100px;
+	margin-left:30px;
+	opacity: 0.5;
+	transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+
+}
+
+
+
+#a3 img{
+    max-width:100%; 
+    margin:auto;
+    display:block;
+}
+
+#a3:hover{
+	opacity: 1;
+}
+
+
+
+
+#right{
+	float:left;
+	margin-left: 20px;
+	margin-top: 100px;
+	width: 1300px;
+	height: 1080px;
+	background-color: rgba(255,255,255,0.5);
+}
+
+
+
+#photo{
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin-left: 70px;
+	margin-top: 180px;
+	background-color: white;
+	display: inline-block;
+}
+
+
+#photo img {
+    max-width:100%; 
+    margin:auto;
+    display:block;
+
+}
+
+
+
+#text{
+	width: 700px;
+	height: 600px;
+	float: left;
+	margin-left: 50px;
+	margin-top: 170px;
+	/*background-color: white;*/
+
+}
+
+
+.bio{
+	font-family: verdana,arial,san-serif;
+	font-size: 20px;
+	margin-top: 0px;
+	opacity: 0.7;
+}
+
+
+.time{
+	font-family: verdana;
+	font-size: 20px;
+	margin-top: 0px;
+	font-weight: bold;
+	margin-top: 50px;
+	opacity: 0.5;
+}
+
+#cap{
+	font-family: verdana;
+	font-size: 26px;
+	margin-top: 0px;
+	font-weight: bold;
+
+}
+
+
+
+#head{
+	float: left;
+	font-family:verdana;
+	font-weight: bolder;
+	font-size: 45px;
+	color: rgba(255,255,255,1);
+	margin-top: 90px;
+	margin-left: 50px;
+	text-align: left;
+
+}
+
+

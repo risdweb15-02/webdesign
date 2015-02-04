@@ -1,0 +1,185 @@
+body{
+   
+   background-image: url("img/background.jpg");
+ 
+}
+
+
+#back{
+	width: 480px;
+}
+
+
+#left{
+	float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	width: 480px;
+	height: 250px;
+	
+}
+
+
+#menu{
+	float: left;
+	margin-left:85px;
+	margin-top: -10px;
+	width: 400px;
+	height: 70px;
+	/* background-color: white; */
+}
+
+
+
+
+#a1{
+	float:left;
+	height: 70px;
+	width: 70px;
+	opacity: 0.5;
+	transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+
+}
+
+
+#a1 img{
+    max-width:100%; 
+    margin:auto;
+    display:block;
+}
+
+#a1:hover{
+	opacity: 1;
+}
+
+
+
+#a2{
+	float:left;
+	height: 70px;
+	width: 70px;
+	margin-left:30px;
+	opacity: 0.5;
+	transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+}
+
+
+#a2 img{
+    max-width:100%; 
+    margin:auto;
+    display:block;
+    
+}
+
+#a2:hover{
+	opacity: 1;
+}
+
+#a3{
+	float:left;
+	height: 70px;
+	width: 70px;
+	margin-left:30px;
+	opacity: 0.5;
+	transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+
+}
+
+
+
+#a3 img{
+    max-width:100%; 
+    margin:auto;
+    display:block;
+}
+
+#a3:hover{
+	opacity: 1;
+}
+
+
+
+
+#right{
+	float:left;
+	margin-left: 0px;
+	margin-top: 10px;
+	width: 480px;
+	height: 1300px;
+	background-color: rgba(255,255,255,0.5);
+}
+
+
+
+#photo{
+	width: 300px;
+	height: 300px;
+	margin-left: 70px;
+	margin-top: 50px;
+	background-color: white;
+	display: inline-block;
+}
+
+
+#photo img {
+    max-width:100%; 
+    margin:auto;
+    display:block;
+
+}
+
+
+
+#text{
+	width: 380px;
+	height: 1000px;
+	margin-left: 30px;
+	margin-top: 10px;
+	/*background-color: white;*/
+
+}
+
+
+.bio{
+	font-family: verdana,arial,san-serif;
+	font-size: 18px;
+	margin-top: 20px;
+	margin-left: 20px;
+	opacity: 0.7;
+}
+
+
+.time{
+	font-family: verdana;
+	font-size: 20px;
+	margin-top: 0px;
+	font-weight: bold;
+	margin-top: 50px;
+	margin-left: 20px;
+	opacity: 0.5;
+}
+
+#cap{
+	font-family: verdana;
+	font-size: 26px;
+	margin-top: 0px;
+	font-weight: bold;
+
+}
+
+
+
+#head{
+	margin-left: 45px;
+	margin-top: 20px;
+	font-family:verdana;
+	font-weight: bolder;
+	font-size: 40px;
+	color: rgba(255,255,255,1);
+	
+	text-align: center;
+
+}
