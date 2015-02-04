@@ -1,0 +1,26 @@
+h1 {
+	font-family: "Calibri";
+	font-size:60px;
+}
+
+#citations {
+	font-size:12px;
+}
+
+img {
+	transform:rotate(-30deg);
+	transform-origin: 80% 80%;
+	transform:skewY(60deg);
+}
+
+p {
+	transform: rotate(30deg);
+	transform:skewY(30deg);
+}
+
+blockquote {
+	transform:rotate(20deg);
+	transform:scaleY(1.3);
+	transform:skewY(-10deg);
+}
+

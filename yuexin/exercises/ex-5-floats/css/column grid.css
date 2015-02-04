@@ -1,0 +1,49 @@
+.horizontal {
+	height:50px;
+	width:500px;
+	margin:0 auto;
+	background-color:red;
+}
+
+#b {
+	margin-top:10px;
+	background-color:red;
+	margin:0 auto;
+	height:10px;
+	width:500px;
+	margin-top:10px;
+
+}
+
+.vertical {
+	width:160px;
+	height:500px;
+	background-color:red;
+}
+
+#c {
+	position: absolute;
+	left: 50%;
+	margin-top:10px;
+	transform: translate(-50%, 0);
+}
+
+#d {
+	position: absolute;
+	margin-top:10px;
+	left:710px;
+
+}
+
+#e {
+	position: absolute;
+	margin-top:10px;
+	left:1050px;
+}
+
+#f {
+	position: absolute;
+	left: 50%;
+	margin-top:520px;
+	transform: translate(-50%, 0);
+}
