@@ -1,0 +1,76 @@
+
+body {
+      background-image: url(../images/lobby7img/lobby72.jpeg);
+     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Montserrat', sans-serif;
+    
+    
+}
+
+.quotelobby7 {
+    color:#0000FF;  
+    font-size: 45pt;
+    margin-left:50px;
+    width: 40%;
+    margin-top: 1em;
+}
+
+h2 {
+    color: transparent; 
+    margin-left: 50px; 
+}
+h2:hover { 
+    color: white;
+    margin-left: 50px; 
+} 
+
+#lobby7text {
+    color: transparent; 
+    width: 20em;
+    
+    
+}
+#lobby7text:hover { 
+    color: white; 
+    margin-left: 50px; 
+     
+}
+
+#descriptaboutlobby7 {
+    color: transparent;
+}
+#descriptaboutlobby7:hover { 
+    color: #C0C0C0;
+    margin-left: 50px; 
+} 
+
+
+
+a {
+   
+    color: transparent;
+ 
+    
+}
+a:hover { 
+     color: red;
+       text-decoration:none;
+} 
+
+
+
+img {
+    
+    position: absolute;
+    
+   top: 50%;
+   left: 70%;
+   width: 500px;
+   height: 500px;
+   margin-top: -250px; /* Half the height */
+   margin-left: -250px; /* Half the width */
+ z-index: -100; 
+
+}

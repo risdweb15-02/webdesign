@@ -1,0 +1,75 @@
+html{} 
+
+body {
+      background-image: url(../images/reasonableman/48.jpg);
+     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#isolating {
+    position: fixed; 
+    font-size: 100pt; 
+    margin-left: 20px; 
+    transform: rotate(-70deg); 
+    margin-top: 20%
+    
+}
+
+#reasonablequote {
+    position: fixed; 
+    font-size: 17pt; 
+   transform:rotate(-70deg); 
+    margin-left: 150px; 
+    margin-top: 33%; 
+    
+    
+}
+
+#titlereasonable {
+    position:absolute; 
+    font-size:20pt; 
+    
+}
+
+#reasonabletextmain {
+    position:absolute; 
+    font-size: 14pt; 
+    line-height: 130%; 
+    width: 20%; 
+    transform:rotate(-20deg); 
+    margin-left: 30%; 
+    margin-top: 20%; 
+}
+
+#reasonabletextmain2 {
+        position:absolute; 
+    font-size: 14pt; 
+    line-height: 130%; 
+    width: 20%; 
+    transform:rotate(20deg); 
+    margin-left: 40%; 
+    margin-top: 40%; 
+}
+
+#reasonabletextmain3 {
+        position:absolute; 
+    font-size: 14pt; 
+    line-height: 130%; 
+    width: 20%; 
+    transform:rotate(-20deg); 
+    margin-left: 30%; 
+    margin-top: 55%; 
+    margin-bottom: 10em; 
+}
+
+a {
+    color: red; 
+    text-decoration: none; 
+    
+}
+a:hover { 
+    color:black; 
+
+} 

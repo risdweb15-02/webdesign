@@ -1,0 +1,142 @@
+html{} 
+
+#block1 {
+    width: 1000px; 
+    background: white; 
+    height: 1000px; 
+}
+
+#block2 {
+    width:1000px; 
+    height: 500px; 
+    position:relative; 
+    background:white; 
+}
+
+#box1 {
+  position:absolute; 
+    margin: 5px; 
+    height: 200px; 
+    width: 1000px; 
+     color:red; 
+     background-color: red;
+    align-items: right; 
+    top: 0; 
+    left: 250px; 
+    
+}
+
+#box2 {
+    position:absolute; 
+    margin: 5px; 
+    width: 200px; 
+    height: 735px; 
+    color:red; 
+    background-color: red;
+    
+    
+    
+    
+}
+
+#box3 {
+    position:absolute; 
+     color:red; 
+     background-color: red;
+      color:red; 
+     height: 500px;
+    width: 500px; 
+    top:250px; 
+    left: 250px; 
+    
+}
+
+
+
+
+#box5 {
+        position:absolute; 
+     color:red; 
+     background-color: red;
+      color:red; 
+     height: 500px;
+    width: 500px; 
+    top:250px; 
+    left: 760px;
+   
+    
+}
+
+#box6 {
+   
+       position:absolute; 
+    margin: 5px; 
+    width: 200px; 
+   height: 735px; 
+    color:red; 
+    background-color: red;
+    left: 1300px; 
+    top: 5px;
+}
+
+#box7 {
+
+      position:absolute; 
+     color:red; 
+     background-color: red;
+      color:red; 
+     height: 500px;
+    width: 500px; 
+    top:-250px; 
+    left: 240px; 
+}
+
+#box8 {
+    position:absolute; 
+    margin: 5px; 
+    width: 200px; 
+     height: 750px; 
+    top: -260px; 
+    color:red; 
+    background-color: red;
+}
+
+#box9 {
+     position:absolute; 
+     color:red; 
+     background-color: red;
+      color:red; 
+     height: 500px;
+    width: 500px; 
+    top:-250px; 
+    left: 750px; 
+}
+
+#box10 {
+         color:red; 
+     position:absolute;
+    margin: 5px; 
+    height: 200px; 
+    width: 1000px; 
+     color:red; 
+     background-color: red;
+    align-items: right; 
+   top:300px; 
+    left: 250px; 
+    
+}
+
+#box11 {
+        position:absolute; 
+    margin: 5px; 
+    width: 200px; 
+    height: 750px; 
+    color:red; 
+    background-color: red;
+    right: -500px; 
+    top:-255px; 
+}
+
+
+
+

@@ -1,0 +1,72 @@
+
+
+
+body {
+    background-image: url(../images/systems/305.jpg);
+    
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#maintextsystems {
+    position: absolute; 
+    width: 350px; 
+    opacity: 0.8;
+    color: black;
+    background: white;
+    left: 10em;
+    padding:1em; 
+    font-size: 13pt; 
+    top: 20%; 
+    padding-bottom: 2em; 
+    margin-bottom: 2em; 
+}
+
+h2 {
+    position: relative; 
+    font-size: 12pt; 
+    z-index: 100;
+    color: black; 
+    padding-bottom: 2em; 
+    
+font-size: 15pt;
+    line-height: 150%;
+    
+    
+    
+}
+
+#quotesystems {
+    margin-top: 2.8em;
+    position: fixed;
+    font-size: 40pt;
+    color: magenta;
+    background: white;
+    padding-right: 1em; 
+    opacity: 0.9; 
+    text-align: right;
+    width: 400px;
+    right: 1em;
+   
+}
+
+#secondhalfquotesystem {
+      position: relative;
+    font-size: 40pt;
+    color: magenta;
+    background: white;
+    padding-right: 1em; 
+    opacity: 0.9; 
+    text-align: right;
+    width: 400px;
+}
+
+a {
+    color: magenta;
+    text-decoration: none; 
+}
+a:hover{
+    color: blue; 
+
+} 

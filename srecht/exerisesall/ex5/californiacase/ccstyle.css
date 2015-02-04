@@ -1,0 +1,38 @@
+html {} 
+#secta {
+    height: 100%; 
+    align-content: center; 
+    margin-left:2%; 
+    margin-right:10%; 
+    width:500px; 
+    
+}
+
+#row1a {
+   
+    height: 500px; 
+}
+
+#largeboxa1 {
+ width: 20%; 
+  position: absolute; 
+      
+height: 500px;
+color: rgb(239, 65, 35);
+background-color: red;
+padding: 2px;
+margin:1px; 
+}
+
+#smallboxa1 {
+              width: 10%; 
+    float: left; 
+      
+height: 100px;
+color: rgb(239, 65, 35);
+background-color: red;
+padding: 2px;
+margin:1px; 
+    
+    
+}

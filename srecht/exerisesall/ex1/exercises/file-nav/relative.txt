@@ -1,0 +1,14 @@
+
+index.html ---> image.jpg
+
+	img/image.jpg
+
+index.html---->jquery-2.1.1.min.js
+
+	js/vendor/jquery-2.1.1.min.js
+
+jquery-2.1.1.min.js-----> main.css
+../..js/css/main.css
+
+main.css-----> script.js
+../js/script.js

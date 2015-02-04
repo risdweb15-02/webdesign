@@ -1,0 +1,507 @@
+
+
+
+
+#texttrial1 {
+    opacity: 0.9; 
+    position:fixed;
+    width:90%;
+   font-family: 'Raleway', sans-serif;
+    font-weight: 900; 
+    font-size: 200pt; 
+    margin-left:2.5%; 
+   text-align: left; 
+    margin-top: 3%; 
+    -webkit-animation: color-change 3s infinite;
+    -moz-animation: color-change 3s infinite;
+    -o-animation: color-change 3s infinite;
+    -ms-animation: color-change 3s infinite;
+    animation: color-change 3s infinite;
+}
+
+@-webkit-keyframes color-change {
+    0% { color: purple; }
+    50% { color: blue; }
+    100% { color: purple; }
+}
+
+    
+}
+
+#object1 {
+     postion: absolute; 
+     
+      background: #DDD7D1;
+    border-radius: 30px;
+    box-shadow: 0 0.5em 0 #BCB1A5;
+    
+    padding: 50px 18px 50px 18px;
+    width: 20%;
+    min-width:200px;
+    max-width:400px;
+    margin-left:30%;
+    float:right; 
+    
+}
+
+#object2 {
+    
+    postion: absolute; 
+     
+      background: lightgreen;
+    border-radius: 30px;
+   /*
+    box-shadow: 0 0.5em 0 green;
+    */
+    
+    padding: 50px 18px 50px 18px;
+    width: 20%;
+    min-width:200px;
+    max-width:400px;
+    margin-left:30%;
+    float:right; 
+}
+
+#sect1 {
+     top:725px;
+}
+
+#sect2 {
+    top:1170px; 
+    
+}
+
+.section {
+    position:absolute;
+  display:block;
+  width:100%;
+  top:50%;
+    margin: 1%;
+  z-index:100;
+  color:white;
+  text-align: left; 
+  padding-left: 3em;
+}
+
+#object3 {
+      postion: absolute; 
+    background: transparent;
+    border-radius: 30px;
+    padding: 50px 18px 50px 18px;
+    width: 10%;
+    min-width:200px;
+    max-width:400px;
+
+    margin-left:30%;
+    float:left; 
+    
+   font-family: 'Raleway', sans-serif;
+    line-height: 150%; 
+    text-align: center;
+        font-weight: 700; 
+    
+    
+}
+
+
+
+#sect3 {
+    top: 110vh; 
+    left: 25%;  
+}
+
+.container {
+  top:-12px;
+    left: -10px; 
+    right:-10px;
+    background: #00aedb;
+    position: absolute;
+    display: block;
+    width: 100%;
+    z-index:100;
+    height: 185vh;
+    color: white;
+    text-align: center; 
+    min-width: 24px;
+    opacity: 0.8; 
+
+}
+
+
+
+#sect0 {
+    top: 100vh; 
+    
+}
+
+#object0 {
+     top: 43%; 
+  position: fixed; 
+    font-family: 'Raleway', sans-serif;
+   
+   letter-spacing: 0.95px;
+    color:white; 
+    font-size:18pt; 
+    line-height: 139%;
+    font-weight: 700; 
+    background-color:purple; 
+    padding:30px;
+    border-radius: 30px;
+    
+}
+
+#sect0a {
+    top:25%; 
+    
+}
+
+#object0a {
+    font-family: 'Raleway', sans-serif;
+    margin-left:5%; 
+    float:right;
+    color:white; 
+    font-size:18px;
+        font-weight: 700; 
+}
+
+#sect4 {
+       top: 210%;
+    left: 14%;
+}
+
+#object4 {
+      postion: absolute; 
+    background: #f3eb4d;
+    border-radius: 30px;
+    padding: 50px 18px 50px 18px;
+    width: 10%;
+    min-width:200px;
+    max-width:400px;
+
+    margin-left:30%;
+    float:left; 
+    
+   font-family: 'Raleway', sans-serif;
+    line-height: 150%; 
+    text-align: center;
+        font-weight: 700; 
+}
+
+
+
+#object4:hover {
+    background: red;
+}
+
+#CSlink {
+    
+    font-size: 16pt; 
+    text-decoration: none; 
+    color:#52527A; 
+}
+
+
+
+#sect5 {
+     top: 340%;
+    left: 14%;
+    
+}
+
+#object5 {
+      postion: absolute; 
+    background: #f3eb4d;
+    border-radius: 30px;
+    padding: 50px 18px 50px 18px;
+    width: 10%;
+    min-width:200px;
+    max-width:400px;
+
+    margin-left:30%;
+    float:left; 
+    
+   font-family: 'Raleway', sans-serif;
+    line-height: 150%; 
+    text-align: center;
+        font-weight: 700;  
+}
+
+#object5:hover {
+    background:red;
+}
+
+
+
+#CUPlink {
+    font-size: 16pt; 
+    text-decoration: none; 
+    color:#52527A;
+}
+
+#ASlink {
+    font-size: 16pt; 
+    text-decoration: none; 
+    color:#52527A;
+}
+
+#sect3a {
+      top: 200%;
+    left: 14%; 
+}
+
+#object6 {
+          postion: absolute; 
+    background: #f3eb4d;
+    border-radius: 30px;
+    padding: 50px 18px 50px 18px;
+    width: 10%;
+    min-width:200px;
+    max-width:400px;
+
+    margin-left:30%;
+    float:left; 
+    
+   font-family: 'Raleway', sans-serif;
+    line-height: 150%; 
+    text-align: center;
+        font-weight: 700; 
+}
+#object6:hover {
+   background:red; 
+}
+
+
+
+a:hover {
+    color:red; 
+}
+
+@media only screen and (max-width:1500px)
+{
+
+      #texttrial1 {
+    opacity: 0.9; 
+    position:fixed;
+    width:90%;
+   font-family: 'Raleway', sans-serif;
+    font-weight: 900; 
+    font-size: 100pt; 
+    margin-left:4%; 
+   text-align: left; 
+    margin-top: 3%; 
+    -webkit-animation: color-change 3s infinite;
+    -moz-animation: color-change 3s infinite;
+    -o-animation: color-change 3s infinite;
+    -ms-animation: color-change 3s infinite;
+    animation: color-change 3s infinite;
+}  
+    
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1024px)
+{
+          #texttrial1 {
+    opacity: 0.9; 
+    position:fixed;
+    width:90%;
+   font-family: 'Raleway', sans-serif;
+    font-weight: 900; 
+    font-size: 75pt; 
+    margin-left:4%; 
+   text-align: left; 
+    margin-top: 3%; 
+    -webkit-animation: color-change 3s infinite;
+    -moz-animation: color-change 3s infinite;
+    -o-animation: color-change 3s infinite;
+    -ms-animation: color-change 3s infinite;
+    animation: color-change 3s infinite;
+}  
+    
+    #sect0 {
+    top: 100vh; 
+    
+}
+    
+    #object0 {
+     top: 30%; 
+  position: fixed; 
+    font-family: 'Raleway', sans-serif;
+   
+   letter-spacing: 0.5px;
+    color:white; 
+    font-size:16pt; 
+    line-height: 139%;
+    font-weight: 700; 
+    background-color:purple; 
+    padding:30px;
+    border-radius: 30px;
+    
+}
+    #sect3a {
+      top: 200%;
+    left: 2%; 
+}
+    
+    #sect4 {
+       top: 210%;
+    left: 2%;
+}
+    #sect5 {
+     top: 340%;
+    left: 2%;
+    
+}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:500px)
+{
+    
+    #texttrial1 {
+    opacity: 0.9; 
+    position:fixed;
+    width:90%;
+   font-family: 'Raleway', sans-serif;
+    font-weight: 900; 
+    font-size: 30pt; 
+    margin-left:2.5%; 
+   text-align: left; 
+    margin-top: 3%; 
+    -webkit-animation: color-change 3s infinite;
+    -moz-animation: color-change 3s infinite;
+    -o-animation: color-change 3s infinite;
+    -ms-animation: color-change 3s infinite;
+    animation: color-change 3s infinite;
+}
+
+    
+    #sect0 {
+    top: 100vh; 
+    
+}
+    
+#object0 {
+     top: 10%; 
+  position: fixed; 
+    font-family: 'Raleway', sans-serif;
+   
+   letter-spacing: 0.5px;
+    color:black; 
+    font-size: 10.5pt; 
+    line-height: 120%;
+    font-weight: 700; 
+   
+    background-color:transparent; 
+    padding:30px;
+    border-radius: 30px;
+    
+    
+}
+    
+    
+    #sect3a {
+      top: 250%;
+    left: -16%; 
+}
+    
+    #object6 {
+        
+          postion: fixed; 
+    background: #f3eb4d;
+    border-radius: 30px;
+    padding: 10px 10px 10px 10px;
+    width: 10%;
+    min-width:100px;
+    max-width:400px;
+
+   
+    float:right; 
+    
+   font-family: 'Raleway', sans-serif;
+    line-height: 150%; 
+    text-align: center;
+        font-weight: 700; 
+        font-size: 10pt; 
+}
+    #sect4 {
+       top: 190%;
+    left: -4%;
+}
+    
+    #object4 {
+      postion: fixed; 
+    background: #f3eb4d;
+    border-radius: 30px;
+    padding: 10px 10px 10px 10px;
+    width: 10%;
+    min-width:100px;
+    max-width:400px;
+
+    margin-left:30%;
+    float:left; 
+    font-size:10pt;
+   font-family: 'Raleway', sans-serif;
+    line-height: 150%; 
+    text-align: center;
+        font-weight: 700; 
+}
+    #sect5 {
+     top: 275%;
+    left: -4%;
+        bottom: 50%; 
+    
+}
+    
+    #object5 {
+      postion: fixed; 
+    background: #f3eb4d;
+    border-radius: 30px;
+    padding: 10px 10px 10px 10px;
+    width: 10%;
+    min-width:100px;
+    max-width:400px;
+    font-size: 10pt;
+    margin-left:30%;
+    float:left; 
+    
+   font-family: 'Raleway', sans-serif;
+    line-height: 150%; 
+    text-align: center;
+        font-weight: 700;  
+}
+.container { 
+        height:1500px; 
+    
+} 
+    
+    
+}
+
+
