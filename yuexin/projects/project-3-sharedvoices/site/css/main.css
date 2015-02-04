@@ -174,7 +174,7 @@ a:visited {
 
 @media screen and (max-width : 400px) {
 	html {
-			zoom:0.5;
+			zoom:0.45;
 		}
 	#headers {
 		background-color: white;

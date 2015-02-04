@@ -251,7 +251,7 @@ hgroup a:nth-of-type(3) img {
 
 @media screen and (max-width : 400px) {
 	html {
-			zoom:0.5;
+			zoom:0.45;
 		}
 	#headers {
 		background-color: white;
