@@ -391,6 +391,8 @@
 	position:absolute;
 	top:160px;
 	left:215px;
+	width:500px;
+	height:auto;
 }
 
 #miyazakiicon{
@@ -441,6 +443,8 @@
 	position:absolute;
 	top:130px;
 	left:385px;
+	width:130px;
+	height:auto;
 }
 
 #kusamaicon{
@@ -569,3 +573,274 @@
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
 }
+
+@media (max-width: 800px) {
+  .facet_sidebar {
+    display: none;
+  }
+
+.wave1text{
+	position:absolute;
+	top:730px;
+}
+
+.introtext{
+	position:absolute;
+	top:200px;
+	left:600px;
+}
+
+
+#sharedvoices{
+	font-size:40px;
+	font-family:'Lato';
+	font-weight:100;
+	text-align:center;
+}
+
+#date{
+	margin-top:-20px;
+	font-size:37px;
+	font-family:'Lato';
+	font-weight:100;
+	text-align:center;
+}
+
+#themetmuseum{
+	font-size:20px;
+	font-family:'Lato';
+	font-weight:100;
+	text-align:center;
+}
+
+#about{
+	position:fixed;
+	top:770px;
+	left:100px;
+	font-family:'Lato';
+	font-weight:300;
+	font-size:14px;
+}
+
+#themet{
+	position:fixed;
+	top:770px;
+	left:225px;
+	font-family:'Lato';
+	font-weight:300;
+	font-size:14px;
+	color:black;
+	text-decoration:none;
+}
+
+#tickets{
+	position:fixed;
+	top:770px;
+	left:350px;
+	font-family:'Lato';
+	font-weight:300;
+	font-size:14px;
+}
+
+#agenda{
+	position:fixed;
+	top:770px;
+	right:225px;
+	font-family:'Lato';
+	font-weight:300;
+	font-size:14px;
+}
+
+#contact{
+	position:fixed;
+	top:770px;
+	right:100px;
+	font-family:'Lato';
+	font-weight:300;
+	font-size:14px;
+}
+
+#hayaomiyazaki{
+	width:800px;
+	position:absolute;
+	top:110px;
+	left:383px;
+	font-family:'Lato';
+	font-weight:500;
+	font-size:40px;
+}
+
+#miyazakitext{
+	width:300px;
+	position:absolute;
+	top:203px;
+	left:383px;
+	font-family:'Lato';
+	font-weight:300;
+	font-size:15px;
+	line-height:19px;
+}
+
+#miyazakiimage{
+	position:absolute;
+	top:160px;
+	left:50px;
+	width:300px;
+	height:auto;
+}
+
+#miyazakiicon{
+	position:absolute;
+	top:-60px;
+	left:305px;
+	-ms-transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+    transform: rotate(7deg);
+}
+
+#ghiblilink{
+	width:300px;
+	position:absolute;
+	top:10px;
+	left:297.5px;
+	-ms-transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+    transform: rotate(7deg);
+    font-family:'Lato';
+    font-weight:500;
+    font-size:14px;
+    color:#75E375;
+}
+
+#yayoikusama{
+	width:800px;
+	position:absolute;
+	top:83px;
+	left:378px;
+	font-family:'Lato';
+	font-weight:500;
+	font-size:40px;
+}
+
+#kusamatext{
+	width:300px;
+	position:absolute;
+	top:176px;
+	left:378px;
+	font-family:'Lato';
+	font-weight:300;
+	font-size:15px;
+	line-height:19px;
+}
+
+#kusamaimage{
+	position:absolute;
+	top:130px;
+	left:60px;
+	width:280px;
+	height:auto;
+}
+
+#kusamaicon{
+	position:absolute;
+	top:-60px;
+	left:455px;
+	-ms-transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+    transform: rotate(7deg);
+}
+
+#kusamalink{
+	width:300px;
+	position:absolute;
+	top:53px;
+	left:447.5px;
+	-ms-transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+    transform: rotate(7deg);
+    font-family:'Lato';
+    font-weight:500;
+    font-size:14px;
+    color:#E64040;
+}
+
+#toyoito{
+	width:800px;
+	position:absolute;
+	top:63px;
+	left:368px;
+	font-family:'Lato';
+	font-weight:500;
+	font-size:40px;
+}
+
+#itotext{
+	width:300px;
+	position:absolute;
+	top:156px;
+	left:368px;
+	font-family:'Lato';
+	font-weight:300;
+	font-size:15px;
+	line-height:19px;
+}
+
+#itoimage{
+	position:absolute;
+	top:110px;
+	left:50px;
+	width:295px;
+	height:auto;
+}
+
+#itoicon{
+	position:absolute;
+	top:-50px;
+	left:620px;
+	-ms-transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+    transform: rotate(7deg);
+}
+
+#itolink{
+	width:300px;
+	position:absolute;
+	top:53px;
+	left:597.5px;
+	-ms-transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+    transform: rotate(7deg);
+    font-family:'Lato';
+    font-weight:500;
+    font-size:14px;
+    color:black;
+}
+
+  #top-ito{
+	position:absolute;
+	top:40px;
+	right:60px;
+	font-family:'Lato';
+	font-weight:500;
+	font-size:14px;
+}
+
+#top-kusama{
+	position:absolute;
+	top:40px;
+	right:150px;
+	font-family:'Lato';
+	font-weight:500;
+	font-size:14px;
+}
+
+#top-miyazaki{
+	position:absolute;
+	top:40px;
+	right:280px;
+	font-family:'Lato';
+	font-weight:500;
+	font-size:14px;
+}
+}
+
