@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>test</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <!-- <link rel="stylesheet" href="css/main.css"> -->
+        <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+    </head>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="script.js"></script>
+
+        <script>// When document has finished loading
+$(document).ready(function() {
+    
+    var resizeText = function () {
+        // Standard height, for which the body font size is correct
+        var preferredFontSize = 150; // %
+        var preferredSize = 524 * 768;
+
+        var currentSize = $(window).width() * $(window).height();
+        var scalePercentage = Math.sqrt(currentSize) / Math.sqrt(preferredSize);
+        var newFontSize = preferredFontSize * scalePercentage;
+        $("p").css("font-size", newFontSize + '%');
+    };
+
+    $(window).bind('resize', function() {
+        resizeText();
+    }).trigger('resize');
+
+}); </script>
+    <body>
+    
+ <header>
+    <h1>Correct Browser Scroll Position While Resizing</h1>
+    <h2>by <a href="https://twitter.com/#!/thejameskyle/" target="_blank">James Kyle</a></h2>
+    <p>Browsers do not keep a consistent scroll position while resizing, this can get really annoying (especially when working with lots of monotonous data). A fix to this would be by using scroll percentages instead of pixels scrolled. This doesn't work perfectly, but it does a much better job.</p>
+</header>
+
+<h1 data-num="1"></h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vehicula ante sit amet turpis hendrerit hendrerit. Vestibulum in pulvinar neque. Praesent congue tincidunt nunc et venenatis. Etiam vel purus ut nibh rutrum ullamcorper. Proin viverra diam at elit tincidunt accumsan. Suspendisse fermentum, enim at volutpat aliquet, libero massa bibendum sem, sed suscipit orci velit vel est. Donec iaculis, dolor quis consectetur sagittis, metus nunc congue ipsum, non rhoncus felis eros quis arcu. Sed non fermentum nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet arcu vel sapien mattis ultrices.</p>
+
+
+
+<div class="switch">
+    <label for="toggle">
+        Toggle Resize Fix
+        <input type="checkbox" id="toggle" checked="checked">
+    </label>
+    
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

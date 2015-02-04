@@ -1,0 +1,97 @@
+div.header {width: 100%;
+			height: 4000px;
+			background-color: #FFCCCC;
+			padding:0px;}
+
+#title {padding-top:350px;
+	font-size: 1500%;
+		font-family: apercu;
+		font-weight: bolder;
+	    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+		}
+
+
+.1 {float:left;
+	}
+.2 {float:left;}
+.3 {float:left;}
+		
+#Hara {font-size: 80px;
+		font-family: apercu;
+		font-weight: bolder;
+		  background-color: white;
+    width: 450px;
+    
+    padding: 25px;
+    border: 25px red;
+    margin: 55px;
+      text-align: center;
+      float:left;
+	}
+
+
+#Mun {font-size: 80px;
+		font-family: apercu;
+		font-weight: bolder;
+			  background-color: white;
+    width: 450px;
+    padding: 25px;
+    border: 25px red;
+    
+    margin: 55px;
+  text-align: center;
+float:left;}
+#Marcel {font-size: 80px;
+		font-family: apercu;
+		font-weight: bolder;
+			  background-color: white;
+    width: 480px;
+    padding: 25px;
+
+    border: 25px red;
+    margin: 55px;
+  text-align: center;
+float:left;}
+
+a {color:black;
+	text-decoration: none;
+		top:50%;
+		left:50%;
+	 transform: translate(-40%, -40%);}
+
+a:hover {color: white;
+		 transition-duration: 1s;
+		}
+
+#box-up, #box-down {
+    padding: .01px;
+    width:1905px;
+ background:black;
+z-index: 10;
+    position: relative;
+    top: 552px;
+}
+
+#box-down {
+	height: 500px;
+	 position: relative;
+    top: -30px;
+    padding: 130px;
+    padding-left: 0%;
+    padding-right: 0%;
+    display: none;
+    font-size: 2.5em;
+    line-height: 1.3em;
+    font-weight: bold;
+    text-align: center;
+    z-index: 10;
+}
+
+#line {color:white;
+	text-align:center;
+	font-family: apercu;
+	font-weight:bold;
+	font-size:20px;}
+

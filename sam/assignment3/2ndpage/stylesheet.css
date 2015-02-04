@@ -1,0 +1,461 @@
+div.header {
+    width: 1860px;
+            height: 400px;
+            background-color: #FFCCCC;
+            z-index:-1;}
+
+#title {font-size: 200px;
+        font-family: apercu;
+        font-weight: bolder;
+       text-decoration: underline;
+        width: 100%;
+    margin: 0 auto;
+    text-align: center;
+        }
+#Hara {font-size: 80px;
+		font-family: apercu;
+		font-weight: bolder;
+		  background-color: white;
+    width: 450px;
+    padding: 25px;
+    border: 25px red;
+    margin: 55px;
+    float:left;
+    text-align:center;}
+
+#Hara:hover span {display:none;}
+#Hara:hover:before {content:"scroll down"}
+	
+
+
+#Mun {font-size: 80px;
+		font-family: apercu;
+		font-weight: bolder;
+			  background-color: white;
+    width: 450px;
+    padding: 25px;
+
+    margin: 55px;
+    float:left;
+text-align:center;}
+
+#Mun:hover span {display:none;
+                }
+#Mun:hover:before {content:"scroll down";
+}
+
+#Marcel {font-size: 80px;
+		font-family: apercu;
+		font-weight: bolder;
+			  background-color: white;
+    width: 480px;
+    padding: 25px;
+    border: 25px red;
+    margin: 55px;
+float:left;
+text-align:center;}
+
+#Marcel:hover span {display:none;}
+#Marcel:hover:before {content:"scroll down"}
+
+
+div.scroll {
+    background-color: #FFCCCC;
+    width: 620px;
+    height: 650px;
+    overflow: scroll;
+    float:left;
+}
+
+div.scroll2 {
+    background-color: #FFCCCC;
+    width: 620px;
+    height: 650px;
+    overflow: scroll;
+    float:left;
+}
+div.scroll3 {
+    background-color: #FFCCCC;
+    width: 620px;
+    height: 650px;
+    overflow: scroll;
+    float:left;
+}
+
+
+#harabody {font-family: apercu;
+			font-size: 20px;
+            width:450px;
+            margin-left:50px;}
+
+#marcelbody {font-family: apercu;
+			font-size: 20px;
+         width:450px;
+            margin-left:50px;}
+
+#munbody{font-family: apercu;
+            font-size: 20px;
+         width:450px;
+            margin-left:50px;}
+
+#haradate {padding-left:10px;
+            font-family:apercu;
+            font-size:50px;
+text-decoration: underline;
+
+
+
+
+}
+#mundate {padding-left:10px;
+
+            font-family:apercu;
+            font-size:50px;
+            text-decoration: underline;
+            
+
+}
+#marceldate {padding-left:10px;
+            font-family:apercu;
+            font-size:50px;
+            text-decoration: underline;
+            
+}
+
+#haraplace {padding-left:400px;
+            font-family:apercu;
+            font-size:20px;
+           
+          
+            font-weight:bold;
+                          color:white;
+
+           
+
+
+
+
+}
+#munplace{padding-left:450px;
+            font-family:apercu;
+            font-size:20px;
+              FONT-WEIGHT:BOLD;
+              color:white;
+             
+
+}
+#marcelplace {padding-left:450px;
+            font-family:apercu;
+            font-size:20px;   
+               FONT-WEIGHT:BOLD; 
+                             color:white;
+
+         
+
+}
+
+@media screen and (max-width: 1850px)
+
+{
+
+
+div.scroll {
+    background-color: #FFCCCC;
+    width: 620px;
+    height: 650px;
+    overflow: scroll;
+    float:left;
+}
+
+div.scroll2 {
+    background-color: #FFCCCC;
+    width: 620px;
+    height: 650px;
+    overflow: scroll;
+    float:left;
+}
+div.scroll3 {
+    background-color: #FFCCCC;
+    width: 620px;
+    height: 650px;
+    overflow: scroll;
+    float:left;
+    border: 10px #FFCCCC;
+}
+
+div.header {
+    width: 1240px;
+            height: 400px;
+            background-color: #FFCCCC;
+
+            }
+
+
+#title {font-size: 180px;
+        font-family: apercu;
+        font-weight: bolder;
+       text-decoration: underline;
+        width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top:50px;
+        }
+
+
+#harabody {font-family: apercu;
+            font-size: 16px;
+            line-height:22px;
+            width:450px;
+
+            margin-left:50px;}
+
+#marcelbody {font-family: apercu;
+            font-size: 16px;
+            line-height:22px;
+         width:450px;
+            margin-left:50px;}
+
+#munbody{font-family: apercu;
+            font-size: 16px;
+            line-height:22px;
+         width:450px;
+            margin-left:50px;}
+
+#haradate {padding-left:10px;
+            font-family:apercu;
+            font-size:50px;
+text-decoration: underline;
+
+
+
+
+}
+#mundate {padding-left:10px;
+
+            font-family:apercu;
+            font-size:50px;
+            text-decoration: underline;
+            
+
+}
+#marceldate {padding-left:10px;
+            font-family:apercu;
+            font-size:50px;
+            text-decoration: underline;
+            
+}
+
+#haraplace {padding-left:400px;
+            font-family:apercu;
+            font-size:20px;
+           
+          
+            font-weight:bold;
+                          color:white;
+
+           
+
+
+
+
+}
+#munplace{padding-left:450px;
+            font-family:apercu;
+            font-size:20px;
+              FONT-WEIGHT:BOLD;
+              color:white;
+             
+
+}
+#marcelplace {padding-left:450px;
+            font-family:apercu;
+            font-size:20px;   
+               FONT-WEIGHT:BOLD; 
+                             color:white;
+
+        }
+
+}
+
+@media screen and (max-width: 1230px)
+
+{
+
+
+div.scroll {box-sizing:border-box;
+    background-color: #FFCCCC;
+    width: 620px;
+    height: 650px;
+    overflow: scroll;
+    float:left;
+                border: 10px solid black;
+                border-top: 0px;
+
+}
+
+div.scroll2 {box-sizing:border-box;
+    background-color: #FFCCCC;
+    width: 620px;
+    height: 650px;
+    overflow: scroll;
+    float:left;
+                    border: 10px solid black;
+                        border-top: 0px;
+
+
+}
+div.scroll3 {box-sizing:border-box;
+    background-color: #FFCCCC;
+    width: 620px;
+    height: 650px;
+    overflow: scroll;
+    float:left;
+                                    border: 10px solid black;
+                                                        border-top: 0px;
+
+
+
+}
+
+div.header {box-sizing:border-box;
+
+            width: 620px;
+            height: 400px;
+            background-color: #FFCCCC;
+            border: 10px solid black;
+            }
+
+
+#title {font-size: 100px;
+        font-family: apercu;
+        font-weight: bolder;
+       text-decoration: underline;
+        width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top:50px;
+
+        }
+
+
+#harabody {font-family: apercu;
+            font-size: 16px;
+            line-height:22px;
+            width:450px;
+
+            margin-left:50px;
+        }
+
+#marcelbody {font-family: apercu;
+            font-size: 16px;
+            line-height:22px;
+         width:450px;
+            margin-left:50px;}
+
+#munbody{font-family: apercu;
+            font-size: 16px;
+            line-height:22px;
+         width:450px;
+            margin-left:50px;}
+
+#haradate {padding-left:10px;
+            font-family:apercu;
+            font-size:50px;
+text-decoration: underline;
+
+
+
+
+}
+#mundate {padding-left:10px;
+
+            font-family:apercu;
+            font-size:50px;
+            text-decoration: underline;
+            
+
+}
+#marceldate {padding-left:10px;
+            font-family:apercu;
+            font-size:50px;
+            text-decoration: underline;
+            
+}
+
+#haraplace {padding-left:400px;
+            font-family:apercu;
+            font-size:20px;
+           
+          
+            font-weight:bold;
+                          color:white;
+
+           
+
+
+
+
+}
+#munplace{padding-left:430px;
+            font-family:apercu;
+            font-size:20px;
+              FONT-WEIGHT:BOLD;
+              color:white;
+             
+
+}
+#marcelplace {padding-left:420px;
+            font-family:apercu;
+            font-size:20px;   
+               FONT-WEIGHT:BOLD; 
+                             color:white;
+
+        }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#box-up, #box-down {
+    padding: 12px;
+ background:black;
+ syntax (must be last) */
+    z-index: 10;
+    position: relative;
+    top: 223px;
+
+}
+
+#box-down {
+    padding: 100.3px;
+    padding-left: 12%;
+    padding-right: 12%;
+    display: none;
+    font-size: 2.5em;
+    line-height: 1.3em;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    z-index: 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
