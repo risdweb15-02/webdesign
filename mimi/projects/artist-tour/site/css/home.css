@@ -1,0 +1,98 @@
+* {
+    margin-top: 0;
+}
+
+body {
+    font-family: 'Garamond', serif;
+    color: black;
+    height: 100%;
+    margin: auto;
+    width: 100%;
+    color: white;
+}
+
+#sitecontainer {
+    width: 100%;
+    height: 100%;
+    border: 0; 
+    margin: auto;
+}
+
+#maintable {
+    width: 1200px;
+    height: 100%;
+    position: relative;
+    z-index: 10;
+}
+
+.background {
+    width: 100%;        
+    height: 100%;
+    z-index: -5;
+    border: 0;
+    position: fixed;
+    min-width: 825px;
+    min-height: auto;
+}
+
+.backgroundpic {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.coloroverlay {
+    background: rgba(1,22,69,.6);
+    background: rgba(40,40,40,.6);
+    padding: 0px;
+    text-transform: lowercase;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#container {
+    width: 700px;
+    margin: 10% auto;
+
+}
+
+.name {
+    vertical-align: middle;
+    font-size: 55px;
+    font-weight: 600;
+    color: white;
+    margin: 0 25%;
+}
+
+.imgbox {
+    width: 310px;
+    height: 310px;
+    border: 5px solid white;
+    float: left;          
+    opacity: .9;      
+    -webkit-transition: all .4s ease;
+}
+
+.imgbox:hover {
+    opacity:1;
+}
+
+.imgbox:hover .caption {
+    opacity: 1;
+    background: rgba(34,44,67,0.8);
+}
+
+.caption {
+    opacity: 0;
+    color: white;
+    width: 290px;
+    height: 30px;
+    overflow: hidden;
+    margin-top: 260px;
+    padding: 10px;
+    text-align: center;     
+    font-size: 22px;
+    -webkit-transition: all .3s linear;
+
+}
