@@ -13,13 +13,13 @@ $(document).ready(function(){
     });
     
     $('.pull-me_1').click(function(){
-        $('.panel_1').slideToggle('slow');
+        $('.panel_2').slideToggle('slow');
     });    
     $('.pull-me_2').click(function(){
-        $('.panel_1').slideToggle('slow');
+        $('.panel_3').slideToggle('slow');
     });     
     $('.pull-me_3').click(function(){
-        $('.panel_1').slideToggle('slow');
+        $('.panel_4').slideToggle('slow');
     });      
 	$('.putover').click(function(){  
 	   	$('.putover').css('opacity',1);

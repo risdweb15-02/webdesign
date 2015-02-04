@@ -25,8 +25,8 @@ html, body {
 
 .shared{
    
-   margin-left: 45%;
-   margin-top: 1%;
+   margin-left: 41%;
+   margin-top: 0%;
    display: block;
    border: 5px solid #EEEEEE;
    background-color: none;
@@ -68,7 +68,15 @@ html, body {
     cursor:pointer;
     position: relative;
     margin-top: 3%;
+    transition-duration:2s;
+    -webkit-transition-duration:2s;
 
+}
+
+.pull-me_2:hover{
+    tranform: tranlateY(100%);
+    -ms-transform:translateY(100%); /* prefix for IE 9 */
+    -webkit-transform:translateY(100%); /* prefix for Safari and Chrome */
 
 }
 
@@ -77,9 +85,18 @@ html, body {
     cursor:pointer;
     position: relative;
     margin-top: 15%;
-
+    transition-duration:2s;
+    -webkit-transition-duration:2s;
 
 }
+
+.pull-me_3:hover{
+    tranform: tranlateY(100%);
+    -ms-transform:translateY(100%); /* prefix for IE 9 */
+    -webkit-transform:translateY(100%); /* prefix for Safari and Chrome */
+
+}
+
 .panel{
     background-color: gray;
     width:18%;
@@ -93,6 +110,7 @@ html, body {
 }
 .panel_1{
     background-color: gray;
+    opacity: 1;
     width:30%;
     height: 20%;
     position: relative;
@@ -103,6 +121,82 @@ html, body {
 
     
 }
+
+.panel_2{
+    background-color: gray;
+    opacity: 1;
+    width:30%;
+    height: 20%;
+    position: relative;
+    margin-left: 35%;
+    display: none;
+    font-size: 10px;
+    font-family: Avenir;
+
+    
+}
+
+.panel_3{
+    background-color: gray;
+    opacity: 1;
+    width:30%;
+    height: 20%;
+    position: relative;
+    margin-left: 35%;
+    display: none;
+    font-size: 10px;
+    font-family: Avenir;
+
+    
+}
+
+.panel_4{
+    background-color: gray;
+    opacity: 1;
+    width:30%;
+    height: 20%;
+    position: relative;
+    margin-left: 35%;
+    display: none;
+    font-size: 10px;
+    font-family: Avenir;
+
+    
+}
+
+
+.datebox1{
+    width: 20%;
+    height: 12%;
+    background-color: white;
+    opacity: 0.4;
+    position: absolute;
+    padding-top: 2%;
+    margin-top: -9%;
+}
+
+.datebox2{
+    width: 20%;
+    height: 12%;
+    background-color: white;
+    opacity: 0.4;
+    position: absolute;
+    padding-top: 2%;
+    margin-top: -9%;
+}
+
+.datebox3{
+    width: 20%;
+    height: 12%;
+    background-color: white;
+    opacity: 0.4;
+    position: absolute;
+    padding-top: 2%;
+    margin-top: -9%;
+}
+
+
+
 
 .firstbody{
     width: 60%;
@@ -187,6 +281,21 @@ html, body {
     background-color: white;
 
 }
+
+.gototop{
+    width: 5%;
+    margin-left: 15%;
+    margin-top: 2%;
+    
+    position: absolute;
+    height: 7%;
+    background: gray;
+    opacity: 0.7;
+    font-family: Avenir, Helvetica;
+    
+
+}
+
 
 
 
@@ -357,3 +466,5 @@ html, body {
 #fp-nav ul li .fp-tooltip.left {
     left: 20px;
 }
+
+
