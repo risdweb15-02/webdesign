@@ -1,0 +1,59 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	line-height: 1.7em;
+}
+
+div {
+	position: absolute;
+	left: 40px;
+	top: 46px;
+	width: 500px;
+	height: 700px;
+	border: 6px solid #EE3132;
+	padding: 40px;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 20px;
+	color: #EE3132;;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	transition-property: color;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in;
+	transition-delay: 0s; 
+
+}
+
+a:hover {
+	color: #EE3132;
+}
+
+
+
+/******************************************************************/
+
+@media screen and (max-width: 400px) {
+
+div {
+	left: 20px;
+	width: 296px;
+	height: 728px;
+	padding: 26px;
+}
+
+h1 {
+	line-height: 1.4em;
+}
+
+
+
+}
+
