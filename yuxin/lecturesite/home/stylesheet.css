@@ -1,0 +1,366 @@
+body{
+   
+   background-image: url("img/background.jpg");
+}
+
+
+#back{
+    width: 1800px;
+	height: 860px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+
+#title {
+	width: 900px;
+	height: 430px;
+	background-color: rgba(255,255,255,0.2);
+	margin: 0px;
+	float: left;
+	display: inline-block;
+}
+
+
+#nicole {
+	width: 900px;
+	height: 430px;
+    background-color: rgba(255,255,255,0.3);
+	margin: 0px;
+	float: left;
+	display: inline-block;
+}
+
+
+#roman {
+	width: 900px;
+	height: 430px;
+	background-color: rgba(255,255,255,0.3);
+	margin: 0px;
+	float: left;
+	display: inline-block;
+}
+
+#chirstina {
+	width: 900px;
+	height: 430px;
+	background-color: rgba(255,255,255,0.2);
+	margin: 0px;
+	float: left;
+}
+
+
+
+#talksIntro{
+	float:right;
+	/*background-color: white;*/
+	width: 500px;
+	height: 150px;
+	margin-top: 30px;
+	margin-right: 35px
+
+}
+
+#intro{
+	width: 500px;
+	margin-top: 20px;
+	font-family: verdana, arial;
+	font-size: 18px;
+	color: rgba(67,67,67,0.8);
+	text-align: left;
+	opacity: 0;
+}
+
+#about{
+	clear: right;
+	float: right;
+	margin-top: 20px;
+	margin-right: 50px;
+	opacity: 0.5;
+	transition-duration: 0.1s;
+}
+
+#about:hover{
+	opacity: 1;
+}
+	
+
+#head{
+	clear: right;
+	float: right;
+	
+	font-family: verdana, arial;
+	font-weight: bolder;
+	font-size: 55px;
+	color: rgba(255,255,255,1);
+	margin-top: 0px;
+	margin-right: 50px;
+	text-align: right;
+
+}
+
+/*#head:hover{
+	 color: rgba(255,255,255,0.7);
+}*/
+
+
+
+
+
+
+
+
+
+
+#quote1{
+	margin-left: 70px;
+	font-family: verdana;
+	font-weight: bolder;
+	font-size: 25px;
+	color: rgba(67,67,67,1);
+	margin-top: 30px;
+	margin-right: 50px;
+	text-align: left;
+	font-style: italic;
+	
+}
+
+
+
+
+#nicoleQuote{
+	float: right;
+	height: 150px;
+	width: 700px;
+	margin-right: 20px;
+	margin-top:50px;
+	opacity: 0;
+}
+
+
+#nicoleArea{
+	height: 150px;
+	width: 400px;
+	margin-left: 50px;
+	margin-top: 230px;
+	
+}
+
+
+#pic1{
+	float: left;
+	height: 150px;
+	width: 150px;
+	margin-left: 0px;
+	margin-top: 0px;
+	display: inline-block;
+	opacity: 0.5;
+	transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+
+}
+
+
+
+#pic1 img
+{
+max-width:100%; 
+margin:auto;
+display:block;
+
+}
+
+#nicoleName{
+	float:left;
+	margin-left: 50px;
+	margin-top:25px;
+
+}
+
+.speaker{
+    font-size: 24px;
+    font-family: arial;
+    font-weight: bolder;
+    color: rgba(67,67,67,0.8);
+}
+
+#pic1:hover{
+
+	opacity: 1;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#quote3{
+	margin-left: 70px;
+	font-family: verdana;
+	font-weight: bolder;
+	font-size: 25px;
+	color: rgba(67,67,67,1);
+	margin-top: 0px;
+	text-align: left;
+	font-style: italic;
+
+}
+
+
+
+#chirstinaQuote{
+	float: right;
+	height: 150px;
+	width: 700px;
+	margin-right: 20px;
+	margin-top:50px;
+	opacity: 0;
+}
+
+#chirstinaArea{
+	height: 150px;
+	width: 500px;
+	margin-left: 50px;
+	margin-top: 50px;
+	
+}
+
+
+#pic4{
+	float: left;
+	height: 150px;
+	width: 150px;
+	margin-left: 0px;
+	margin-top: 0px;
+	display: inline-block;
+	opacity: 0.5;
+	transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+}
+
+
+
+
+#pic4 img
+{
+max-width:100%; 
+margin:auto;
+display:block;
+
+}
+
+#chirstinaName{
+	float:left;
+	margin-left: 50px;
+	margin-top:25px;
+
+}
+
+.speaker{
+    font-size: 24px;
+    font-family: arial;
+    font-weight: bolder;
+    color: rgba(67,67,67,0.8);
+}
+
+#pic4:hover{
+
+	opacity: 1;
+
+}
+
+
+
+
+
+
+
+
+
+
+#quote2{
+	margin-left: 50px;
+	font-family: verdana;
+	font-weight: bolder;
+	font-size: 25px;
+	color: rgba(67,67,67,1);
+	margin-top: 0px;
+	text-align: left;
+	font-style: italic;
+
+}
+
+
+
+#romanQuote{
+	float: right;
+	height: 150px;
+	width: 700px;
+	margin-right: 10px;
+	margin-top:50px;
+	/*background-color: white;*/
+	opacity: 0;
+}
+
+
+
+#romanArea{
+	float: right;
+	height: 150px;
+	width: 500px;
+	margin-right: 50px;
+	margin-top: 50px;
+	
+}
+
+
+#pic2{
+	float: right;
+	height: 150px;
+	width: 150px;
+	margin-right: 0px;
+	margin-top: 0px;
+	display: inline-block;
+	opacity: 0.5;
+	transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+}
+
+
+#pic2:hover{
+    opacity: 1;
+}
+
+
+
+#pic2 img
+{
+max-width:100%; 
+margin:auto;
+display:block;
+
+}
+
+#romanName{
+	float:left;
+	margin-left:130px;
+	margin-top:25px;
+
+}
+
+.speaker{
+    font-size: 24px;
+    font-family: arial;
+    font-weight: bolder;
+    color: rgba(67,67,67,0.8);
+}
