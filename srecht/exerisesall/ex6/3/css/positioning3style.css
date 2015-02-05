@@ -1,0 +1,82 @@
+html {} 
+
+
+body {
+ 
+      width: 100%; 
+    align-items: center;
+    padding-left: 15px; 
+
+}
+
+#box1 {
+
+position:  relative ; 
+width: 5%;
+height: 200px;
+background-color: red;
+left: 50px;  
+top: 10vh; 
+    
+}
+
+#box2 {
+   
+width: 5%;
+height: 200px;
+background-color: red;
+left: 50px;  
+float: left 
+margin: 30px; 
+}
+
+#box3 {
+    position:  relative; 
+width: 5%;
+height: 200px;
+background-color: red;
+left: 100px; 
+    top:-40vh; 
+   
+}
+
+#box4 {
+    position:  relative; 
+width: 5%;
+height: 200px;
+background-color: red;
+left: 16.25%;  
+top: -50vh; 
+    float:inherit;
+    
+}
+
+#box5 {
+    position:  relative; 
+width: 5%;
+height: 200px;
+background-color: red;
+left: 21.5%;  
+top: -74vh; 
+    float:left; 
+}
+
+#box6 {
+    position:  relative; 
+width: 5%;
+height: 200px;
+background-color: red;
+left: 21.9%;  
+top: -70vh; 
+    float:left; 
+}
+
+#box7 {
+        position:  relative; 
+width: 5%;
+height: 200px;
+background-color: red;
+left: 22.5%;  
+top: -80vh; 
+    float:left; 
+}
