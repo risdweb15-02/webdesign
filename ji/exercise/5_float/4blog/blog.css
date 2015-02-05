@@ -1,0 +1,35 @@
+#whole {
+  width: 800px;
+}
+
+#a {
+    width: 800px;
+    height: 120px;
+    background: black;
+    float: left;
+    margin-bottom: 70px;
+}
+
+#b {
+    width: 600px;
+    height: 450px;
+    background: black;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#c {
+    width: 190px;
+    height: 200px;
+    background: black;
+    float: left;
+}
+
+#d {
+    width: 600px;
+    height: 40px;
+    background: black;
+    clear: both;
+    margin-bottom: 70px;
+}

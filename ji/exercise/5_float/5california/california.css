@@ -1,0 +1,75 @@
+.whole {
+    width: 650px;
+}
+
+#box1 {
+    width: 200px;
+    height: 350px;
+    background-color: black;
+    padding: 20px 10px 20px 20px;
+    position: relative;
+    float: left;
+}  
+
+#box2 {
+    width: 200px;
+    height: 350px;
+    background-color: black;
+    padding: 20px 10px 20px 10px;
+    position: relative;
+    float: left;
+}   
+
+#box3 {
+    width: 200px;
+    height: 350px;
+    background-color: black;
+    padding: 20px 20px 20px 10px;
+    position: relative;
+    float: left;
+} 
+
+.a {
+    width: 50px;
+    height: 150px;
+    background-color: black;
+    -webkit-box-shadow:inset 0px 0px 0px 1px white;
+    float: right;
+}
+
+.b {
+    width: 25px;
+    height: 50px;
+    background: black;
+    -webkit-box-shadow:inset 0px 0px 0px 1px white;
+    float: right;
+}
+
+.c {
+    width: 50px;
+    height: 100px;
+    background-color: black;
+    -webkit-box-shadow:inset 0px 0px 0px 1px white;
+    float: right;
+}
+
+.d {
+    width: 25px;
+    height: 100px;
+    background-color: black;
+    -webkit-box-shadow:inset 0px 0px 0px 1px white;
+    float: right;
+}
+
+#box2 > .b {
+    float: left;
+}
+
+#box2 > .c {
+    float: left;
+}
+
+#box2 > .d {
+    float: left;
+}
+        

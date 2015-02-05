@@ -1,0 +1,45 @@
+#whole {
+    width: 650px;
+    clear: both;
+}
+
+div {
+    background-color: black;
+}
+
+#a {
+    width: 100px;
+    height: 400px;
+    float: left;
+    margin: 1px;
+}
+
+.a {
+    position: relative;
+    top: -200px;
+}
+
+.b {
+    position: relative;
+    top: -202px;
+}
+
+#second {
+    position: relative;
+    top: -200px;
+}
+
+#b {
+    width: 402px;
+    height: 198px;
+    float: left;
+    margin: 1px;
+}
+
+#c {
+    width: 200px;
+    height: 200px;
+    float: left; 
+    margin: 1px;
+}
+}}
