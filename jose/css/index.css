@@ -1,0 +1,140 @@
+
+
+li a {
+  text-decoration:none;
+  color:black;
+  
+}
+
+.buttona {
+  font-family: 'helvetica', sans-serif;
+  font-size: 40px;
+  color: white;
+  background-color: white;
+  width: 700px;
+  height: 100px;
+  text-align: left;
+  padding-top: 3px;
+  margin-top:0px;
+  
+  transition-property: background-color;
+  transition-duration: 800ms;
+  transition-timing-function: ease-in-out;
+  transition-delay: 300ms;
+  
+  /*short-hand property: */
+  /*transition: background-color 800ms ease-in-out 300ms;*/
+}
+
+.buttona:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+
+
+
+.buttonb {
+  font-family: 'helvetica', sans-serif;
+  font-size: 40px;
+  color: white;
+  background-color: white;
+  width: 700px;
+  height: 100px;
+  text-align: left;
+  padding-top: 16px;
+  
+  transition-property: background-color;
+  transition-duration: 800ms;
+  transition-timing-function: ease-in-out;
+  transition-delay: 300ms;
+  
+  /*short-hand property: */
+  /*transition: background-color 800ms ease-in-out 300ms;*/
+}
+
+.buttonb:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+
+.buttonc {
+  font-family: 'helvetica', sans-serif;
+  font-size: 40px;
+  color: white;
+  background-color: white;
+  width: 700px;
+  height: 100px;
+  text-align: left;
+  padding-top: 16px;
+  
+  transition-property: background-color;
+  transition-duration: 800ms;
+  transition-timing-function: ease-in-out;
+  transition-delay: 300ms;
+  
+  /*short-hand property: */
+  /*transition: background-color 800ms ease-in-out 300ms;*/
+}
+
+.buttond {
+  font-family: 'helvetica', sans-serif;
+  font-size: 40px;
+  color: white;
+  background-color: white;
+  width: 700px;
+  height: 100px;
+  text-align: left;
+  padding-top: 16px;
+  
+  transition-property: background-color;
+  transition-duration: 800ms;
+  transition-timing-function: ease-in-out;
+  transition-delay: 300ms;
+  
+  /*short-hand property: */
+  /*transition: background-color 800ms ease-in-out 300ms;*/
+}
+
+
+
+.buttonc:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+
+.buttond:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+
+
+  body {
+        font-family:"Helvetica",serif;
+        font-size: 200px;
+        }
+      /* iPads (portrait and landscape) ----------- */
+      @media screen and (max-width: 1024px) {
+      .buttona {
+        font-size: 20px;
+        }
+      
+      .buttonb {
+        font-size: 20px;
+        }
+      
+      .buttonc {
+        font-size: 20px;
+        }
+
+      .buttond {
+        font-size: 20px;
+        }
+      }
+
+
+      
+  ol
+{
+    list-style-type: none;
+}
+

@@ -1,0 +1,60 @@
+
+
+.checkers {
+	float:left;
+}
+
+#one {
+	height:100px;
+  	width:100px;
+	background-color: red;
+	
+}
+#two {
+	height:100px;
+  	width:100px;
+	background-color: red;
+	margin-left:100px 
+	
+}
+
+#three {
+	height:100px;
+  	width:100px;
+	background-color: red;
+	
+}
+#four {
+	height:100px;
+  	width:100px;
+	background-color: red;
+	margin-left:100px
+}
+
+#five {
+	height:100px;
+  	width:100px;
+	background-color: red;
+	
+}
+
+#six {
+	height:100px;
+  	width:100px;
+	background-color: red;
+	margin-left:100px
+}
+#seven {
+	height:100px;
+  	width:100px;
+	background-color: red;
+	
+}
+#eight {
+	height:100px;
+  	width:100px;
+	background-color: red;
+	margin-left:100px
+}
+
+

@@ -1,0 +1,37 @@
+
+
+html {
+	background-color: #DEDDD6;
+}
+
+h1 {
+	color:red;
+	font-family:Helvetica;
+	width:1000px;
+	font-size:2em;
+  	line-height:1.2em;
+}
+
+h2 {
+	color:red;
+	font-family:Helvetica;
+	
+}
+
+h3 {
+	color:red;
+	font-family:Helvetica;
+	
+}
+
+li {
+	color:gray;
+	font-family:Helvetica;
+	font-size:1.3em;
+  	line-height:1.5em;
+  	
+}
+
+blockquote {
+	border: 1px dashed gray;
+}

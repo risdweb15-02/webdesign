@@ -1,0 +1,145 @@
+#master {
+	height:500px;
+}
+
+#a {
+	float:left;
+	
+	height:200px;
+  	width:50px;
+	background-color: red;
+}
+
+#b {
+	
+	position:relative;
+	height:200px;
+  	width:50px;
+	background-color: red;
+	left:80px;
+	top: 100px;
+}
+
+
+
+#c {
+	position:relative;
+	height:200px;
+  	width:50px;
+	background-color: red;
+	left:160px;
+	top: -150px;
+}
+
+#d {
+	position:relative;
+	height:200px;
+  	width:50px;
+	background-color: red;
+	left:240px;
+	top: -300px;
+
+}
+
+#e {
+	position:relative;
+	height:200px;
+  	width:50px;
+	background-color: red;
+	left:320px;
+	top: -600px;
+	
+}
+
+#f {
+	position:relative;
+	height:200px;
+  	width:50px;
+	background-color: red;
+	left:400px;
+	top: -700px;
+}
+
+#g {
+	position:relative;
+	height:200px;
+  	width:50px;
+	background-color: red;
+	left:480px;
+	top: -800px;
+}
+
+#h {
+	position:relative;
+	height:200px;
+  	width:50px;
+	background-color: red;
+	left:560px;
+	top: -900px;
+}
+
+#i {
+	position:relative;
+	height:200px;
+  	width:50px;
+	background-color: red;
+	left:640px;
+	top: -1250px;
+}
+
+#j {
+	position:relative;
+	height:200px;
+  	width:50px;
+	background-color: red;
+	left:720px;
+	top: -1550px;
+}
+
+#k {
+	position:relative;
+	height:200px;
+  	width:50px;
+	background-color: red;
+	left:800px;
+	top: -1800px;
+}
+
+#l {
+	position:relative;
+	height:200px;
+  	width:50px;
+	background-color: red;
+	left:880px;
+	top: -1900px;
+}
+
+#m {
+	position:relative;
+	height:200px;
+  	width:50px;
+	background-color: red;
+	left:960px;
+	top: -2000px;
+}
+
+
+
+#o {
+	position:relative;
+	height:200px;
+  	width:50px;
+	background-color: red;
+	left:1040px;
+	top: -2300px;
+}
+
+#p {
+	position:relative;
+	height:200px;
+  	width:50px;
+	background-color: red;
+	left:1120px;
+	top: -2600px;
+}
+

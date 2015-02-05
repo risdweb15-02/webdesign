@@ -1,0 +1,52 @@
+#master {
+	height:500px;
+}
+
+#a {
+	height:75px;
+  	width:960px;
+	background-color: red;
+}
+
+#b {
+	height:20px;
+  	width:960px;
+	background-color: red;
+	margin-left:0px;
+	margin-top: 10px;
+}
+
+
+
+#c {
+	height:620px;
+  	width:310px;
+	background-color: red;
+	margin-left:0px;
+	margin-top: 10px;
+}
+#d {
+	height:620px;
+  	width:310px;
+	background-color: red;
+	margin-left:325px;
+	margin-top: -620px;
+
+}
+
+#e {
+	height:620px;
+  	width:310px;
+	background-color: red;
+	margin-left:650px;
+	margin-top: -620px;
+	
+}
+
+#f {
+	height:75px;
+  	width:960px;
+  	margin-top:10px;
+	background-color: red;
+}
+
