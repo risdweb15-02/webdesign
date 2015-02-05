@@ -3,6 +3,12 @@ a{
 	color:black;
 }
 
+.bar{
+	display:block;
+	background-color: #FF7519;
+	height:61px;
+}
+
 .name{
 	position:absolute;
 	font-family:Raleway;
@@ -10,20 +16,21 @@ a{
 	font-size:18px;
 	top:30px;
 	left:200px;
+	color:white;
 }
 
 .exercises{
-	line-height:21px;
+	line-height:23px;
 	position:absolute;
-	top:80px;
+	top:105px;
 	left:200px;
 }
 
 .projects{
-	line-height:21px;
+	line-height:23px;
 	position:absolute;
-	top:450px;
-	left:200px;
+	top:105px;
+	left:700px;
 }
 
 #exercisestitle{
@@ -32,8 +39,29 @@ a{
 	font-size:30px;
 }
 
+#exercisestitle:hover{
+	font-size:33px;
+}
+
 #projectstitle{
 	font-family:Raleway;
 	font-weight:600;
 	font-size:30px;
+}
+
+#projectstitle:hover{
+	font-size:33px;
+}
+
+@media (max-width: 900px) {
+  .facet_sidebar {
+    display: none;
+  }
+
+	.projects{
+		line-height:23px;
+		position:absolute;
+		top:675px;
+		left:200px;
+	}
 }
