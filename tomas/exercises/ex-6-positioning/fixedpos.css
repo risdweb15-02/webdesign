@@ -1,0 +1,111 @@
+div {
+	background-color: red;
+	position: fixed;
+}
+
+p {
+	z-index: 10;
+	overflow: scroll;
+	position: fixed;
+}
+
+#one{
+	height:10px;
+	width:10px;
+	top:10px;
+	left:10px;
+}
+
+#two{
+	height:5;
+	width:20px;
+	top:50px;
+	left:30px;
+}
+
+#three{
+	height:3px;
+	width:4px;
+	top:50%;
+	left:50%;
+}
+
+#four{
+	height:400px;
+	width:345px;
+	top:300;
+	left:150;
+	opacity:;
+}
+
+#five{
+	height: 63px;
+	width:97px;
+	top:50px;
+	left:30px;
+}
+
+#six{
+	height:160;
+	width:234;
+	top:10%;
+	left:45%;
+	z-index: 20;
+}
+
+#seven{
+	
+	height: 70px;
+	width:200px;
+	top:10px;
+	left:55%;
+}
+
+#eight{
+	height:3;
+	width:345;
+	top:6;
+	left:655;
+}
+
+#nine{
+	height:10;
+	width:10;
+	top:0;
+	left:0;
+}
+
+#ten{
+	height:43;
+	width:55;
+	top:34;
+	left:34;
+}
+
+#eleven{
+	height:358;
+	width:8;
+	top:87;
+	left:558;
+}
+
+#twelve{
+	height:99;
+	width:99;
+	top:99;
+	left:99;
+}
+
+#thirteen{
+	height:44;
+	width:44;
+	top:444;
+	left:444;
+}
+
+#fourteen{
+	height:10;
+	width:10;
+	top:50;
+	left:50;
+}

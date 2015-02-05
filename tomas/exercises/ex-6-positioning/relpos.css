@@ -1,0 +1,64 @@
+div {
+	background-color: red;
+	position: relative;
+	float:left;
+	height:250px;
+	width:30px;
+	margin: 5px;
+}
+
+#one{
+	top:50%
+}
+
+#two{
+	top:52%
+}
+
+#three{
+	top:53%
+}
+
+#four{
+	top:40%
+}
+
+#five{
+	top:38%
+}
+
+#six{
+	top:36%
+}
+
+#seven{
+	top:0%;
+}
+
+#eight{
+	top:90%
+}
+
+#nine{
+	top:0%;
+}
+
+#ten{
+	top: 85%
+}
+
+#eleven{
+	top:44%
+}
+
+#twelve{
+	top:46%
+}
+
+#thirteen{
+	top:48%
+}
+
+#twelve{
+	top:50%
+}
