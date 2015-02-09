@@ -1,0 +1,29 @@
+html{
+	margin:10px;
+}
+div{
+	width:800px
+	
+	
+
+
+}
+.box{
+	margin-right:100px;
+	height:100px;
+	width: 100px;
+	background-color: red;
+	float:left;
+	
+}
+.left{
+	margin-right:0px;
+
+}
+
+.right{
+	margin-left:100px;
+
+
+}
+

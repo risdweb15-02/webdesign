@@ -1,0 +1,39 @@
+div{
+	width: 616px;
+}
+
+.long{
+	background-color:red;
+	width: 100px;
+	height: 304px;
+	float:left;
+	margin:2px;
+
+	
+}
+
+.long2{
+	background-color:red;
+	width: 100px;
+	height: 304px;
+	float:right;
+	margin:2px;
+
+	
+}
+.ver{
+	background-color: red;
+	width:404px;
+	height:100px;
+	margin:2px;
+	float:left;
+}
+
+.square{
+	width: 200px;
+	height:200px;
+	margin-left: 4px;
+	float: left;
+	margin:2px;
+	background-color: red;
+}

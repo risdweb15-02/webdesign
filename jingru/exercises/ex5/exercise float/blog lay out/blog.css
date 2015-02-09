@@ -1,0 +1,46 @@
+div{
+	width: 616px
+}
+
+.ver{
+	width: 616px;
+	height: 100px;
+	
+	background-color: red;
+}
+
+.ver2{
+	width:500px;
+	height:300px;
+	margin-top:56px;
+	background-color: red;
+	float: left;
+}
+
+.ver3{
+
+	width:500px;
+	height:50px;
+	margin-top:16px;
+	background-color: red;
+	float: left;
+}
+
+.square{
+
+	width:100px;
+	height:150px;
+	margin-top:56px;
+	background-color: red;
+	float: right;
+}
+
+.square2{
+
+	width:100px;
+	height:150px;
+	margin-top:122px;
+
+	background-color: red;
+	float: right;
+}

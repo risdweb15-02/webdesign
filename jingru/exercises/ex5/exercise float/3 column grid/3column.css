@@ -1,0 +1,41 @@
+div{
+	width: 630px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+.ver{
+	width: 620px;
+	height: 100px;
+	background-color: red;
+	margin-bottom:10px;
+	margin-left: 5px;
+
+	
+}
+
+.ver2{
+	width: 620px;
+	height: 20px;
+	background-color: red;
+	margin:5px;
+	
+}
+
+.ver3{
+	width: 620px;
+	height: 100px;
+	background-color: red;
+	margin:5px;
+	float: left;
+	
+}
+
+.column{
+	width: 200px;
+	height: 500px;
+	background-color: red;
+	margin:5px;
+	float:left;
+
+}
