@@ -1,3 +1,6 @@
+body{
+	background-color: rgba(0,0,0,0.28);
+}
 li{
 
 	list-style: none;
@@ -11,7 +14,7 @@ a{
 
 .bar{
 	display:block;
-	background-color: rgba(0,0,0,0.68);
+	
 	height:61px;
 }
 
