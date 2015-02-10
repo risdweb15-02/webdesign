@@ -1,0 +1,45 @@
+div{
+	background-color: #061B61;
+	
+}
+
+body{
+	background-color: #78DBD5;
+	margin: 0px;
+
+}
+
+#drop{
+
+	float: left;
+	font-size: 50px;
+}
+
+h1{
+	margin-left: 50px;
+	margin-top: 0px;
+	padding-top: 40px;
+}
+
+h4{
+	font-family: "Euphemia";
+	margin-left: 50px;
+}
+
+#author{
+	width: 800px;
+}
+
+
+
+p{
+	color:#4A4748;
+	font-family: "Euphemia";
+	line-height: 20px;
+	width: 1000px;
+	margin-left: 50px;
+}
+
+a:hover{
+	font-size: 25px;
+}

@@ -1,0 +1,64 @@
+div{margin: 0px;
+	width:100px; 
+	height:100px; 
+	background-color:red;
+	display: inline-block;
+}
+
+
+
+#big{
+	background-color: gray;
+	width: 800px;
+	height: 800px;
+}
+
+
+.a1{
+	
+    float: left;
+	margin-left: 0px;
+}
+
+.a2{
+	float: left;
+	margin-left: 100px;
+}
+
+
+/*#a3{
+	float: left;
+	margin-left: 100px;
+}
+
+#a4{
+	float: left;
+	margin-left: 100px;
+}
+
+
+
+
+
+
+#a5{
+	
+    float: left;
+	margin-left: 100px;
+}
+
+#a6{
+	float: left;
+	margin-left: 100px;
+}
+
+
+#a7{
+	float: left;
+	margin-left: 100px;
+}
+
+#a8{
+	float: left;
+	margin-left: 100px;
+} /*
