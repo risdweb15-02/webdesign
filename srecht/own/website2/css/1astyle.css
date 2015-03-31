@@ -1,0 +1,79 @@
+html {
+   background: black; 
+} 
+    
+.spin1 {
+       position:absolute; 
+    margin-left: 10px; 
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: 30pt;
+    
+    height: 100vh;
+    width: 95vw;
+    border-radius: 100%;
+    background-color: transparent;
+    box-sizing: border-box;
+    color: white;
+
+
+}
+
+.spin1:hover { 
+    
+    -webkit-animation-name: roll;
+    -webkit-animation-duration: .5s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: .25s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    
+    
+    
+} 
+
+
+@-webkit-keyframes roll {
+    0% {
+        transform: translate(0);
+    }
+    100% {
+        transform: translateY(50vh)rotate(5turn);
+    }
+    
+
+.spin1:hover {
+     -webkit-animation-play-state: paused;
+    background-color: yellow;
+    opacity: 0.6;
+    z-index: 100;
+    
+}
+
+     
+
+body {
+        font-family: 'Nunito', sans-serif;
+
+}
+
+#text1 {
+        font-family: 'Nunito', sans-serif;
+
+}
+
+#text2 {
+        font-family: 'Nunito', sans-serif;
+
+}
+
+#spin2 {
+      font-family: 'Nunito', sans-serif;
+  
+}
+
+
+
+
+
+

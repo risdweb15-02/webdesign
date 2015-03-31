@@ -1,0 +1,128 @@
+html {} 
+#block {
+    postion: absolute; 
+    top:10vh; 
+    height: 10%; 
+    width 40%; 
+    background:none; 
+    text-align: left;
+	padding-top: 100px; 
+    color: blue; 
+    font-size: 12pt; 
+ 
+    
+}
+
+
+
+
+.slide { 
+	height: 100vh;
+	
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	display: -webkit-flex; 
+	-webkit-align-items: center;
+	-webkit-justify-content: center;
+} 
+
+
+#slide1 { 
+    
+  background-image: url(../images/okay_here.jpg);  
+    
+	background-size: cover; 
+	background-attachment: fixed;
+	height: 100vh;
+	text-align: left;
+	padding-top: 20vh;
+    color:blue; 
+
+
+}
+
+
+#slide2 { 
+  background-image: url(../images/okay_here.jpg);  
+    
+	background-size: cover; 
+	background-attachment: fixed;
+	height: 100vh;
+	text-align: left;
+	padding-top: 20vh;
+    color:blue; 
+}
+
+#slide3 { 
+ background-image: url(../images/okay_here2.jpg);  
+    
+	background-size: cover; 
+	background-attachment: fixed;
+	height: 100vh;
+	text-align: center;
+	padding-top: 10vh; 
+
+
+   
+}
+#text1 {
+    position: absolute; 
+      font-size: 60pt; 
+        font-family: 'Nunito', sans-serif;
+    
+}
+
+body {
+    height: 200vh;
+      font-family: 'Nunito', sans-serif;
+}
+
+#bigger {
+    position: absolute;
+    left: 10%; 
+    width: 30vw; 
+    padding-left: 30px; 
+    font-size: 40pt;
+    background: lawngreen; 
+    opacity: 0.9; 
+}
+
+#bigger2 {
+    
+    position: absolute;
+    top: 95%; 
+    left: 10%; 
+    width: 30vw; 
+    padding-left: 30px; 
+    font-size: 40pt;
+    background: lawngreen; 
+    opacity: 0.9; 
+}
+
+#easy {
+    background: yellow; 
+    padding: 40px; 
+    top: 100vh; 
+}
+
+#stillfuckinghot {
+    background: red; 
+    color: white;
+    padding: 40pt; 
+    opacity: 0.9; 
+    font-size: 12pt; 
+}
+
+
+
+a {
+    color: blue;
+    
+}
+a:hover {
+color: white; 
+
+}

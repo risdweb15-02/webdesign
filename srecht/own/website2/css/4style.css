@@ -1,0 +1,41 @@
+html {} 
+.sticky {
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  top: 15px;
+}
+
+p {
+     z-index: -40; 
+    color: red;
+    margin: 5px;
+    cursor: pointer;
+ 
+  }
+  p:hover {
+    background: yellow;
+}
+
+#back {
+  
+    postion: absolute; 
+    margin-top: 100px;
+    z-index: -40; 
+  font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: 470pt;
+      top: -100vh;
+    
+}
+#back:hover { 
+    color: red; 
+    
+}
+
+a {
+    color: black; 
+}
+a:hover {color: red; 
+    } 

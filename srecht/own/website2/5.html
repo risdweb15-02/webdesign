@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="css/5style.css">
+
+    <link href='http://fonts.googleapis.com/css?family=Nunito:400,700' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+</head>
+
+<body>
+    
+    <dl class="accordion">
+
+<dt><a href="">It’s oooooh…</a></dt>
+        <dd><a class="link" href="8.html">It’s sticky, it’s sticky</a> </dd>
+
+<dt><a href="10.html">Can you feel it? </a></dt>
+<dd>Okay. Okay, you win. <a href="10.html"> You win.</a> </dd>
+
+<dt><a href="">It’s so… it’s …</a></dt>
+<dd>I give up. I give up. I give up. <a href="1a.html">I give up.</a>  </dd>
+        
+ <dt><a href="">No I don’t dare </a></dt>
+<dd>You win. You win. You win. You win. You win. 
+I give up. I give up it’s <a class="link" href="8.html">hot</a></dd>
+
+</dl>
+    
+    
+    <script> (function($) {
+    
+  var allPanels = $('.accordion > dd').hide();
+    
+  $('.accordion > dt > a').click(function() {
+    allPanels.slideUp();
+    $(this).parent().next().slideDown();
+    return false;
+  });
+
+})(jQuery);
+    </script>
+    </body>
+</html>
+

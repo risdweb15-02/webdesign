@@ -1,0 +1,246 @@
+html {} 
+
+
+body {
+
+          font-family: 'Nunito', sans-serif;
+    background-color:blue; 
+
+}
+.img4 {
+    position: absolute; 
+    top: 100px; 
+    left: 100px;
+    opacity: 0.2;
+}
+
+
+#back {
+   background-color: blue; 
+    position: fixed; 
+    color: white; 
+    width: 15vw; 
+    height: 10vh; 
+    padding: 10px; 
+    text-align: center;
+    padding-top: 30px; 
+    
+}
+#back:hover {
+   opacity: 0; 
+} 
+
+
+
+
+
+#back2 {
+    left: 15vw; 
+      background-color: blue; 
+    position: fixed; 
+    color: whitesmoke; 
+    width: 20vw; 
+    height: 40vh; 
+    padding: 10px; 
+    text-align: center;
+    padding-top: 30px; 
+}
+#back2:hover {   
+    opacity: 0; 
+
+}
+
+#back3 {
+      left: 35vw;
+      background-color: blue; 
+    position: fixed; 
+    color: whitesmoke; 
+    width: 20vw; 
+    height: 10vh; 
+    padding: 10px; 
+    text-align: center;
+    padding-top: 30px; 
+}
+
+#back3:hover {
+opacity:0; 
+
+}
+
+#back4 {
+     
+    top:10vh;
+      background-color: blue; 
+    position: fixed; 
+    color: whitesmoke; 
+    width: 20vw; 
+    height: 50vh; 
+    padding: 10px; 
+    text-align: center;
+    padding-top: 30px; 
+}
+
+#back4:hover {
+    opacity: 0; 
+} 
+
+#back5 {
+    left:30vw; 
+        top:25vh;
+      background-color: blue; 
+    position: fixed; 
+    color: whitesmoke; 
+    width: 40vw; 
+    height: 10vh; 
+    padding: 10px; 
+    text-align: center;
+    padding-top: 30px; 
+    
+}
+
+#back5:hover{
+    opacity: 0; 
+
+} 
+
+#back6 {
+        left:20vw; 
+        top:50vh;
+      background-color: blue; 
+    position: fixed; 
+    color: whitesmoke; 
+    width: 40vw; 
+    height: 10vh; 
+    padding: 10px; 
+    text-align: center;
+    padding-top: 30px;
+}
+
+#back6:hover {
+
+    opacity: 0; 
+
+
+} 
+
+#back7 {
+    left:10vw; 
+        top:60vh;
+      background-color: blue; 
+    position: fixed; 
+    color: whitesmoke; 
+    width: 40vw; 
+    height: 10vh; 
+    padding: 10px; 
+    text-align: center;
+    padding-top: 30px;
+}
+#back7:hover {
+    
+} 
+
+#back:hover {
+    opacity: 0; 
+    
+
+} 
+
+#back8 {
+    left:50vw; 
+        top:72vh;
+      background-color: blue; 
+    position: fixed; 
+    color: whitesmoke; 
+    width: 20vw; 
+    height: 10vh; 
+    padding: 10px; 
+    text-align: center;
+    padding-top: 30px;
+}
+
+#back8:hover {
+    
+} 
+
+#back9 {
+        left:75vw; 
+        top:50vh;
+      background-color: blue; 
+    position: fixed; 
+    color: whitesmoke; 
+    width: 20vw; 
+    height: 10vh; 
+    padding: 10px; 
+    text-align: center;
+    padding-top: 30px;
+}
+
+#back9:hover {
+ opacity:0; 
+
+} 
+#back:hover {
+    opacity: 0; 
+
+}
+
+#back11 {
+         left:10vw; 
+        top:85vh;
+      background-color: blue; 
+    position: fixed; 
+    color: whitesmoke; 
+    width: 20vw; 
+    height: 10vh; 
+    padding: 10px; 
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+#back11:hover {
+    opacity: 0; 
+    
+} 
+
+#back12 {
+         left:10vw; 
+        top:85vh;
+      background-color: blue; 
+    position: fixed; 
+    color: whitesmoke; 
+    width: 20vw; 
+    height: 10vh; 
+    padding: 10px; 
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+#back12:hover {
+    opacity: 0; 
+    
+} 
+
+#back13 {
+         left:70vw; 
+        top:85vh;
+      background-color: blue; 
+    position: fixed; 
+    color: whitesmoke; 
+    width: 20vw; 
+    height: 10vh; 
+    padding: 10px; 
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+#back13:hover { 
+  opacity: 0;   
+} 
+
+a {
+    color:white; 
+   
+}

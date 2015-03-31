@@ -1,0 +1,33 @@
+html {} 
+
+.animatedText { 
+	font-size: 100px;
+	background: url("http://media1.giphy.com/media/nxzmk4nghgB8I/giphy.gif") no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
+	
+	color:transparent;
+	-webkit-background-clip: text;
+
+	padding: 10px;
+	
+	border: 30px solid #000000; 
+	border-radius: 10px;
+	font: center;
+}
+
+body {
+  background: url("http://slickzine.com/wp-content/uploads/2012/05/Psychadelic-pattern.gif") no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
+	
+	color:transparent;
+
+    font-family: 'Nunito', sans-serif, 700; 
+}
+
+a {
+    
+    color: lime; 
+
+}

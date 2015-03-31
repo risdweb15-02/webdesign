@@ -1,0 +1,92 @@
+html {} 
+body {
+    background-image: url(../images/background3.gif);
+
+    font-family: 'Nunito', sans-serif;
+    background-repeat: repeat-y; 
+    height: 100vh; 
+}
+
+
+
+
+
+.title {
+    position: absolute; 
+      
+  top:5vh; 
+    text-align: right;
+    left: 110vh; 
+    font-size: 10pt; 
+    width:20vh; 
+    letter-spacing: .0125pt;  
+    color: white; 
+}
+
+.title2 {
+    color: yellow; 
+        position: absolute; 
+      transform: rotate(40deg);
+  top: 9vh; 
+    left: 150px;
+    font-size: 15pt; 
+    letter-spacing: 1.5pt;  
+    color: yellow; 
+}
+
+.title3 {
+      color: yellow; 
+        position: absolute; 
+      transform: rotate(40deg);
+  top: 10vh; 
+    left: 150px;
+    font-size: 15pt; 
+    letter-spacing: 1.5pt;  
+    color: yellow; 
+}
+
+.wordlinks {
+        position: relative; 
+    top: 5vh; 
+    left: 200px; 
+    width: 50vh; 
+    font-size: 100pt; 
+
+	 
+}
+
+.time {
+    postion: relative; 
+}
+
+
+.hot {
+    color: blue; 
+    
+}
+.hot:hover {
+    color: yellow; 
+} 
+
+
+.no {
+     color: blue; 
+}
+
+.no:hover { 
+    color: yellow; 
+} 
+
+.stink {
+    color: blue; 
+}
+.stink:hover {
+    color: yellow; 
+} 
+
+.shit {
+    color: blue; 
+}
+.shit:hover {
+    color: yellow; 
+} 

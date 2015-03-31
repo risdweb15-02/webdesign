@@ -1,0 +1,181 @@
+html {} 
+
+
+.box {
+    position: absolute; 
+    top: 400px; 
+  background: #2db34a;
+ left: 2vw; 
+  cursor: pointer;
+  height: 430px;
+    padding-top: 100px; 
+font-size:8pt; 
+  text-align: left;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  width: 400px;
+}
+.box:hover {
+  background: blue;
+}
+
+.box1 {
+    color: transparent; 
+    position: absolute;
+      background: #2db34a;
+  left: 2vw; 
+  cursor: pointer;
+  height: 400px;
+padding-top: 100px;
+  text-align: left;
+    padding:20px; 
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  width: 400px;
+}
+
+.box1:hover {
+  background: #66FFFF;
+    color:black;
+}
+
+.box2 {
+        position: absolute; 
+   top:8px; 
+    right: 2vw; 
+  background: #2db34a;
+ color: transparent; 
+  cursor: pointer;
+  height: 400px;
+padding-top: 30px;
+  text-align: center;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  width: 400px;
+    
+}
+
+
+.box2:hover {
+background: #66FFFF;
+    color: black; 
+    
+} 
+
+.box3 {
+            position: absolute; 
+   top:430px; 
+    right: 2vw; 
+  background: #2db34a;
+ 
+  cursor: pointer;
+  height: 400px;
+padding-top: 30px;
+  text-align: right;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  width: 400px;
+    
+}
+
+.box3:hover {
+background: #66FFFF;
+    color: black; 
+} 
+
+.box4 {
+                position: absolute; 
+   top:430px; 
+    left: 50vw; 
+  background: #2db34a;
+ color: transparent; 
+  cursor: pointer;
+  height: 400px;
+padding-top: 30px;
+    padding:20px; 
+  text-align: left;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  width: 400px;
+
+}
+
+.box4:hover {
+background:#66FFFF;
+    color: black; 
+} 
+
+.box5 {
+  position: absolute; 
+   top:300px; 
+    right: 50vw; 
+  background: #2db34a;
+ padding: 20px; 
+    color: transparent; 
+  cursor: pointer;
+  height: 400px;
+padding-top: 30px;
+  text-align: left;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  width: 400px;
+}
+
+.box5:hover {
+background: #66FFFF;
+    color: black; 
+} 
+
+.box6 {
+      position: absolute; 
+  left:32vw; 
+    top: 10px;
+  background: #2db34a;
+ color: transparent; 
+  cursor: pointer;
+  height: 30vh;
+padding-top: 30px;
+  text-align: center;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  width: 30vw;
+}
+
+.box6:hover {
+background:#66FFFF; 
+    color:black; 
+} 
+
+body {
+    background: #2db34a;
+     font-family: 'Nunito', sans-serif;
+}
+
+
+
+.slide {
+    	height: 100vh;
+	
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	display: -webkit-flex; 
+	-webkit-align-items: center;
+	-webkit-justify-content: center;
+}
+
+#slide1 {
+    height: 100vh;
+	text-align: center;
+	padding-top: 20vh;
+    color:blue;
+}

@@ -1,0 +1,30 @@
+html {} 
+
+.animatedText { 
+	font-size: 200px;
+		background: url("http://www.powerflare.com/graphics/products/PF200_pattern1.gif") no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
+	
+	color:transparent;
+	-webkit-background-clip: text;
+
+	padding: 10px;
+	
+	border: 30px solid #000000; 
+	border-radius: 10px;
+	font: center;
+}
+
+body {
+    background-color: black; 
+      font-size: 60pt; 
+    font-family: 'Nunito', sans-serif;
+}
+
+a {
+    color:purple; 
+}
+a:hover {
+    color:red; 
+} 
